@@ -1,0 +1,12 @@
+C:\Users\oommi\OneDrive\เดสก์ท็อป\coffe house\coffe house\coffe house\bin\Debug\coffe house.exe.config
+C:\Users\oommi\OneDrive\เดสก์ท็อป\coffe house\coffe house\coffe house\bin\Debug\coffe house.exe
+C:\Users\oommi\OneDrive\เดสก์ท็อป\coffe house\coffe house\coffe house\bin\Debug\coffe house.pdb
+C:\Users\oommi\OneDrive\เดสก์ท็อป\coffe house\coffe house\coffe house\obj\Debug\coffe house.csprojAssemblyReference.cache
+C:\Users\oommi\OneDrive\เดสก์ท็อป\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form1.resources
+C:\Users\oommi\OneDrive\เดสก์ท็อป\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Properties.Resources.resources
+C:\Users\oommi\OneDrive\เดสก์ท็อป\coffe house\coffe house\coffe house\obj\Debug\coffe house.csproj.GenerateResource.cache
+C:\Users\oommi\OneDrive\เดสก์ท็อป\coffe house\coffe house\coffe house\obj\Debug\coffe house.exe
+C:\Users\oommi\OneDrive\เดสก์ท็อป\coffe house\coffe house\coffe house\obj\Debug\coffe house.pdb
+C:\Users\oommi\OneDrive\เดสก์ท็อป\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form2.resources
+C:\Users\oommi\OneDrive\เดสก์ท็อป\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form3.resources
+C:\Users\oommi\OneDrive\เดสก์ท็อป\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form4.resources
