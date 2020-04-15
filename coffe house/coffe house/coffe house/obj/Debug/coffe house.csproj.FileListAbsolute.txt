@@ -10,3 +10,21 @@ C:\Users\oommi\OneDrive\เดสก์ท็อป\coffe house\coffe house\coff
 C:\Users\oommi\OneDrive\เดสก์ท็อป\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form2.resources
 C:\Users\oommi\OneDrive\เดสก์ท็อป\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form3.resources
 C:\Users\oommi\OneDrive\เดสก์ท็อป\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form4.resources
+D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\bin\Debug\coffe house.exe.config
+D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\bin\Debug\coffe house.exe
+D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\bin\Debug\coffe house.pdb
+D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debug\coffe house.csprojAssemblyReference.cache
+D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form1.resources
+D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form10.resources
+D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form2.resources
+D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form3.resources
+D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form4.resources
+D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form5.resources
+D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form6.resources
+D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form7.resources
+D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form8.resources
+D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form9.resources
+D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Properties.Resources.resources
+D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debug\coffe house.csproj.GenerateResource.cache
+D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debug\coffe house.exe
+D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debug\coffe house.pdb
