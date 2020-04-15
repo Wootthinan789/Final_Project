@@ -101,7 +101,6 @@
             // pictureBox11
             // 
             this.pictureBox11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox11.Image = global::coffe_house.Properties.Resources.package;
             this.pictureBox11.Location = new System.Drawing.Point(786, 304);
             this.pictureBox11.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox11.Name = "pictureBox11";
@@ -114,7 +113,6 @@
             // pictureBox12
             // 
             this.pictureBox12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox12.Image = global::coffe_house.Properties.Resources.package;
             this.pictureBox12.Location = new System.Drawing.Point(597, 304);
             this.pictureBox12.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox12.Name = "pictureBox12";
@@ -127,7 +125,6 @@
             // pictureBox13
             // 
             this.pictureBox13.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox13.Image = global::coffe_house.Properties.Resources.package;
             this.pictureBox13.Location = new System.Drawing.Point(403, 304);
             this.pictureBox13.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox13.Name = "pictureBox13";
@@ -140,7 +137,6 @@
             // pictureBox14
             // 
             this.pictureBox14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox14.Image = global::coffe_house.Properties.Resources.package;
             this.pictureBox14.Location = new System.Drawing.Point(209, 304);
             this.pictureBox14.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox14.Name = "pictureBox14";
@@ -153,7 +149,6 @@
             // pictureBox15
             // 
             this.pictureBox15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox15.Image = global::coffe_house.Properties.Resources.package;
             this.pictureBox15.Location = new System.Drawing.Point(16, 304);
             this.pictureBox15.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox15.Name = "pictureBox15";
@@ -166,7 +161,6 @@
             // pictureBox9
             // 
             this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox9.Image = global::coffe_house.Properties.Resources.package;
             this.pictureBox9.Location = new System.Drawing.Point(786, 78);
             this.pictureBox9.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox9.Name = "pictureBox9";
@@ -179,7 +173,6 @@
             // pictureBox8
             // 
             this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox8.Image = global::coffe_house.Properties.Resources.package;
             this.pictureBox8.Location = new System.Drawing.Point(597, 78);
             this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox8.Name = "pictureBox8";
@@ -192,7 +185,6 @@
             // pictureBox7
             // 
             this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox7.Image = global::coffe_house.Properties.Resources.package;
             this.pictureBox7.Location = new System.Drawing.Point(403, 78);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox7.Name = "pictureBox7";
@@ -205,7 +197,6 @@
             // pictureBox6
             // 
             this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox6.Image = global::coffe_house.Properties.Resources.package;
             this.pictureBox6.Location = new System.Drawing.Point(209, 78);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
@@ -218,7 +209,6 @@
             // pictureBox1
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::coffe_house.Properties.Resources.package;
             this.pictureBox1.Location = new System.Drawing.Point(16, 78);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";

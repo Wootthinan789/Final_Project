@@ -241,7 +241,6 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::coffe_house.Properties.Resources.package;
             this.pictureBox1.Location = new System.Drawing.Point(9, 126);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
