@@ -28,3 +28,21 @@ D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debu
 D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debug\coffe house.csproj.GenerateResource.cache
 D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debug\coffe house.exe
 D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debug\coffe house.pdb
+D:\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.csprojAssemblyReference.cache
+D:\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form1.resources
+D:\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form10.resources
+D:\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form2.resources
+D:\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form3.resources
+D:\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form4.resources
+D:\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form5.resources
+D:\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form6.resources
+D:\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form7.resources
+D:\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form8.resources
+D:\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form9.resources
+D:\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.csproj.GenerateResource.cache
+D:\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.exe
+D:\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.pdb
+D:\Final_Project\coffe house\coffe house\coffe house\bin\Debug\coffe house.exe.config
+D:\Final_Project\coffe house\coffe house\coffe house\bin\Debug\coffe house.exe
+D:\Final_Project\coffe house\coffe house\coffe house\bin\Debug\coffe house.pdb
+D:\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Properties.Resources.resources
