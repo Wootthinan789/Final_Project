@@ -12,6 +12,7 @@ namespace coffe_house
 {
     public partial class Form3 : Form
     {
+        static int num = 1;
         public Form3()
         {
             InitializeComponent();
@@ -45,9 +46,11 @@ namespace coffe_house
 
         private void pictureBox16_Click(object sender, EventArgs e)
         {
-            Form4 form4 = new Form4();
-            form4.Show();
-            this.Hide();
+            
+            num = Convert.ToInt32(label1.Text);                  //erferjfneirfjeirj
+            num += 1;
+            label1.Text = Convert.ToString(num);
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -108,6 +111,16 @@ namespace coffe_house
         {
             Form5 form5 = new Form5();
             form5.Show();
+        }
+
+        private void pictureBox9_Click_1(object sender, EventArgs e)
+        {
+            num = Convert.ToInt32(label1.Text);
+            if (num != 1)
+            {                                                //erferjfneirfjeirj
+                num -= 1;
+                label1.Text = Convert.ToString(num);
+            }
         }
     }
 }

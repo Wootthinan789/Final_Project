@@ -33,7 +33,6 @@ D:\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form1
 D:\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form10.resources
 D:\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form2.resources
 D:\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form3.resources
-D:\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form4.resources
 D:\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form5.resources
 D:\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form6.resources
 D:\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form7.resources
