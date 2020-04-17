@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -63,8 +64,34 @@ namespace coffe_house
         {
             Form5 form5 = new Form5();
             form5.Show();
-        }
 
+            /*string sql = "SECECT * FROM products";
+            MySqlConnection con1 = new MySqlConnection("host=localhost;user=root;password=12345678;database=chan");
+            MySqlCommand cmd = new MySqlCommand(sql, con1);
+
+            con1.Open();
+            MySqlDataReader asd = cmd.ExecuteReader();
+            while (asd.Read())
+            {
+                MessageBox.Show(asd.GetString("ProductID"));
+            }
+            */
+
+            string connStr = "server=server;user=user;database=db;password=*****;";
+            MySqlConnection conn = new MySqlConnection(connStr);
+            conn.Open();
+
+            string sql = "SELECT this FROM that";
+            MySqlCommand cmd = new MySqlCommand(sql, conn);
+            using (MySqlDataReader rdr = cmd.ExecuteReader())
+            {
+                while (rdr.Read())
+                {
+                    /* iterate once per row */
+                }
+            }
+
+        }
         private void pictureBox7_Click(object sender, EventArgs e)
         {
             Form5 form5 = new Form5();

@@ -63,3 +63,4 @@ C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\De
 C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.csproj.CoreCompileInputs.cache
 C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.exe
 C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.pdb
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.exe.config
