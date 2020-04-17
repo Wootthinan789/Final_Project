@@ -65,9 +65,33 @@ namespace coffe_house
             Form5 form5 = new Form5();
             form5.Show();
 
-            /*string sql = "SECECT * FROM products";
-            MySqlConnection con1 = new MySqlConnection("host=localhost;user=root;password=12345678;database=chan");
-            MySqlCommand cmd = new MySqlCommand(sql, con1);
+
+            /*MySqlConnection conn = new MySqlConnection("Data Source=localhost;database=mm");
+            MySqlDataAdapter da = new MySqlDataAdapter("SELECT id, name FROM mytable", conn);
+            da.MissingSchemaAction = MissingSchemaAction.AddWithKey;
+
+            da.InsertCommand = new MySqlCommand("INSERT INTO mytable (id, name) " +
+            "VALUES (@id, @name)", conn);
+            da.UpdateCommand = new MySqlCommand("UPDATE mytable SET id=@id, name=@name " +
+            "WHERE id=@oldId", conn);
+            da.DeleteCommand = new MySqlCommand("DELETE FROM mytable WHERE id=@id", conn);
+
+            da.InsertCommand.Parameters.Add("@id", MySqlDbType.VarChar, 5, "id");
+            da.InsertCommand.Parameters.Add("@name", MySqlDbType.VarChar, 40, "name");
+
+            da.UpdateCommand.Parameters.Add("@id", MySqlDbType.VarChar, 5, "id");
+            da.UpdateCommand.Parameters.Add("@name", MySqlDbType.VarChar, 40, "name");
+            da.UpdateCommand.Parameters.Add("@oldId", MySqlDbType.VarChar, 5, "id").SourceVersion = DataRowVersion.Original;
+
+            da.DeleteCommand.Parameters.Add("@id", MySqlDbType.VarChar, 5, "id").SourceVersion = DataRowVersion.Original;
+
+
+
+            string sql = "SECECT * FROM products";
+            MySqlConnection conn = new MySqlConnection("Data Source=localhost;database=test");
+            MySqlConnection con1 = new MySqlConnection(" host=localhost; users=root; password=12345678; database=vvv");
+            var con2 = new MySqlConnection("host=localhost;user=root;password=12345678;database=vvv");
+            MySqlCommand cmd = new MySqlCommand(sql, conn);
 
             con1.Open();
             MySqlDataReader asd = cmd.ExecuteReader();
@@ -77,7 +101,9 @@ namespace coffe_house
             }
             */
 
-            string connStr = "server=server;user=user;database=db;password=*****;";
+
+
+            /*string connStr = "server=server;user=user;database=db;password=*****;";
             MySqlConnection conn = new MySqlConnection(connStr);
             conn.Open();
 
@@ -87,9 +113,10 @@ namespace coffe_house
             {
                 while (rdr.Read())
                 {
-                    /* iterate once per row */
+                     iterate once per row 
                 }
-            }
+            }*/
+
 
         }
         private void pictureBox7_Click(object sender, EventArgs e)
