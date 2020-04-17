@@ -15,6 +15,7 @@ namespace coffe_house
         public Form6()
         {
             InitializeComponent();
+           // groupBox1 = groupBox1;
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)

@@ -45,3 +45,21 @@ D:\Final_Project\coffe house\coffe house\coffe house\bin\Debug\coffe house.exe.c
 D:\Final_Project\coffe house\coffe house\coffe house\bin\Debug\coffe house.exe
 D:\Final_Project\coffe house\coffe house\coffe house\bin\Debug\coffe house.pdb
 D:\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Properties.Resources.resources
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\bin\Debug\coffe house.exe.config
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\bin\Debug\coffe house.exe
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\bin\Debug\coffe house.pdb
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.csprojAssemblyReference.cache
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form1.resources
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form10.resources
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form2.resources
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form3.resources
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form5.resources
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form6.resources
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form7.resources
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form8.resources
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form9.resources
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Properties.Resources.resources
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.csproj.GenerateResource.cache
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.csproj.CoreCompileInputs.cache
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.exe
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.pdb
