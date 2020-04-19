@@ -14,6 +14,7 @@ namespace coffe_house
 {
     public partial class Form3 : Form
     {
+        static string[] mamo = {"0","1"};
         static int num = 1;
         public Form3()
         {
@@ -58,229 +59,104 @@ namespace coffe_house
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5();
+            Form5 form5 = new Form5("");
             form5.Show();
         }
 
         public void pictureBox6_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5();
-            form5.Show();
+            //Form5 form5 = new Form5();
+            //form5.Show();
 
+            string sql = "SELECT * FROM `sales`";
+            //sql = "INSERT INTO sales (SaleID,SaleDateTime,CustomerID) VALUES ('16','2020-04-03 05:30:19','10')"; //VALUES ('"+text.text+"','"+text.text+"','"+text.text+"')
+            MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd = new MySqlCommand(sql,con1);
+            
+            con1.Open();
+            string c = "";
+            MySqlDataReader reader = cmd.ExecuteReader();
+            List<string> AuthorList = new List<string>();
+            while (reader.Read())
+            {
+
+                //label3.Text = (reader.GetString("SaleID"));
+                //MessageBox.Show(reader.GetString("SaleID"));
+                c += (reader.GetString("SaleID"));
+                AuthorList.Add(reader.GetString("SaleID"));
+            }
+            //cmd.ExecuteNonQuery();
+            //con1.Close();
             /*
-            try
-            {
-                // Build connection string
-                SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
-                builder.DataSource = "localhost";   // update me
-                builder.UserID = "test";              // update me
-                builder.Password = "12345678";      // update me
-                builder.InitialCatalog = "master";
-
-                // Connect to SQL
-                MessageBox.Show("Connecting to SQL Server ... ");
-                using (SqlConnection connection = new SqlConnection("host=localhost; users=test; password=12345678; database=testdata"))
-                {
-                    connection.Open();
-                    MessageBox.Show("Done.");
-                }
-            }
-            catch
-            {
-                Console.WriteLine("error1");
-            }
-
-            Console.WriteLine("All done. Press any key to finish...");
+            AuthorList.Add("Mahesh Chand");
+            AuthorList.Add("Praveen Kumar");
+            AuthorList.Add("Raj Kumar");
+            AuthorList.Add("Nipun Tomar");
+            AuthorList.Add("Dinesh Beniwal");
             */
-
-
-
-
-            /*string connectionString = "datasource=127.0.0.1;port=3306;username=root;password=;database=test;";
-            string query = "";
-            // Which could be translated manually to :
-            // INSERT INTO user(`id`, `first_name`, `last_name`, `address`) VALUES (NULL, 'Bruce', 'Wayne', 'Wayne Manor')
-
-            MySqlConnection databaseConnection = new MySqlConnection(connectionString);
-            MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
-            commandDatabase.CommandTimeout = 60;
-
-            try
+            for (int i =0;i < AuthorList.Count; ++i)
             {
-                databaseConnection.Open();
-                MySqlDataReader myReader = commandDatabase.ExecuteReader();
-
-                MessageBox.Show("User succesfully registered");
-
-                databaseConnection.Close();
-            }
-            catch (Exception ex)
-            {
-                // Show any error message.
-                MessageBox.Show(ex.Message);
-            }*/
-
-
-
-            /*try
-            {
-                SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
-                builder.DataSource = "localhost.database.windows.net";
-                builder.UserID = "test";
-                builder.Password = "12345678";
-                builder.InitialCatalog = "testdata";
-
-                using (SqlConnection connection = new SqlConnection(builder.ConnectionString))
+                if (textBox1.Text == AuthorList[i])
                 {
-                    Console.WriteLine("\nQuery data example:");
-                    Console.WriteLine("=========================================\n");
-
-                    StringBuilder sb = new StringBuilder();
-                    sb.Append("SELECT TOP 20 pc.Name as CategoryName, p.name as ProductName ");
-                    sb.Append("FROM [SalesLT].[ProductCategory] pc ");
-                    sb.Append("JOIN [SalesLT].[Product] p ");
-                    sb.Append("ON pc.productcategoryid = p.productcategoryid;");
-                    String sql = sb.ToString();
-
-                    using (SqlCommand command = new SqlCommand(sql, connection))
-                    {
-                        connection.Open();
-                        using (SqlDataReader reader = command.ExecuteReader())
-                        {
-                            while (reader.Read())
-                            {
-                                Console.WriteLine("55555 {0} {1}", reader.GetString(0), reader.GetString(1));
-                            }
-                            Console.WriteLine("efwerf");
-                        }
-                    }
+                    MessageBox.Show("เจอ");
                 }
+                else
+                {
+                    
+                }
+                //label3.Text = AuthorList[i];
+                //MessageBox.Show(AuthorList[i]);
             }
-            catch
-            {
-                Console.WriteLine(e.ToString());
-            }
-            Console.ReadLine();*/
 
-
-            /*MySqlConnection conn = new MySqlConnection("Data Source=localhost;database=mm");
-            MySqlDataAdapter da = new MySqlDataAdapter("SELECT id, name FROM mytable", conn);
-            da.MissingSchemaAction = MissingSchemaAction.AddWithKey;
-
-            da.InsertCommand = new MySqlCommand("INSERT INTO mytable (id, name) " +
-            "VALUES (@id, @name)", conn);
-            da.UpdateCommand = new MySqlCommand("UPDATE mytable SET id=@id, name=@name " +
-            "WHERE id=@oldId", conn);
-            da.DeleteCommand = new MySqlCommand("DELETE FROM mytable WHERE id=@id", conn);
-
-            da.InsertCommand.Parameters.Add("@id", MySqlDbType.VarChar, 5, "id");
-            da.InsertCommand.Parameters.Add("@name", MySqlDbType.VarChar, 40, "name");
-
-            da.UpdateCommand.Parameters.Add("@id", MySqlDbType.VarChar, 5, "id");
-            da.UpdateCommand.Parameters.Add("@name", MySqlDbType.VarChar, 40, "name");
-            da.UpdateCommand.Parameters.Add("@oldId", MySqlDbType.VarChar, 5, "id").SourceVersion = DataRowVersion.Original;
-
-            da.DeleteCommand.Parameters.Add("@id", MySqlDbType.VarChar, 5, "id").SourceVersion = DataRowVersion.Original;
-            */
-
-            /*string sql = "SECECT * FROM products";
-            MySqlConnection con1 = new MySqlConnection(@"host=localhost;users=root;password=12345678;database=vvv");
-            MySqlConnection conn = new MySqlConnection("server=myserver");
-            MySqlCommand cmd = new MySqlCommand("SECECT * FROM products");
-
-            conn.Open();
-            //MySqlDataReader asd = cmd.ExecuteReader();
-            while (true)
-            {
-                MessageBox.Show(Convert.ToString(con1));
-            }*/
-            /*
-            try
-            {
-                string mySqlConnection = "datasource=db;port=3306;username=usr;password=Pswd";
-                //MySqlConnection mySqlConn = new MySqlConnection(mySqlConnection);
-                //MySqlDataAdapter myDataAdapter = new MySqlDataAdapter(mySqlConnection);
-                //myDataAdapter.SelectCommand = new MySqlCommand(" Select * database.edata ;", mySqlConn);
-                //MySqlCommandBuilder cb = new MySqlCommandBuilder(myDataAdapter);
-
-                MySqlConnection mySqlConn = new MySqlConnection(mySqlConnection);
-                MySqlCommand cmd = new MySqlCommand("Select * from database.edata");
-                cmd.Connection = mySqlConn;
-                MySqlDataAdapter myDataAdapter = new MySqlDataAdapter(cmd);
-
-                mySqlConn.Open();
-                DataSet ds = new DataSet();
-                MessageBox.Show("Connected to Database");
-                mySqlConn.Close();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }*/
         }
-
-
-        /*string connStr = "server=server;user=user;database=db;password=*****;";
-        MySqlConnection conn = new MySqlConnection(connStr);
-        conn.Open();
-
-        string sql = "SELECT this FROM that";
-        MySqlCommand cmd = new MySqlCommand(sql, conn);
-        using (MySqlDataReader rdr = cmd.ExecuteReader())
-        {
-            while (rdr.Read())
-            {
-                 iterate once per row 
-            }
-        }*/
 
 
     
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5();
+            Form5 form5 = new Form5("");
             form5.Show();
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5();
+            Form5 form5 = new Form5("");
             form5.Show();
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5();
+            Form5 form5 = new Form5("");
             form5.Show();
         }
 
         private void pictureBox15_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5();
+            Form5 form5 = new Form5("");
             form5.Show();
         }
 
         private void pictureBox14_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5();
+            Form5 form5 = new Form5("");
             form5.Show();
         }
 
         private void pictureBox13_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5();
+            Form5 form5 = new Form5("");
             form5.Show();
         }
 
         private void pictureBox12_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5();
+            Form5 form5 = new Form5("");
             form5.Show();
         }
 
         private void pictureBox11_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5();
+            Form5 form5 = new Form5("");
             form5.Show();
         }
 
@@ -291,6 +167,35 @@ namespace coffe_house
             {                                              
                 num -= 1;
                 label1.Text = Convert.ToString(num);
+            }
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            string sql = "SELECT * FROM `sales`";
+            MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd = new MySqlCommand(sql, con1);
+
+            con1.Open();
+            string c = "";
+            MySqlDataReader reader = cmd.ExecuteReader();
+            List<string> AuthorList = new List<string>();
+            while (reader.Read())
+            {
+                c += (reader.GetString("SaleID"));
+                AuthorList.Add(reader.GetString("SaleID"));
+            }
+            for (int i = 0; i < AuthorList.Count; ++i)
+            {
+                if (textBox1.Text == AuthorList[i])
+                {
+                    Form5 form5 = new Form5("");
+                    form5.Show();
+                }
+                else
+                {
+
+                }
             }
         }
     }

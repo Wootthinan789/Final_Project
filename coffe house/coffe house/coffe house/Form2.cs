@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -51,31 +52,35 @@ namespace coffe_house
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5();
+            Form5 form5 = new Form5("");
             form5.Show();
+
+            string data = "614007";
+            Form5 form2 = new Form5(data);
+            MessageBox.Show(data);
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5();
+            Form5 form5 = new Form5("");
             form5.Show();
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5();
+            Form5 form5 = new Form5("");
             form5.Show();
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5();
+            Form5 form5 = new Form5("");
             form5.Show();
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5();
+            Form5 form5 = new Form5("");
             form5.Show();
         }
     }
