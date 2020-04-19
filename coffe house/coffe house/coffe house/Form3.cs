@@ -59,7 +59,7 @@ namespace coffe_house
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5("");
+            Form5 form5 = new Form5();
             form5.Show();
         }
 
@@ -114,49 +114,49 @@ namespace coffe_house
     
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5("");
+            Form5 form5 = new Form5();
             form5.Show();
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5("");
+            Form5 form5 = new Form5();
             form5.Show();
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5("");
+            Form5 form5 = new Form5();
             form5.Show();
         }
 
         private void pictureBox15_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5("");
+            Form5 form5 = new Form5();
             form5.Show();
         }
 
         private void pictureBox14_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5("");
+            Form5 form5 = new Form5();
             form5.Show();
         }
 
         private void pictureBox13_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5("");
+            Form5 form5 = new Form5();
             form5.Show();
         }
 
         private void pictureBox12_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5("");
+            Form5 form5 = new Form5();
             form5.Show();
         }
 
         private void pictureBox11_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5("");
+            Form5 form5 = new Form5();
             form5.Show();
         }
 
@@ -189,7 +189,7 @@ namespace coffe_house
             {
                 if (textBox1.Text == AuthorList[i])
                 {
-                    Form5 form5 = new Form5("");
+                    Form5 form5 = new Form5();
                     form5.Show();
                 }
                 else

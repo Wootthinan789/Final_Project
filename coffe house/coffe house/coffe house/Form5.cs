@@ -13,17 +13,14 @@ namespace coffe_house
 {
     public partial class Form5 : Form
     {
-
-        public Form5(string data)
+        public Form5()
         {
-            MessageBox.Show("ok");
+
+
+
+            string data = "614007";
             InitializeComponent();
-            if (data == null)
-            {
-                MessageBox.Show("ไม่พบข้อมูล");
-            }
-            else
-            {
+        
                 string sql = "SELECT * FROM `products`";
                 MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
                 MySqlCommand cmd = new MySqlCommand(sql, con1);
@@ -35,17 +32,14 @@ namespace coffe_house
                 {
                     AuthorList.Add(reader.GetString("ProductID"));
                 }
-                //MessageBox.Show("f5"+data);
                 for (int i = 0; i < AuthorList.Count; ++i)
                 {
                     if (data == AuthorList[i])
                     {
-                        MessageBox.Show(AuthorList[i]);
-                        //pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\"+AuthorList[i]+".png");
-                        //pictureBox1.Image =new Bitmap("C:\\Users\\chan\\Pictures\\x\\614006.png");
+                        pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\"+AuthorList[i]+".png");
+                        MessageBox.Show("in if"+AuthorList[i]);
                     }
                 }
-            }
         }
         private void pictureBox2_Click(object sender, EventArgs e)
         {
