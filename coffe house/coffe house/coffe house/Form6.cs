@@ -15,6 +15,15 @@ namespace coffe_house
         public Form6()
         {
             InitializeComponent();
+            groupBox1.Visible = groupBox1.Visible;
+            groupBox2.Visible = groupBox2.Visible;
+            groupBox3.Visible = groupBox3.Visible;
+            groupBox4.Visible = groupBox4.Visible;
+            groupBox6.Visible = groupBox6.Visible; 
+            groupBox7.Visible = groupBox7.Visible;
+            groupBox8.Visible = groupBox8.Visible;
+            label32.Text = "";
+            label34.Text = "";
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
