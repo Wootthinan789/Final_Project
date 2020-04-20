@@ -18,6 +18,7 @@ D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debu
 D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form10.resources
 D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form2.resources
 D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form3.resources
+D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form4.resources
 D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form5.resources
 D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form6.resources
 D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form7.resources
@@ -125,10 +126,3 @@ C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\co
 C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\bin\Debug\MySql.Data.xml
 C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\bin\Debug\MySql.Web.xml
 C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.csproj.CopyComplete
-D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\bin\Debug\Google.Protobuf.dll
-D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\bin\Debug\BouncyCastle.Crypto.dll
-D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\bin\Debug\Ubiety.Dns.Core.dll
-D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\bin\Debug\Renci.SshNet.dll
-D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\bin\Debug\MySql.Data.xml
-D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\bin\Debug\MySql.Web.xml
-D:\Project ร้านกาแฟ\coffe house\coffe house\coffe house\obj\Debug\coffe house.csproj.CopyComplete

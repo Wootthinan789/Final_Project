@@ -15,6 +15,12 @@ namespace coffe_house
         public Form8()
         {
             InitializeComponent();
+            groupBox1.Visible = groupBox1.Visible;
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
 }

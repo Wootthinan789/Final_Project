@@ -138,10 +138,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe Print", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button1.Location = new System.Drawing.Point(102, 451);
+            this.button1.Location = new System.Drawing.Point(90, 451);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(78, 33);
+            this.button1.Size = new System.Drawing.Size(101, 33);
             this.button1.TabIndex = 55;
             this.button1.Text = "Confrim";
             this.button1.UseVisualStyleBackColor = false;

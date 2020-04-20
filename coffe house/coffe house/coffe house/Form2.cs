@@ -122,5 +122,11 @@ namespace coffe_house
             Form5 form5 = new Form5();
             form5.Show();
         }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            //var random = new Random();
+            //int randomnumber = random.Next(00000,99999);
+        }
     }
 }

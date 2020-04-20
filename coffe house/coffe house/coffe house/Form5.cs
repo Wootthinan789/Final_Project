@@ -13,15 +13,19 @@ namespace coffe_house
 {
     public partial class Form5 : Form
     {
+        static List<string> name = new List<string>();
+        static List<string> pri = new List<string>();
+        static string proid = "";
         public Form5()
         {
-
+            
             //string data = "614007";
 
-            
+
 
 
             InitializeComponent();
+            List<string> AuthorList = new List<string>();
 
             string sql3 = "SELECT * FROM `mamory`";
             MySqlConnection con3 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
@@ -43,9 +47,7 @@ namespace coffe_house
 
             con1.Open();
             MySqlDataReader reader = cmd.ExecuteReader();
-            List<string> AuthorList = new List<string>();
-            List<string> name = new List<string>();
-            List<string> pri = new List<string>();
+            
             while (reader.Read())
             {
                 AuthorList.Add(reader.GetString("ProductID"));
@@ -57,6 +59,7 @@ namespace coffe_house
             {
                 if (AuthorList3[1] == AuthorList[i])
                 {
+                    proid = AuthorList[i];
                     pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\"+AuthorList[i]+".png");
                     MessageBox.Show("in if"+AuthorList[i]);
                     label2.Text = name[i];
@@ -73,8 +76,8 @@ namespace coffe_house
                 }
             }
 
+            comboBox1.Text = "1";
 
-            
         }
         private void pictureBox2_Click(object sender, EventArgs e)
         {
@@ -83,7 +86,18 @@ namespace coffe_house
 
         private void button1_Click(object sender, EventArgs e)
         {
+            MessageBox.Show(proid,comboBox1.Text);
 
+            string sql = "SELECT * FROM `basket`";
+            sql = "INSERT INTO basket (ProductID,Quantity) VALUES ('" + proid +"','" + comboBox1.Text + "' )"; //VALUES ('"+text.text+"','"+text.text+"','"+text.text+"')
+            MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd = new MySqlCommand(sql, con1);
+
+            con1.Open();
+            cmd.ExecuteReader();
+            MessageBox.Show("เพิ่มแล้ว");
+            this.Hide();
+            con1.Close();
         }
     }
 }
