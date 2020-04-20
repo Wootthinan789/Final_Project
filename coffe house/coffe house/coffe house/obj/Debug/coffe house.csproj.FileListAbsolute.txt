@@ -45,3 +45,84 @@ D:\Final_Project\coffe house\coffe house\coffe house\bin\Debug\coffe house.exe.c
 D:\Final_Project\coffe house\coffe house\coffe house\bin\Debug\coffe house.exe
 D:\Final_Project\coffe house\coffe house\coffe house\bin\Debug\coffe house.pdb
 D:\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Properties.Resources.resources
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\bin\Debug\coffe house.exe.config
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\bin\Debug\coffe house.exe
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\bin\Debug\coffe house.pdb
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.csprojAssemblyReference.cache
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form1.resources
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form10.resources
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form2.resources
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form3.resources
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form5.resources
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form6.resources
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form7.resources
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form8.resources
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form9.resources
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Properties.Resources.resources
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.csproj.GenerateResource.cache
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.csproj.CoreCompileInputs.cache
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.exe
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.pdb
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\bin\Debug\Google.Protobuf.dll
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\bin\Debug\MySql.Data.dll
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\bin\Debug\MySql.Web.dll
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\bin\Debug\Renci.SshNet.dll
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\bin\Debug\MySql.Data.xml
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\bin\Debug\MySql.Web.xml
+C:\Users\chan\Documents\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.csproj.CopyComplete
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\bin\Debug\coffe house.exe.config
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\bin\Debug\coffe house.exe
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\bin\Debug\coffe house.pdb
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\bin\Debug\MySql.Data.dll
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\bin\Debug\MySql.Web.dll
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\bin\Debug\Google.Protobuf.dll
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\bin\Debug\Renci.SshNet.dll
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\bin\Debug\MySql.Data.xml
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\bin\Debug\MySql.Web.xml
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.csprojAssemblyReference.cache
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form1.resources
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form10.resources
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form2.resources
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form3.resources
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form5.resources
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form6.resources
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form7.resources
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form8.resources
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form9.resources
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Properties.Resources.resources
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.csproj.GenerateResource.cache
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.csproj.CoreCompileInputs.cache
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.csproj.CopyComplete
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.exe
+C:\Users\chan\Music\Final_Projectv1.1\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.pdb
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.csprojAssemblyReference.cache
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form1.resources
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form10.resources
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form2.resources
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form3.resources
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form5.resources
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form6.resources
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form7.resources
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form8.resources
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form9.resources
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Properties.Resources.resources
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.csproj.GenerateResource.cache
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.csproj.CoreCompileInputs.cache
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.exe
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.pdb
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\bin\Debug\coffe house.exe.config
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\bin\Debug\coffe house.exe
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\bin\Debug\coffe house.pdb
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\bin\Debug\MySql.Data.dll
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\bin\Debug\MySql.Web.dll
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\bin\Debug\Google.Protobuf.dll
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\bin\Debug\Renci.SshNet.dll
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\bin\Debug\MySql.Data.xml
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\bin\Debug\MySql.Web.xml
+C:\Users\chan\Desktop\Final_Projectv1.2\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.csproj.CopyComplete

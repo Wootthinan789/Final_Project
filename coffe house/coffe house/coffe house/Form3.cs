@@ -1,7 +1,9 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,10 +14,12 @@ namespace coffe_house
 {
     public partial class Form3 : Form
     {
+        static string[] mamo = {"0","1"};
         static int num = 1;
         public Form3()
         {
             InitializeComponent();
+
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
@@ -46,7 +50,7 @@ namespace coffe_house
 
         private void pictureBox16_Click(object sender, EventArgs e)
         {
-            
+
             num = Convert.ToInt32(label1.Text);                  //erferjfneirfjeirj
             num += 1;
             label1.Text = Convert.ToString(num);
@@ -55,24 +59,110 @@ namespace coffe_house
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+
+            string sql = "SELECT * FROM `mamory`";
+            sql = "INSERT INTO mamory (proid) VALUES ('614003')"; //VALUES ('"+text.text+"','"+text.text+"','"+text.text+"')
+            MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd = new MySqlCommand(sql, con1);
+
+            con1.Open();
+            cmd.ExecuteReader();
+            con1.Close();
+
             Form5 form5 = new Form5();
             form5.Show();
         }
 
-        private void pictureBox6_Click(object sender, EventArgs e)
+        public void pictureBox6_Click(object sender, EventArgs e)
         {
+
+            string sql = "SELECT * FROM `mamory`";
+            sql = "INSERT INTO mamory (proid) VALUES ('614001')"; //VALUES ('"+text.text+"','"+text.text+"','"+text.text+"')
+            MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd = new MySqlCommand(sql, con1);
+
+            con1.Open();
+            cmd.ExecuteReader();
+            con1.Close();
+
+
             Form5 form5 = new Form5();
             form5.Show();
+            /*
+            string sql = "SELECT * FROM `sales`";
+            //sql = "INSERT INTO sales (SaleID,SaleDateTime,CustomerID) VALUES ('16','2020-04-03 05:30:19','10')"; //VALUES ('"+text.text+"','"+text.text+"','"+text.text+"')
+            MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd = new MySqlCommand(sql,con1);
+            
+            con1.Open();
+            string c = "";
+            MySqlDataReader reader = cmd.ExecuteReader();
+            List<string> AuthorList = new List<string>();
+            while (reader.Read())
+            {
+
+                //label3.Text = (reader.GetString("SaleID"));
+                //MessageBox.Show(reader.GetString("SaleID"));
+                c += (reader.GetString("SaleID"));
+                AuthorList.Add(reader.GetString("SaleID"));
+            }
+            //cmd.ExecuteNonQuery();
+            //con1.Close();
+            /*
+            AuthorList.Add("Mahesh Chand");
+            AuthorList.Add("Praveen Kumar");
+            AuthorList.Add("Raj Kumar");
+            AuthorList.Add("Nipun Tomar");
+            AuthorList.Add("Dinesh Beniwal");
+            
+            for (int i =0;i < AuthorList.Count; ++i)
+            {
+                if (textBox1.Text == AuthorList[i])
+                {
+                    MessageBox.Show("เจอ");
+                }
+                else
+                {
+                    
+                }
+                //label3.Text = AuthorList[i];
+                //MessageBox.Show(AuthorList[i]);
+            }
+            */
         }
 
+
+    
         private void pictureBox7_Click(object sender, EventArgs e)
         {
+
+            string sql = "SELECT * FROM `mamory`";
+            sql = "INSERT INTO mamory (proid) VALUES ('614004')"; //VALUES ('"+text.text+"','"+text.text+"','"+text.text+"')
+            MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd = new MySqlCommand(sql, con1);
+
+            con1.Open();
+            cmd.ExecuteReader();
+            con1.Close();
+
+
             Form5 form5 = new Form5();
             form5.Show();
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
+
+            string sql = "SELECT * FROM `mamory`";
+            sql = "INSERT INTO mamory (proid) VALUES ('614010')"; //VALUES ('"+text.text+"','"+text.text+"','"+text.text+"')
+            MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd = new MySqlCommand(sql, con1);
+
+            con1.Open();
+            cmd.ExecuteReader();
+            con1.Close();
+
+
             Form5 form5 = new Form5();
             form5.Show();
         }
@@ -117,9 +207,38 @@ namespace coffe_house
         {
             num = Convert.ToInt32(label1.Text);
             if (num != 1)
-            {                                                //erferjfneirfjeirj
+            {                                              
                 num -= 1;
                 label1.Text = Convert.ToString(num);
+            }
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            string sql = "SELECT * FROM `sales`";
+            MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd = new MySqlCommand(sql, con1);
+
+            con1.Open();
+            string c = "";
+            MySqlDataReader reader = cmd.ExecuteReader();
+            List<string> AuthorList = new List<string>();
+            while (reader.Read())
+            {
+                c += (reader.GetString("SaleID"));
+                AuthorList.Add(reader.GetString("SaleID"));
+            }
+            for (int i = 0; i < AuthorList.Count; ++i)
+            {
+                if (textBox1.Text == AuthorList[i])
+                {
+                    Form5 form5 = new Form5();
+                    form5.Show();
+                }
+                else
+                {
+
+                }
             }
         }
     }
