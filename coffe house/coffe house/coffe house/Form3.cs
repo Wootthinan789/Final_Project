@@ -59,15 +59,36 @@ namespace coffe_house
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+
+            string sql = "SELECT * FROM `mamory`";
+            sql = "INSERT INTO mamory (proid) VALUES ('614003')"; //VALUES ('"+text.text+"','"+text.text+"','"+text.text+"')
+            MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd = new MySqlCommand(sql, con1);
+
+            con1.Open();
+            cmd.ExecuteReader();
+            con1.Close();
+
             Form5 form5 = new Form5();
             form5.Show();
         }
 
         public void pictureBox6_Click(object sender, EventArgs e)
         {
-            //Form5 form5 = new Form5();
-            //form5.Show();
 
+            string sql = "SELECT * FROM `mamory`";
+            sql = "INSERT INTO mamory (proid) VALUES ('614001')"; //VALUES ('"+text.text+"','"+text.text+"','"+text.text+"')
+            MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd = new MySqlCommand(sql, con1);
+
+            con1.Open();
+            cmd.ExecuteReader();
+            con1.Close();
+
+
+            Form5 form5 = new Form5();
+            form5.Show();
+            /*
             string sql = "SELECT * FROM `sales`";
             //sql = "INSERT INTO sales (SaleID,SaleDateTime,CustomerID) VALUES ('16','2020-04-03 05:30:19','10')"; //VALUES ('"+text.text+"','"+text.text+"','"+text.text+"')
             MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
@@ -93,7 +114,7 @@ namespace coffe_house
             AuthorList.Add("Raj Kumar");
             AuthorList.Add("Nipun Tomar");
             AuthorList.Add("Dinesh Beniwal");
-            */
+            
             for (int i =0;i < AuthorList.Count; ++i)
             {
                 if (textBox1.Text == AuthorList[i])
@@ -107,19 +128,41 @@ namespace coffe_house
                 //label3.Text = AuthorList[i];
                 //MessageBox.Show(AuthorList[i]);
             }
-
+            */
         }
 
 
     
         private void pictureBox7_Click(object sender, EventArgs e)
         {
+
+            string sql = "SELECT * FROM `mamory`";
+            sql = "INSERT INTO mamory (proid) VALUES ('614004')"; //VALUES ('"+text.text+"','"+text.text+"','"+text.text+"')
+            MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd = new MySqlCommand(sql, con1);
+
+            con1.Open();
+            cmd.ExecuteReader();
+            con1.Close();
+
+
             Form5 form5 = new Form5();
             form5.Show();
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
+
+            string sql = "SELECT * FROM `mamory`";
+            sql = "INSERT INTO mamory (proid) VALUES ('614010')"; //VALUES ('"+text.text+"','"+text.text+"','"+text.text+"')
+            MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd = new MySqlCommand(sql, con1);
+
+            con1.Open();
+            cmd.ExecuteReader();
+            con1.Close();
+
+
             Form5 form5 = new Form5();
             form5.Show();
         }
