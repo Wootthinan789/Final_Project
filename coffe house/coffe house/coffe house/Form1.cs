@@ -14,6 +14,7 @@ namespace coffe_house
     public partial class Form1 : Form
     {
         static List<string> staffID = new List<string>();
+        static List<string> save = new List<string>();
         public Form1()
         {
             InitializeComponent();
@@ -69,6 +70,29 @@ namespace coffe_house
         {
             Form6 form6 = new Form6();
             form6.Show();
+            /*
+            string sel = "SELECT * FROM `login_save`";
+            MySqlConnection con = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd = new MySqlCommand(sel, con);
+
+            con.Open();
+            MySqlDataReader reader0 = cmd.ExecuteReader();
+            while (reader0.Read())
+            {
+                save.Add(reader0.GetString("staffsID"));
+            }
+            if (save.Count == 0)
+            {
+                Form6 form6 = new Form6();
+                form6.Show();
+            }
+            else
+            {
+                Form8 form8 = new Form8();
+                form8.Show();
+            }
+            
+    */
         }
 
         private void pictureBox10_Click(object sender, EventArgs e)

@@ -13,6 +13,7 @@ namespace coffe_house
 {
     public partial class Form6 : Form
     {
+        static List<string> AuthorList8 = new List<string>();
         public Form6()
         {
             InitializeComponent();
@@ -28,6 +29,18 @@ namespace coffe_house
 
             var random = new Random();
             int randomnumber = random.Next(00000,99999);
+
+            string sql8 = "SELECT * FROM `basket`";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+
+            while (reader8.Read())
+            {
+                AuthorList8.Add(reader8.GetString("ProductID"));
+            }
 
             string sql3 = "SELECT * FROM `basket`";
             MySqlConnection con3 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
@@ -197,9 +210,31 @@ namespace coffe_house
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form9 form9 = new Form9();
-            form9.Show();
-            this.Hide();
+            string sel = "SELECT * FROM `login_save`";
+            MySqlConnection con = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd = new MySqlCommand(sel, con);
+            List<string> AuthorList9 = new List<string>();
+            con.Open();
+            MySqlDataReader reader0 = cmd.ExecuteReader();
+            while (reader0.Read())
+            {
+                AuthorList9.Add(reader0.GetString("staffsID"));
+            }
+            //MessageBox.Show(Convert.ToString(AuthorList9.Count));
+            if (AuthorList9.Count == 0)
+            {
+                Form9 form9 = new Form9();
+                form9.Show();
+                this.Hide();
+            }
+            else
+            { 
+                Form7 form7 = new Form7();
+                form7.Show();
+            }
+
+
+            
         }
     }
 }

@@ -58,7 +58,7 @@ namespace coffe_house
                     checkloop = 1;
                 }
             }
-            if (checkloop ==0)
+            if (checkloop == 0)
             {
                 MessageBox.Show("ไม่มีข้อมูล โปรดสมัคร");
                 button1.Text = "Sin up";

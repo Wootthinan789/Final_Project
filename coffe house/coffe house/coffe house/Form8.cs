@@ -37,11 +37,13 @@ namespace coffe_house
             groupBox2.Visible = groupBox2.Visible;
             groupBox3.Visible = groupBox3.Visible;
             groupBox4.Visible = groupBox4.Visible;
+            groupBox5.Visible = groupBox5.Visible;
             groupBox6.Visible = groupBox6.Visible;
             groupBox7.Visible = groupBox7.Visible;
             groupBox8.Visible = groupBox8.Visible;
             label32.Text = "";
             label34.Text = "";
+            label57.Text = "123"+dateTimePicker1.Value;
 
             var random = new Random();
             randomnumber = random.Next(00000, 99999);
@@ -80,6 +82,7 @@ namespace coffe_house
 
             for (int i = 0; i < AuthorList3.Count; ++i)
             {
+                MessageBox.Show("aa"+Convert.ToString(AuthorList3.Count));
                 if (i == 0)
                 {
                     groupBox1.Visible = true;
@@ -237,11 +240,14 @@ namespace coffe_house
                 CustomerTelNo.Add(reader8.GetString("CustomerTelNo"));
                 Gender.Add(reader8.GetString("Gender"));
             }
-            MessageBox.Show("มาถึงแล้ว");
-            for (int v =0; v < CustomerID.Count; ++v)
+            MessageBox.Show(Convert.ToString(CustomerID.Count));
+            MessageBox.Show(CustomerID[0]);
+            for (int v =0; v < 5; ++v)
             {
-                MessageBox.Show("--"+medid[0]+"=="+CustomerID[v]+"--");
-                if (medid[0] == CustomerID[v])
+                MessageBox.Show(CustomerID[v]);
+                //MessageBox.Show("--"+medid[0]+"=="+CustomerID[0]+"--");
+                string x = CustomerID[v];
+                if (medid[0] == x)
                 {
                     label39.Text = CustomerType[v];
                     label45.Text = CustomerName[v];
@@ -249,6 +255,7 @@ namespace coffe_house
                     label47.Text = CustomerTelNo[v];
                     cumid = CustomerID[v];
                 }
+                
             }
             
 
@@ -315,7 +322,7 @@ namespace coffe_house
                     a -= 1;
                 }
             }
-            string sale = "INSERT INTO `sales`(`SaleID`, `SaleDateTime`, `CustomerID`, `StaffID`, `GrandTotal`) VALUES ('"+ randomnumber + "','"+ dateTimePicker1.Value + "','"+ cumid + "','"+ login_save[0] + "','"+ sumpp + "')";
+            string sale = "INSERT INTO `sales`(`SaleID`, `SaleDateTime`, `CustomerID`, `StaffID`, `GrandTotal`) VALUES ('"+ randomnumber + "','"+ dateTimePicker1+ "','"+ cumid + "','"+ login_save[0] + "','"+ sumpp + "')";
             MySqlConnection con3 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
             MySqlCommand cmd3 = new MySqlCommand(sale, con3);
             con3.Open();
