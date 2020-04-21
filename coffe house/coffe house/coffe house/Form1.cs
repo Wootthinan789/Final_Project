@@ -106,6 +106,7 @@ namespace coffe_house
                 cmd.ExecuteReader();
                 con.Close();
                 pictureBox10.Hide();
+                pictureBox5.Show();
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
