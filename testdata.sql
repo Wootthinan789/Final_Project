@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 19, 2020 at 06:36 PM
+-- Generation Time: Apr 20, 2020 at 05:53 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.4
 
@@ -68,6 +68,23 @@ INSERT INTO `customers` (`CustomerID`, `CustomerName`, `Gender`, `CustomerType`,
 (614012, 'Amber', 'M', 'Member', '0648741257'),
 (614056, 'Amelia', 'M', 'Other', '0814595634'),
 (614098, 'Alice', 'F', 'VIP', '0657706835');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `login_save`
+--
+
+CREATE TABLE `login_save` (
+  `staffsID` int(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `login_save`
+--
+
+INSERT INTO `login_save` (`staffsID`) VALUES
+(2);
 
 -- --------------------------------------------------------
 
@@ -138,22 +155,6 @@ CREATE TABLE `sales` (
   `GrandTotal` float NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
---
--- Dumping data for table `sales`
---
-
-INSERT INTO `sales` (`SaleID`, `SaleDateTime`, `CustomerID`, `StaffID`, `GrandTotal`) VALUES
-(369545, '2020-04-03 05:30:19', 614012, 2, 725),
-(411564, '2020-03-24 05:11:31', 614098, 4, 1529),
-(547863, '2020-03-28 18:19:38', 614056, 1, 500),
-(635741, '2020-04-30 15:21:39', 614002, 2, 725),
-(654187, '2020-04-01 15:17:39', 614056, 2, 1540),
-(657312, '2020-04-02 04:30:17', 614098, 3, 1000),
-(785241, '2020-04-04 09:11:33', 614056, 4, 2820),
-(786341, '2020-03-27 14:21:39', 614008, 4, 1848),
-(800044, '2020-03-19 06:14:10', 614008, 1, 1145),
-(987156, '2020-03-25 04:49:10', 614012, 5, 2600);
-
 -- --------------------------------------------------------
 
 --
@@ -168,31 +169,6 @@ CREATE TABLE `sale_details` (
   `Quantity` int(11) NOT NULL,
   `Amount` float NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
---
--- Dumping data for table `sale_details`
---
-
-INSERT INTO `sale_details` (`SaleDetailID`, `SaleID`, `ProductID`, `Price`, `Quantity`, `Amount`) VALUES
-(1258, 786341, 614004, 100, 2, 200),
-(1596, 785241, 614005, 564, 5, 2820),
-(2587, 654187, 614004, 100, 1, 100),
-(3512, 635741, 614001, 145, 5, 725),
-(3657, 411564, 614005, 564, 1, 564),
-(4189, 800044, 614001, 145, 1, 145),
-(4190, 800044, 614002, 200, 5, 1000),
-(4526, 657312, 614002, 200, 5, 1000),
-(4899, 654187, 614003, 520, 2, 1040),
-(5634, 987156, 614003, 520, 5, 2600),
-(6357, 614056, 614056, 100, 5, 500),
-(6537, 654187, 614002, 200, 2, 400),
-(6743, 411564, 614004, 100, 1, 100),
-(6841, 411564, 614002, 200, 1, 200),
-(7456, 786341, 614003, 520, 1, 520),
-(8934, 411564, 614001, 145, 1, 145),
-(8935, 411564, 614003, 520, 1, 520),
-(9345, 786341, 614005, 564, 2, 1128),
-(9782, 635741, 614001, 145, 5, 725);
 
 -- --------------------------------------------------------
 
@@ -282,7 +258,7 @@ ALTER TABLE `sales`
 -- AUTO_INCREMENT for table `sale_details`
 --
 ALTER TABLE `sale_details`
-  MODIFY `SaleDetailID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9783;
+  MODIFY `SaleDetailID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=98510;
 
 --
 -- AUTO_INCREMENT for table `staffs`
