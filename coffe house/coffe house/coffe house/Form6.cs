@@ -26,6 +26,10 @@ namespace coffe_house
             label32.Text = "";
             label34.Text = "";
 
+            var random = new Random();
+            int randomnumber = random.Next(00000,99999);
+            label39.Text = "#"+Convert.ToString(randomnumber);
+
             string sql3 = "SELECT * FROM `basket`";
             MySqlConnection con3 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
             MySqlCommand cmd1 = new MySqlCommand(sql3, con3);

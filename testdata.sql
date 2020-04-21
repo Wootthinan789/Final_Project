@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 19, 2020 at 05:39 AM
+-- Generation Time: Apr 19, 2020 at 04:21 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.4
 
@@ -20,6 +20,29 @@ SET time_zone = "+00:00";
 --
 -- Database: `testdata`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `basket`
+--
+
+CREATE TABLE `basket` (
+  `ProductID` int(11) NOT NULL,
+  `Quantity` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `basket`
+--
+
+INSERT INTO `basket` (`ProductID`, `Quantity`) VALUES
+(614003, 1),
+(614010, 2),
+(614006, 1),
+(614008, 1),
+(614006, 1),
+(614003, 1);
 
 -- --------------------------------------------------------
 
@@ -185,7 +208,8 @@ INSERT INTO `staffs` (`StaffID`, `StaffCode`, `StaffName`, `Gender`, `StaffPassw
 (2, '002', 'b', 'M', 'b002', 'Staff'),
 (3, '003', 'c', 'F', 'c003', 'Staff'),
 (4, '004', 'd', 'F', 'd004', 'Staff'),
-(5, '005', 'e', 'F', 'e005', 'Staff');
+(5, '005', 'e', 'F', 'e005', 'Staff'),
+(6, '100', 'Admin', 'M', '12345678', 'Admin');
 
 --
 -- Indexes for dumped tables
@@ -254,7 +278,7 @@ ALTER TABLE `sale_details`
 -- AUTO_INCREMENT for table `staffs`
 --
 ALTER TABLE `staffs`
-  MODIFY `StaffID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `StaffID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
