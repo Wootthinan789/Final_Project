@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 19, 2020 at 04:21 PM
+-- Generation Time: Apr 19, 2020 at 06:36 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.4
 
@@ -63,7 +63,7 @@ CREATE TABLE `customers` (
 --
 
 INSERT INTO `customers` (`CustomerID`, `CustomerName`, `Gender`, `CustomerType`, `CustomerTelNo`) VALUES
-(614002, 'Arista', 'F', 'VIP', '0941784456'),
+(614002, 'Arista', 'F', 'VIP', '0657706835'),
 (614008, 'Athena', 'F', 'Member', '0981256444'),
 (614012, 'Amber', 'M', 'Member', '0648741257'),
 (614056, 'Amelia', 'M', 'Other', '0814595634'),
@@ -85,6 +85,16 @@ CREATE TABLE `mamory` (
 
 INSERT INTO `mamory` (`proid`) VALUES
 (0);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `memorymenber`
+--
+
+CREATE TABLE `memorymenber` (
+  `medid` int(5) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
 

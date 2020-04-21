@@ -49,17 +49,35 @@ namespace coffe_house
             {
                 if (CustomerTelNo[i] == textBox1.Text)
                 {
+                    button1.Text = "ok";
                     textBox2.Text = CustomerName[i];
                     comboBox1.Text = Gender[i];
                     comboBox2.Text = CustomerType[i];
                     textBox5.Text = CustomerTelNo[i];
+                    textBox3.Text = CustomerID[i];
                     checkloop = 1;
                 }
             }
             if (checkloop ==0)
             {
                 MessageBox.Show("ไม่มีข้อมูล โปรดสมัคร");
+                button1.Text = "Sin up";
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string sql = "INSERT INTO memorymenber (medid) VALUES ('" + textBox3.Text + "')"; //VALUES ('"+text.text+"','"+text.text+"','"+text.text+"')
+            MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd = new MySqlCommand(sql, con1);
+            
+            con1.Open();
+            cmd.ExecuteReader();
+            MessageBox.Show("เพิ่มแล้ว");
+            Form8 form8 = new Form8();
+            form8.Show();
+            this.Hide();
+            con1.Close();
         }
     }
 }
