@@ -83,5 +83,11 @@ namespace coffe_house
                 con.Close();
                 pictureBox10.Hide();
         }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Show();
+        }
     }
 }

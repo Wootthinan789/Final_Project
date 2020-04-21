@@ -315,8 +315,7 @@ namespace coffe_house
                     a -= 1;
                 }
             }
-
-            string sale = "INSERT INTO `sales`(`SaleID`, `SaleDateTime`, `CustomerID`, `StaffID`, `GrandTotal`) VALUES ('"+ randomnumber + "','"+ dateTimePicker1.Text + "','"+ cumid + "','"+ login_save[0] + "','"+ sumpp + "')";
+            string sale = "INSERT INTO `sales`(`SaleID`, `SaleDateTime`, `CustomerID`, `StaffID`, `GrandTotal`) VALUES ('"+ randomnumber + "','"+ dateTimePicker1.Value + "','"+ cumid + "','"+ login_save[0] + "','"+ sumpp + "')";
             MySqlConnection con3 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
             MySqlCommand cmd3 = new MySqlCommand(sale, con3);
             con3.Open();
