@@ -58,6 +58,9 @@ namespace coffe_house
                         if (textBox1.Text == StaffPassword[i])
                         {
                             MessageBox.Show("ผ่าน StaffPassword , Staff");
+                            Form7 form7 = new Form7();
+                            form7.Show();
+                            this.Hide();
                             checkloop = 1;
                         }
                         else
