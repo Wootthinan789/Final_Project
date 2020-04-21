@@ -13,6 +13,7 @@ namespace coffe_house
 {
     public partial class Form8 : Form
     {
+        static string cumid = "";
         static int randomnumber = 0;                           //randomnumber
         static int sumpp = 0;                                  //summore Price basket
         static int sumqq = 0;                                  //summore Quantity basket
@@ -26,6 +27,8 @@ namespace coffe_house
         static List<string> CustomerType = new List<string>(); //customersType
         static List<string> CustomerTelNo = new List<string>();//customersTelNo
         static List<string> Gender = new List<string>();       //customersGerder
+        static List<string> sumQ = new List<string>();         //sumQuantity
+        static List<string> sumP = new List<string>();         //sumProductID
 
         public Form8()
         {
@@ -74,8 +77,7 @@ namespace coffe_house
             }
 
             ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-            List<string> sumQ = new List<string>(); //sumQuantity
-            List<string> sumP = new List<string>(); //sumProductID
+
             for (int i = 0; i < AuthorList3.Count; ++i)
             {
                 if (i == 0)
@@ -245,6 +247,7 @@ namespace coffe_house
                     label45.Text = CustomerName[v];
                     label46.Text = Gender[v];
                     label47.Text = CustomerTelNo[v];
+                    cumid = CustomerID[v];
                 }
             }
             
@@ -267,32 +270,62 @@ namespace coffe_house
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Hide();
-
-            /*
-            static int randomnumber = 0;                           //randomnumber
-        static int sumpp = 0;                                  //summore Price basket
-        static int sumqq = 0;                                  //summore Quantity basket
-        static List<string> AuthorList3 = new List<string>();  //ProductID basket
-        static List<string> AuthorList4 = new List<string>();  //Quantity basket
-        static List<string> AuthorList = new List<string>();   //ProductID products
-        static List<string> AuthorList2 = new List<string>();  //ProductName products
-        static List<string> AuthorList5 = new List<string>();  //Price products
-        static List<string> CustomerID = new List<string>();   //customersID
-        static List<string> CustomerName = new List<string>(); //customersName
-        static List<string> CustomerType = new List<string>(); //customersType
-        static List<string> CustomerTelNo = new List<string>();//customersTelNo
-        static List<string> Gender = new List<string>();       //customersGerder
-             */
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string staffs = "SELECT * FROM `staffs`";
+            List<string> staffs = new List<string>();                       //staffs
+            string sqlstaffs = "SELECT * FROM `staffs`";
             MySqlConnection con = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
-            MySqlCommand cmd = new MySqlCommand(staffs, con);
+            MySqlCommand cmd = new MySqlCommand(sqlstaffs, con);
             con.Open();
-            cmd.ExecuteReader();
             MySqlDataReader reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                staffs.Add(reader.GetString("StaffID"));
+            }
+            List<string> login_save = new List<string>();                   //login_save
+            string sqllogin_save = "SELECT * FROM `login_save`";
+            MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd1 = new MySqlCommand(sqllogin_save, con1);
+            con1.Open();
+            MySqlDataReader reader1 = cmd1.ExecuteReader();
+            while (reader1.Read())
+            {
+                login_save.Add(reader1.GetString("staffsID"));
+            }
+
+            var random2 = new Random();
+            int SaleDetailID = random2.Next(10000, 99999);
+            for (int a = 0; a<AuthorList3.Count; ++a)
+            {
+                try
+                {
+                    string amount = Convert.ToString(Convert.ToInt32(sumQ[a]) * Convert.ToInt32(sumP[a]));
+                    string sale_detail = "INSERT INTO `sale_details`(`SaleDetailID`, `SaleID`, `ProductID`, `Price`, `Quantity`, `Amount`) VALUES('" + SaleDetailID + "','" + randomnumber + "','" + AuthorList3[a] + "','" + sumP[a] + "','" + AuthorList4[a] + "','" + amount + "')";
+                    MySqlConnection con2 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+                    MySqlCommand cmd2 = new MySqlCommand(sale_detail, con2);
+                    con2.Open();
+                    cmd2.ExecuteReader();
+                    con2.Close();
+                }
+                catch
+                {
+                    SaleDetailID = random2.Next(10000, 99999);
+                    a -= 1;
+                }
+            }
+
+            string sale = "INSERT INTO `sales`(`SaleID`, `SaleDateTime`, `CustomerID`, `StaffID`, `GrandTotal`) VALUES ('"+ randomnumber + "','"+ dateTimePicker1.Text + "','"+ cumid + "','"+ login_save[0] + "','"+ sumpp + "')";
+            MySqlConnection con3 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd3 = new MySqlCommand(sale, con3);
+            con3.Open();
+            cmd3.ExecuteReader();
+            con3.Close();
+
+
+
+
 
         }
 

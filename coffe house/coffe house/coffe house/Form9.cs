@@ -13,6 +13,7 @@ namespace coffe_house
 {
     public partial class Form9 : Form
     {
+        static List<string> staffID = new List<string>();
         public Form9()
         {
             InitializeComponent();
@@ -58,10 +59,21 @@ namespace coffe_house
                         if (textBox1.Text == StaffPassword[i])
                         {
                             MessageBox.Show("ผ่าน StaffPassword , Staff");
+                            checkloop = 1;
+                            string insert = "INSERT INTO `login_save`(`staffsID`) VALUES ('" + StaffID[i] + "')";
+                            MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+                            MySqlCommand cmd = new MySqlCommand(insert, con1);
+
+                            con1.Open();
+                            cmd.ExecuteReader();
+                            con1.Close();
+                           
+                            checkloop = 1;
+                            staffID.Add(StaffID[i]);
+
                             Form7 form7 = new Form7();
                             form7.Show();
                             this.Hide();
-                            checkloop = 1;
                         }
                         else
                         {
@@ -81,10 +93,10 @@ namespace coffe_house
                         if (textBox1.Text == StaffPassword[i])
                         {
                             MessageBox.Show("ผ่าน StaffPassword , Manager");
+                            
                             Form10 form10 = new Form10();
                             form10.Show();
                             this.Hide();
-                            checkloop = 1;
                         }
                         else
                         {
@@ -122,6 +134,9 @@ namespace coffe_house
             {
                 MessageBox.Show("ID,ชื่อ หรือรหัสผ่านไม่ถูกต้อง");
             }
+
+
+
             /*
             if (radioButton1.Checked)
             {

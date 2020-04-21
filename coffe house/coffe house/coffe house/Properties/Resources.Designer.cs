@@ -63,6 +63,16 @@ namespace coffe_house.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _018_128_arrow_exit_logout_512 {
+            get {
+                object obj = ResourceManager.GetObject("018_128_arrow_exit_logout-512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap coffe_house_logo_4x {
             get {
                 object obj = ResourceManager.GetObject("coffe_house_logo_4x", resourceCulture);
