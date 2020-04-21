@@ -13,6 +13,20 @@ namespace coffe_house
 {
     public partial class Form8 : Form
     {
+        static int randomnumber = 0;                           //randomnumber
+        static int sumpp = 0;                                  //summore Price basket
+        static int sumqq = 0;                                  //summore Quantity basket
+        static List<string> AuthorList3 = new List<string>();  //ProductID basket
+        static List<string> AuthorList4 = new List<string>();  //Quantity basket
+        static List<string> AuthorList = new List<string>();   //ProductID products
+        static List<string> AuthorList2 = new List<string>();  //ProductName products
+        static List<string> AuthorList5 = new List<string>();  //Price products
+        static List<string> CustomerID = new List<string>();   //customersID
+        static List<string> CustomerName = new List<string>(); //customersName
+        static List<string> CustomerType = new List<string>(); //customersType
+        static List<string> CustomerTelNo = new List<string>();//customersTelNo
+        static List<string> Gender = new List<string>();       //customersGerder
+
         public Form8()
         {
             InitializeComponent();
@@ -27,7 +41,7 @@ namespace coffe_house
             label34.Text = "";
 
             var random = new Random();
-            int randomnumber = random.Next(00000, 99999);
+            randomnumber = random.Next(00000, 99999);
             label44.Text = "#" + Convert.ToString(randomnumber);
 
             string sql3 = "SELECT * FROM `basket`";
@@ -36,8 +50,7 @@ namespace coffe_house
 
             con3.Open();
             MySqlDataReader reader3 = cmd1.ExecuteReader();
-            List<string> AuthorList3 = new List<string>();
-            List<string> AuthorList4 = new List<string>();
+            
             while (reader3.Read())
             {
                 AuthorList3.Add(reader3.GetString("ProductID"));
@@ -52,9 +65,7 @@ namespace coffe_house
 
             con2.Open();
             MySqlDataReader reader2 = cmd2.ExecuteReader();
-            List<string> AuthorList = new List<string>();
-            List<string> AuthorList2 = new List<string>();
-            List<string> AuthorList5 = new List<string>();
+            
             while (reader2.Read())
             {
                 AuthorList.Add(reader2.GetString("ProductID"));
@@ -63,8 +74,8 @@ namespace coffe_house
             }
 
             ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-            List<string> sumQ = new List<string>();
-            List<string> sumP = new List<string>();
+            List<string> sumQ = new List<string>(); //sumQuantity
+            List<string> sumP = new List<string>(); //sumProductID
             for (int i = 0; i < AuthorList3.Count; ++i)
             {
                 if (i == 0)
@@ -182,8 +193,7 @@ namespace coffe_house
             }
             groupBox8.Visible = false;
             groupBox9.Visible = false;
-            int sumpp = 0;
-            int sumqq = 0;
+            
             for (int w = 0; w < sumQ.Count; ++w)
             {
                 sumpp += Convert.ToInt32(sumP[w]);
@@ -191,6 +201,8 @@ namespace coffe_house
             }
             label32.Text = Convert.ToString(sumqq);
             label34.Text = Convert.ToString(sumpp);
+
+
 
 
             string sql7 = "SELECT * FROM `memorymenber`";
@@ -206,17 +218,15 @@ namespace coffe_house
             }
 
 
+
+
             string sql8 = "SELECT * FROM `customers`";
             MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
             MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
 
             con8.Open();
-            MySqlDataReader reader8 = cmd8.ExecuteReader();
-            List<string> CustomerID= new List<string>();
-            List<string> CustomerName = new List<string>();
-            List<string> CustomerType = new List<string>();
-            List<string> CustomerTelNo = new List<string>();
-            List<string> Gender = new List<string>();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();  
+            
             while (reader8.Read())
             {
                 CustomerID.Add(reader8.GetString("CustomerID"));
@@ -239,6 +249,8 @@ namespace coffe_house
             }
             
 
+
+
             string sql6 = "DELETE FROM `memorymenber` WHERE medid";
             MySqlConnection con6 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
             MySqlCommand cmd6 = new MySqlCommand(sql6, con6);
@@ -249,21 +261,44 @@ namespace coffe_house
             con6.Close();
 
 
+
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Hide();
+
+            /*
+            static int randomnumber = 0;                           //randomnumber
+        static int sumpp = 0;                                  //summore Price basket
+        static int sumqq = 0;                                  //summore Quantity basket
+        static List<string> AuthorList3 = new List<string>();  //ProductID basket
+        static List<string> AuthorList4 = new List<string>();  //Quantity basket
+        static List<string> AuthorList = new List<string>();   //ProductID products
+        static List<string> AuthorList2 = new List<string>();  //ProductName products
+        static List<string> AuthorList5 = new List<string>();  //Price products
+        static List<string> CustomerID = new List<string>();   //customersID
+        static List<string> CustomerName = new List<string>(); //customersName
+        static List<string> CustomerType = new List<string>(); //customersType
+        static List<string> CustomerTelNo = new List<string>();//customersTelNo
+        static List<string> Gender = new List<string>();       //customersGerder
+             */
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string staffs = "SELECT * FROM `staffs`";
+            MySqlConnection con = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd = new MySqlCommand(staffs, con);
+            con.Open();
+            cmd.ExecuteReader();
+            MySqlDataReader reader = cmd.ExecuteReader();
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
         }
     }
 }
