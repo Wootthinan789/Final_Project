@@ -72,9 +72,8 @@ namespace coffe_house
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
-
             string sql = "SELECT * FROM `mamory`";
-            sql = "INSERT INTO mamory (proid) VALUES ('614005')"; //VALUES ('"+text.text+"','"+text.text+"','"+text.text+"')
+            sql = "INSERT INTO mamory (proid) VALUES ('614021')"; //VALUES ('"+text.text+"','"+text.text+"','"+text.text+"')
             MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
             MySqlCommand cmd = new MySqlCommand(sql, con1);
 
