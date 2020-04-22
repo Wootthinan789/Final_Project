@@ -872,115 +872,115 @@ namespace coffe_house
             }
             if (label1.Text == "1")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614001.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614002.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614003.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614004.png");
+                pictureBox6.LoadAsync(@"F:\x\614001.png");
+                pictureBox1.LoadAsync(@"F:\x\614002.png");
+                pictureBox7.LoadAsync(@"F:\x\614003.png");
+                pictureBox8.LoadAsync(@"F:\x\614004.png");
             }
             if (label1.Text == "2")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614005.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614006.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614007.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614008.png");
+                pictureBox6.LoadAsync(@"F:\x\614005.png");
+                pictureBox1.LoadAsync(@"F:\x\614006.png");
+                pictureBox7.LoadAsync(@"F:\x\614007.png");
+                pictureBox8.LoadAsync(@"F:\x\614008.png");
             }
             if (label1.Text == "3")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614009.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614010.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614011.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614012.png");
+                pictureBox6.LoadAsync(@"F:\x\614009.png");
+                pictureBox1.LoadAsync(@"F:\x\614010.png");
+                pictureBox7.LoadAsync(@"F:\x\614011.png");
+                pictureBox8.LoadAsync(@"F:\x\614012.png");
             }
             if (label1.Text == "4")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614013.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614014.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614015.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614016.png");
+                pictureBox6.LoadAsync(@"F:\x\614013.png");
+                pictureBox1.LoadAsync(@"F:\x\614014.png");
+                pictureBox7.LoadAsync(@"F:\x\614015.png");
+                pictureBox8.LoadAsync(@"F:\x\614016.png");
             }
             if (label1.Text == "5")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614017.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614018.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614019.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614020.png");
+                pictureBox6.LoadAsync(@"F:\x\614017.png");
+                pictureBox1.LoadAsync(@"F:\x\614018.png");
+                pictureBox7.LoadAsync(@"F:\x\614019.png");
+                pictureBox8.LoadAsync(@"F:\x\614020.png");
             }
             if (label1.Text == "6")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614021.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614022.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614023.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614024.png");
+                pictureBox6.LoadAsync(@"F:\x\614021.png");
+                pictureBox1.LoadAsync(@"F:\x\614022.png");
+                pictureBox7.LoadAsync(@"F:\x\614023.png");
+                pictureBox8.LoadAsync(@"F:\x\614024.png");
             }
             if (label1.Text == "7")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614025.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614026.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614027.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614028.png");
+                pictureBox6.LoadAsync(@"F:\x\614025.png");
+                pictureBox1.LoadAsync(@"F:\x\614026.png");
+                pictureBox7.LoadAsync(@"F:\x\614027.png");
+                pictureBox8.LoadAsync(@"F:\x\614028.png");
             }
             if (label1.Text == "8")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614029.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614030.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614031.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614032.png");
+                pictureBox6.LoadAsync(@"F:\x\614029.png");
+                pictureBox1.LoadAsync(@"F:\x\614030.png");
+                pictureBox7.LoadAsync(@"F:\x\614031.png");
+                pictureBox8.LoadAsync(@"F:\x\614032.png");
             }
             if (label1.Text == "9")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614033.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614034.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614035.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614036.png");
+                pictureBox6.LoadAsync(@"F:\x\614033.png");
+                pictureBox1.LoadAsync(@"F:\x\614034.png");
+                pictureBox7.LoadAsync(@"F:\x\614035.png");
+                pictureBox8.LoadAsync(@"F:\x\614036.png");
             }
             if (label1.Text == "10")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614037.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614038.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614039.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614040.png");
+                pictureBox6.LoadAsync(@"F:\x\614037.png");
+                pictureBox1.LoadAsync(@"F:\x\614038.png");
+                pictureBox7.LoadAsync(@"F:\x\614039.png");
+                pictureBox8.LoadAsync(@"F:\x\614040.png");
             }
             if (label1.Text == "11")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614041.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614042.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614043.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614044.png");
+                pictureBox6.LoadAsync(@"F:\x\614041.png");
+                pictureBox1.LoadAsync(@"F:\x\614042.png");
+                pictureBox7.LoadAsync(@"F:\x\614043.png");
+                pictureBox8.LoadAsync(@"F:\x\614044.png");
             }
             if (label1.Text == "12")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614045.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614046.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614047.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614048.png");
+                pictureBox6.LoadAsync(@"F:\x\614045.png");
+                pictureBox1.LoadAsync(@"F:\x\614046.png");
+                pictureBox7.LoadAsync(@"F:\x\614047.png");
+                pictureBox8.LoadAsync(@"F:\x\614048.png");
             }
             if (label1.Text == "13")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614049.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614050.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614051.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614052.png");
+                pictureBox6.LoadAsync(@"F:\x\614049.png");
+                pictureBox1.LoadAsync(@"F:\x\614050.png");
+                pictureBox7.LoadAsync(@"F:\x\614051.png");
+                pictureBox8.LoadAsync(@"F:\x\614052.png");
             }
             if (label1.Text == "14")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614053.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614054.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614055.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614056.png");
+                pictureBox6.LoadAsync(@"F:\x\614053.png");
+                pictureBox1.LoadAsync(@"F:\x\614054.png");
+                pictureBox7.LoadAsync(@"F:\x\614055.png");
+                pictureBox8.LoadAsync(@"F:\x\614056.png");
             }
             if (label1.Text == "15")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614057.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614058.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614059.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614060.png");
+                pictureBox6.LoadAsync(@"F:\x\614057.png");
+                pictureBox1.LoadAsync(@"F:\x\614058.png");
+                pictureBox7.LoadAsync(@"F:\x\614059.png");
+                pictureBox8.LoadAsync(@"F:\x\614060.png");
             }
             if (label1.Text == "16")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614061.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614062.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614063.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614064.png");
+                pictureBox6.LoadAsync(@"F:\x\614061.png");
+                pictureBox1.LoadAsync(@"F:\x\614062.png");
+                pictureBox7.LoadAsync(@"F:\x\614063.png");
+                pictureBox8.LoadAsync(@"F:\x\614064.png");
             }
 
         }
@@ -992,108 +992,108 @@ namespace coffe_house
             label1.Text = Convert.ToString(num);
             if (label1.Text == "2")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614005.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614006.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614007.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614008.png");
+                pictureBox6.LoadAsync(@"F:\x\614005.png");
+                pictureBox1.LoadAsync(@"F:\x\614006.png");
+                pictureBox7.LoadAsync(@"F:\x\614007.png");
+                pictureBox8.LoadAsync(@"F:\x\614008.png");
             }
             if (label1.Text == "3")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614009.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614010.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614011.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614012.png");
+                pictureBox6.LoadAsync(@"F:\x\614009.png");
+                pictureBox1.LoadAsync(@"F:\x\614010.png");
+                pictureBox7.LoadAsync(@"F:\x\614011.png");
+                pictureBox8.LoadAsync(@"F:\x\614012.png");
             }
             if (label1.Text == "4")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614013.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614014.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614015.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614016.png");
+                pictureBox6.LoadAsync(@"F:\x\614013.png");
+                pictureBox1.LoadAsync(@"F:\x\614014.png");
+                pictureBox7.LoadAsync(@"F:\x\614015.png");
+                pictureBox8.LoadAsync(@"F:\x\614016.png");
             }
             if (label1.Text == "5")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614017.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614018.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614019.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614020.png");
+                pictureBox6.LoadAsync(@"F:\x\614017.png");
+                pictureBox1.LoadAsync(@"F:\x\614018.png");
+                pictureBox7.LoadAsync(@"F:\x\614019.png");
+                pictureBox8.LoadAsync(@"F:\x\614020.png");
             }
             if (label1.Text == "6")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614021.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614022.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614023.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614024.png");
+                pictureBox6.LoadAsync(@"F:\x\614021.png");
+                pictureBox1.LoadAsync(@"F:\x\614022.png");
+                pictureBox7.LoadAsync(@"F:\x\614023.png");
+                pictureBox8.LoadAsync(@"F:\x\614024.png");
             }
             if (label1.Text == "7")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614025.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614026.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614027.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614028.png");
+                pictureBox6.LoadAsync(@"F:\x\614025.png");
+                pictureBox1.LoadAsync(@"F:\x\614026.png");
+                pictureBox7.LoadAsync(@"F:\x\614027.png");
+                pictureBox8.LoadAsync(@"F:\x\614028.png");
             }
             if (label1.Text == "8")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614029.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614030.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614031.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614032.png");
+                pictureBox6.LoadAsync(@"F:\x\614029.png");
+                pictureBox1.LoadAsync(@"F:\x\614030.png");
+                pictureBox7.LoadAsync(@"F:\x\614031.png");
+                pictureBox8.LoadAsync(@"F:\x\614032.png");
             }
             if (label1.Text == "9")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614033.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614034.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614035.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614036.png");
+                pictureBox6.LoadAsync(@"F:\x\614033.png");
+                pictureBox1.LoadAsync(@"F:\x\614034.png");
+                pictureBox7.LoadAsync(@"F:\x\614035.png");
+                pictureBox8.LoadAsync(@"F:\x\614036.png");
             }
             if (label1.Text == "10")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614037.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614038.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614039.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614040.png");
+                pictureBox6.LoadAsync(@"F:\x\614037.png");
+                pictureBox1.LoadAsync(@"F:\x\614038.png");
+                pictureBox7.LoadAsync(@"F:\x\614039.png");
+                pictureBox8.LoadAsync(@"F:\x\614040.png");
             }
             if (label1.Text == "11")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614041.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614042.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614043.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614044.png");
+                pictureBox6.LoadAsync(@"F:\x\614041.png");
+                pictureBox1.LoadAsync(@"F:\x\614042.png");
+                pictureBox7.LoadAsync(@"F:\x\614043.png");
+                pictureBox8.LoadAsync(@"F:\x\614044.png");
             }
             if (label1.Text == "12")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614045.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614046.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614047.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614048.png");
+                pictureBox6.LoadAsync(@"F:\x\614045.png");
+                pictureBox1.LoadAsync(@"F:\x\614046.png");
+                pictureBox7.LoadAsync(@"F:\x\614047.png");
+                pictureBox8.LoadAsync(@"F:\x\614048.png");
             }
             if (label1.Text == "13")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614049.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614050.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614051.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614052.png");
+                pictureBox6.LoadAsync(@"F:\x\614049.png");
+                pictureBox1.LoadAsync(@"F:\x\614050.png");
+                pictureBox7.LoadAsync(@"F:\x\614051.png");
+                pictureBox8.LoadAsync(@"F:\x\614052.png");
             }
             if (label1.Text == "14")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614053.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614054.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614055.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614056.png");
+                pictureBox6.LoadAsync(@"F:\x\614053.png");
+                pictureBox1.LoadAsync(@"F:\x\614054.png");
+                pictureBox7.LoadAsync(@"F:\x\614055.png");
+                pictureBox8.LoadAsync(@"F:\x\614056.png");
             }
             if (label1.Text == "15")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614057.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614058.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614059.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614060.png");
+                pictureBox6.LoadAsync(@"F:\x\614057.png");
+                pictureBox1.LoadAsync(@"F:\x\614058.png");
+                pictureBox7.LoadAsync(@"F:\x\614059.png");
+                pictureBox8.LoadAsync(@"F:\x\614060.png");
             }
             if (label1.Text == "16")
             {
-                pictureBox6.LoadAsync(@"C:\Users\chan\Pictures\x\614061.png");
-                pictureBox1.LoadAsync(@"C:\Users\chan\Pictures\x\614062.png");
-                pictureBox7.LoadAsync(@"C:\Users\chan\Pictures\x\614063.png");
-                pictureBox8.LoadAsync(@"C:\Users\chan\Pictures\x\614064.png");
+                pictureBox6.LoadAsync(@"F:\x\614061.png");
+                pictureBox1.LoadAsync(@"F:\x\614062.png");
+                pictureBox7.LoadAsync(@"F:\x\614063.png");
+                pictureBox8.LoadAsync(@"F:\x\614064.png");
             }
         }
 
