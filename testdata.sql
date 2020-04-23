@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 21, 2020 at 04:12 PM
+-- Generation Time: Apr 21, 2020 at 05:22 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.4
 
@@ -39,7 +39,12 @@ CREATE TABLE `basket` (
 INSERT INTO `basket` (`ProductID`, `Quantity`) VALUES
 (614007, 1),
 (614011, 1),
-(614015, 1);
+(614015, 1),
+(614021, 1),
+(614003, 1),
+(614002, 1),
+(614004, 1),
+(614010, 1);
 
 -- --------------------------------------------------------
 
@@ -131,30 +136,30 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`ProductID`, `ProductName`, `Price`, `ProductDetail`) VALUES
-(614001, 'aaa', 145, '1.100% Brand New'),
-(614002, 'bbb', 200, 'Material:  TPU '),
-(614003, 'ccc', 520, 'Compatible Phone Model: For iPhone 6 6s 7 8 X 6Plus 6sPlus 7Plus 8Plus XR XSmax XS 11 11pro max'),
-(614004, 'ddd', 100, 'Fashion design, easy to put on and easy to take off.'),
-(614005, 'eee', 564, 'Perfectly fits the shape.'),
-(614006, 'rr', 250, 'awr'),
-(614007, 'awer', 612, 'awer'),
-(614008, 'gdfrtyy', 652, 'ert'),
-(614009, 'gfg', 100, 'ert'),
-(614010, 'ury6r5', 452, 'tiy7'),
-(614011, 'tyhj', 230, '6yr56'),
-(614012, 'dffre', 120, 'tfhr'),
-(614013, 'ergde', 123, 'rt6hy'),
-(614014, 'erge', 110, 'fghnjfg'),
-(614015, 'dfgvds', 230, 'dgrf'),
-(614016, 'fsf', 450, 'e5thy'),
-(614017, 'rhyrt', 230, 'sdfg'),
-(614018, 'wsf', 780, 'sadafwesf'),
-(614019, 'dsvsd', 150, 'drfgdr'),
-(614020, 'dfbvd', 321, 'dfgd'),
-(614021, 'dfer', 89, 'ghrt'),
-(614022, 'ergt', 189, 'drgfer'),
-(614023, 'sdfg', 159, 'sedf'),
-(614024, 'sef', 658, 'fhttyh');
+(614001, 'LATTE', 95, ''),
+(614002, 'BUBBLE MILK TEA', 85, ''),
+(614003, 'COCOA CHOC', 95, ''),
+(614004, 'CPPUCCINO', 115, ''),
+(614005, 'CROISSANT', 65, ''),
+(614006, 'CUISNE', 169, ''),
+(614007, 'BAKING', 70, ''),
+(614008, 'COOKISE', 69, ''),
+(614009, 'DONUT', 50, ''),
+(614010, 'MAARONG', 109, ''),
+(614011, 'ESPRESSO', 109, ''),
+(614012, 'CHEESE CAKE', 79, ''),
+(614013, 'MATCHA BUBBLE MILK TEA', 99, ''),
+(614014, 'ORIGINAL MILK TEA', 95, ''),
+(614015, 'BROWN SUGAR BUBBLE MILK TEA', 99, ''),
+(614016, 'AMERICANO', 129, ''),
+(614017, 'BLUEBRRY SMOOTHIE', 79, ''),
+(614018, 'COCOA MATCHA TEA', 89, ''),
+(614019, 'TIRAMISU', 115, ''),
+(614020, 'CHOOCLATE CAKE', 115, ''),
+(614021, 'RECIPES', 70, ''),
+(614022, 'BLACK COFFEE', 99, ''),
+(614023, 'STRAWBERRY PIE', 65, ''),
+(614024, 'CUP CAKE', 112, '');
 
 -- --------------------------------------------------------
 
@@ -352,7 +357,7 @@ ALTER TABLE `customers`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `ProductID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6145129;
+  MODIFY `ProductID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=61402019;
 
 --
 -- AUTO_INCREMENT for table `sales`
