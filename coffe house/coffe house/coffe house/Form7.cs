@@ -140,11 +140,13 @@ namespace coffe_house
 
         private void label8_Click(object sender, EventArgs e)
         {
-            var random = new Random();
-            int randomnumber = random.Next(100000, 999999);
-            textBox3.Text = Convert.ToString(randomnumber);
+            
             try
             {
+                var random = new Random();
+                int randomnumber = random.Next(100000, 999999);
+                textBox3.Text = Convert.ToString(randomnumber);
+
                 string sql = "INSERT INTO `customers`(`CustomerID`, `CustomerName`, `Gender`, `CustomerType`, `CustomerTelNo`) VALUES ('"+randomnumber+"','"+textBox2.Text+"','"+comboBox1.Text[0]+"','"+comboBox2.Text+"','"+textBox5.Text+"')";
                 MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
                 MySqlCommand cmd = new MySqlCommand(sql, con1);

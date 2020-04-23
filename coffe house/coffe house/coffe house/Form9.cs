@@ -71,6 +71,10 @@ namespace coffe_house
                             checkloop = 1;
                             staffID.Add(StaffID[i]);
 
+                            Form1 form1 = new Form1();
+                            form1.Hide();
+                            form1.Show();
+
                             Form7 form7 = new Form7();
                             form7.Show();
                             this.Hide();
