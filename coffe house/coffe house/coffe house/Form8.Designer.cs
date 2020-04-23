@@ -34,16 +34,16 @@
             this.label34 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.label55 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.label54 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
+            this.groupBo8 = new System.Windows.Forms.GroupBox();
+            this.labe82 = new System.Windows.Forms.Label();
+            this.labe84 = new System.Windows.Forms.Label();
+            this.labe83 = new System.Windows.Forms.Label();
+            this.labe81 = new System.Windows.Forms.Label();
+            this.groupBo7 = new System.Windows.Forms.GroupBox();
+            this.labe72 = new System.Windows.Forms.Label();
+            this.labe74 = new System.Windows.Forms.Label();
+            this.labe73 = new System.Windows.Forms.Label();
+            this.labe71 = new System.Windows.Forms.Label();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.label53 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
@@ -99,9 +99,95 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label56 = new System.Windows.Forms.Label();
             this.label57 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.groupBo26 = new System.Windows.Forms.GroupBox();
+            this.labe262 = new System.Windows.Forms.Label();
+            this.labe264 = new System.Windows.Forms.Label();
+            this.labe263 = new System.Windows.Forms.Label();
+            this.labe261 = new System.Windows.Forms.Label();
+            this.groupBo25 = new System.Windows.Forms.GroupBox();
+            this.labe252 = new System.Windows.Forms.Label();
+            this.labe254 = new System.Windows.Forms.Label();
+            this.labe253 = new System.Windows.Forms.Label();
+            this.labe251 = new System.Windows.Forms.Label();
+            this.groupBo24 = new System.Windows.Forms.GroupBox();
+            this.labe242 = new System.Windows.Forms.Label();
+            this.labe244 = new System.Windows.Forms.Label();
+            this.labe243 = new System.Windows.Forms.Label();
+            this.labe241 = new System.Windows.Forms.Label();
+            this.groupBo23 = new System.Windows.Forms.GroupBox();
+            this.labe232 = new System.Windows.Forms.Label();
+            this.labe234 = new System.Windows.Forms.Label();
+            this.labe233 = new System.Windows.Forms.Label();
+            this.labe231 = new System.Windows.Forms.Label();
+            this.groupBo22 = new System.Windows.Forms.GroupBox();
+            this.labe222 = new System.Windows.Forms.Label();
+            this.labe224 = new System.Windows.Forms.Label();
+            this.labe223 = new System.Windows.Forms.Label();
+            this.labe221 = new System.Windows.Forms.Label();
+            this.groupBo21 = new System.Windows.Forms.GroupBox();
+            this.labe212 = new System.Windows.Forms.Label();
+            this.labe214 = new System.Windows.Forms.Label();
+            this.labe213 = new System.Windows.Forms.Label();
+            this.labe211 = new System.Windows.Forms.Label();
+            this.groupBo20 = new System.Windows.Forms.GroupBox();
+            this.labe202 = new System.Windows.Forms.Label();
+            this.labe204 = new System.Windows.Forms.Label();
+            this.labe203 = new System.Windows.Forms.Label();
+            this.labe201 = new System.Windows.Forms.Label();
+            this.groupBo19 = new System.Windows.Forms.GroupBox();
+            this.labe192 = new System.Windows.Forms.Label();
+            this.labe194 = new System.Windows.Forms.Label();
+            this.labe193 = new System.Windows.Forms.Label();
+            this.labe191 = new System.Windows.Forms.Label();
+            this.groupBo18 = new System.Windows.Forms.GroupBox();
+            this.labe182 = new System.Windows.Forms.Label();
+            this.labe184 = new System.Windows.Forms.Label();
+            this.labe183 = new System.Windows.Forms.Label();
+            this.labe181 = new System.Windows.Forms.Label();
+            this.groupBo17 = new System.Windows.Forms.GroupBox();
+            this.labe172 = new System.Windows.Forms.Label();
+            this.labe174 = new System.Windows.Forms.Label();
+            this.labe173 = new System.Windows.Forms.Label();
+            this.labe171 = new System.Windows.Forms.Label();
+            this.groupBo6 = new System.Windows.Forms.GroupBox();
+            this.labe62 = new System.Windows.Forms.Label();
+            this.labe64 = new System.Windows.Forms.Label();
+            this.labe63 = new System.Windows.Forms.Label();
+            this.labe61 = new System.Windows.Forms.Label();
+            this.groupBo5 = new System.Windows.Forms.GroupBox();
+            this.labe52 = new System.Windows.Forms.Label();
+            this.labe54 = new System.Windows.Forms.Label();
+            this.labe53 = new System.Windows.Forms.Label();
+            this.labe51 = new System.Windows.Forms.Label();
+            this.groupBo4 = new System.Windows.Forms.GroupBox();
+            this.labe42 = new System.Windows.Forms.Label();
+            this.labe44 = new System.Windows.Forms.Label();
+            this.labe43 = new System.Windows.Forms.Label();
+            this.labe41 = new System.Windows.Forms.Label();
+            this.groupBo3 = new System.Windows.Forms.GroupBox();
+            this.labe32 = new System.Windows.Forms.Label();
+            this.labe34 = new System.Windows.Forms.Label();
+            this.labe33 = new System.Windows.Forms.Label();
+            this.labe31 = new System.Windows.Forms.Label();
+            this.groupBo2 = new System.Windows.Forms.GroupBox();
+            this.labe22 = new System.Windows.Forms.Label();
+            this.labe24 = new System.Windows.Forms.Label();
+            this.labe23 = new System.Windows.Forms.Label();
+            this.labe21 = new System.Windows.Forms.Label();
+            this.groupBo1 = new System.Windows.Forms.GroupBox();
+            this.labe12 = new System.Windows.Forms.Label();
+            this.labe14 = new System.Windows.Forms.Label();
+            this.labe13 = new System.Windows.Forms.Label();
+            this.labe11 = new System.Windows.Forms.Label();
+            this.groupBo9 = new System.Windows.Forms.GroupBox();
+            this.labe92 = new System.Windows.Forms.Label();
+            this.labe94 = new System.Windows.Forms.Label();
+            this.labe93 = new System.Windows.Forms.Label();
+            this.labe91 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.groupBox9.SuspendLayout();
-            this.groupBox8.SuspendLayout();
+            this.groupBo8.SuspendLayout();
+            this.groupBo7.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -109,6 +195,24 @@
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.groupBo26.SuspendLayout();
+            this.groupBo25.SuspendLayout();
+            this.groupBo24.SuspendLayout();
+            this.groupBo23.SuspendLayout();
+            this.groupBo22.SuspendLayout();
+            this.groupBo21.SuspendLayout();
+            this.groupBo20.SuspendLayout();
+            this.groupBo19.SuspendLayout();
+            this.groupBo18.SuspendLayout();
+            this.groupBo17.SuspendLayout();
+            this.groupBo6.SuspendLayout();
+            this.groupBo5.SuspendLayout();
+            this.groupBo4.SuspendLayout();
+            this.groupBo3.SuspendLayout();
+            this.groupBo2.SuspendLayout();
+            this.groupBo1.SuspendLayout();
+            this.groupBo9.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox2
@@ -153,7 +257,7 @@
             this.label32.AutoSize = true;
             this.label32.BackColor = System.Drawing.Color.Transparent;
             this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(235, 407);
+            this.label32.Location = new System.Drawing.Point(243, 407);
             this.label32.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(25, 15);
@@ -172,113 +276,113 @@
             this.label31.TabIndex = 73;
             this.label31.Text = "Total";
             // 
-            // groupBox9
+            // groupBo8
             // 
-            this.groupBox9.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox9.Controls.Add(this.label55);
-            this.groupBox9.Controls.Add(this.label28);
-            this.groupBox9.Controls.Add(this.label29);
-            this.groupBox9.Controls.Add(this.label30);
-            this.groupBox9.Location = new System.Drawing.Point(43, 379);
-            this.groupBox9.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox9.Size = new System.Drawing.Size(298, 24);
-            this.groupBox9.TabIndex = 72;
-            this.groupBox9.TabStop = false;
+            this.groupBo8.BackColor = System.Drawing.Color.Transparent;
+            this.groupBo8.Controls.Add(this.labe82);
+            this.groupBo8.Controls.Add(this.labe84);
+            this.groupBo8.Controls.Add(this.labe83);
+            this.groupBo8.Controls.Add(this.labe81);
+            this.groupBo8.Location = new System.Drawing.Point(8, 234);
+            this.groupBo8.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBo8.Name = "groupBo8";
+            this.groupBo8.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBo8.Size = new System.Drawing.Size(284, 24);
+            this.groupBo8.TabIndex = 72;
+            this.groupBo8.TabStop = false;
             // 
-            // label55
+            // labe82
             // 
-            this.label55.AutoSize = true;
-            this.label55.Location = new System.Drawing.Point(50, 7);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(41, 13);
-            this.label55.TabIndex = 44;
-            this.label55.Text = "label55";
+            this.labe82.AutoSize = true;
+            this.labe82.Location = new System.Drawing.Point(50, 7);
+            this.labe82.Name = "labe82";
+            this.labe82.Size = new System.Drawing.Size(41, 13);
+            this.labe82.TabIndex = 44;
+            this.labe82.Text = "label55";
             // 
-            // label28
+            // labe84
             // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(257, 7);
-            this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(38, 13);
-            this.label28.TabIndex = 43;
-            this.label28.Text = "ไม่ระบุ";
+            this.labe84.AutoSize = true;
+            this.labe84.Location = new System.Drawing.Point(246, 7);
+            this.labe84.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe84.Name = "labe84";
+            this.labe84.Size = new System.Drawing.Size(38, 13);
+            this.labe84.TabIndex = 43;
+            this.labe84.Text = "ไม่ระบุ";
             // 
-            // label29
+            // labe83
             // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(200, 7);
-            this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(14, 13);
-            this.label29.TabIndex = 42;
-            this.label29.Text = "X";
+            this.labe83.AutoSize = true;
+            this.labe83.Location = new System.Drawing.Point(200, 7);
+            this.labe83.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe83.Name = "labe83";
+            this.labe83.Size = new System.Drawing.Size(14, 13);
+            this.labe83.TabIndex = 42;
+            this.labe83.Text = "X";
             // 
-            // label30
+            // labe81
             // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(4, 7);
-            this.label30.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(26, 13);
-            this.label30.TabIndex = 41;
-            this.label30.Text = "ชื่อ1";
+            this.labe81.AutoSize = true;
+            this.labe81.Location = new System.Drawing.Point(4, 7);
+            this.labe81.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe81.Name = "labe81";
+            this.labe81.Size = new System.Drawing.Size(26, 13);
+            this.labe81.TabIndex = 41;
+            this.labe81.Text = "ชื่อ1";
             // 
-            // groupBox8
+            // groupBo7
             // 
-            this.groupBox8.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox8.Controls.Add(this.label54);
-            this.groupBox8.Controls.Add(this.label25);
-            this.groupBox8.Controls.Add(this.label26);
-            this.groupBox8.Controls.Add(this.label27);
-            this.groupBox8.Location = new System.Drawing.Point(43, 352);
-            this.groupBox8.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox8.Size = new System.Drawing.Size(298, 24);
-            this.groupBox8.TabIndex = 71;
-            this.groupBox8.TabStop = false;
+            this.groupBo7.BackColor = System.Drawing.Color.Transparent;
+            this.groupBo7.Controls.Add(this.labe72);
+            this.groupBo7.Controls.Add(this.labe74);
+            this.groupBo7.Controls.Add(this.labe73);
+            this.groupBo7.Controls.Add(this.labe71);
+            this.groupBo7.Location = new System.Drawing.Point(8, 207);
+            this.groupBo7.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBo7.Name = "groupBo7";
+            this.groupBo7.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBo7.Size = new System.Drawing.Size(284, 24);
+            this.groupBo7.TabIndex = 71;
+            this.groupBo7.TabStop = false;
             // 
-            // label54
+            // labe72
             // 
-            this.label54.AutoSize = true;
-            this.label54.Location = new System.Drawing.Point(50, 7);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(41, 13);
-            this.label54.TabIndex = 44;
-            this.label54.Text = "label54";
+            this.labe72.AutoSize = true;
+            this.labe72.Location = new System.Drawing.Point(50, 7);
+            this.labe72.Name = "labe72";
+            this.labe72.Size = new System.Drawing.Size(41, 13);
+            this.labe72.TabIndex = 44;
+            this.labe72.Text = "label54";
             // 
-            // label25
+            // labe74
             // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(257, 7);
-            this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(38, 13);
-            this.label25.TabIndex = 43;
-            this.label25.Text = "ไม่ระบุ";
+            this.labe74.AutoSize = true;
+            this.labe74.Location = new System.Drawing.Point(246, 7);
+            this.labe74.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe74.Name = "labe74";
+            this.labe74.Size = new System.Drawing.Size(38, 13);
+            this.labe74.TabIndex = 43;
+            this.labe74.Text = "ไม่ระบุ";
             // 
-            // label26
+            // labe73
             // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(200, 7);
-            this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(14, 13);
-            this.label26.TabIndex = 42;
-            this.label26.Text = "X";
+            this.labe73.AutoSize = true;
+            this.labe73.Location = new System.Drawing.Point(200, 7);
+            this.labe73.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe73.Name = "labe73";
+            this.labe73.Size = new System.Drawing.Size(14, 13);
+            this.labe73.TabIndex = 42;
+            this.labe73.Text = "X";
             // 
-            // label27
+            // labe71
             // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(4, 7);
-            this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(26, 13);
-            this.label27.TabIndex = 41;
-            this.label27.Text = "ชื่อ1";
+            this.labe71.AutoSize = true;
+            this.labe71.Location = new System.Drawing.Point(4, 7);
+            this.labe71.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe71.Name = "labe71";
+            this.labe71.Size = new System.Drawing.Size(26, 13);
+            this.labe71.TabIndex = 41;
+            this.labe71.Text = "ชื่อ1";
             // 
             // groupBox7
             // 
@@ -287,11 +391,11 @@
             this.groupBox7.Controls.Add(this.label22);
             this.groupBox7.Controls.Add(this.label23);
             this.groupBox7.Controls.Add(this.label24);
-            this.groupBox7.Location = new System.Drawing.Point(43, 324);
+            this.groupBox7.Location = new System.Drawing.Point(8, 179);
             this.groupBox7.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox7.Size = new System.Drawing.Size(298, 24);
+            this.groupBox7.Size = new System.Drawing.Size(284, 24);
             this.groupBox7.TabIndex = 70;
             this.groupBox7.TabStop = false;
             // 
@@ -307,7 +411,7 @@
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(255, 7);
+            this.label22.Location = new System.Drawing.Point(244, 7);
             this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(38, 13);
@@ -341,11 +445,11 @@
             this.groupBox6.Controls.Add(this.label19);
             this.groupBox6.Controls.Add(this.label20);
             this.groupBox6.Controls.Add(this.label21);
-            this.groupBox6.Location = new System.Drawing.Point(43, 296);
+            this.groupBox6.Location = new System.Drawing.Point(8, 151);
             this.groupBox6.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox6.Size = new System.Drawing.Size(298, 24);
+            this.groupBox6.Size = new System.Drawing.Size(284, 24);
             this.groupBox6.TabIndex = 69;
             this.groupBox6.TabStop = false;
             // 
@@ -361,7 +465,7 @@
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(257, 7);
+            this.label19.Location = new System.Drawing.Point(246, 7);
             this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(38, 13);
@@ -395,11 +499,11 @@
             this.groupBox4.Controls.Add(this.label13);
             this.groupBox4.Controls.Add(this.label14);
             this.groupBox4.Controls.Add(this.label15);
-            this.groupBox4.Location = new System.Drawing.Point(43, 268);
+            this.groupBox4.Location = new System.Drawing.Point(8, 123);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox4.Size = new System.Drawing.Size(298, 24);
+            this.groupBox4.Size = new System.Drawing.Size(284, 24);
             this.groupBox4.TabIndex = 68;
             this.groupBox4.TabStop = false;
             // 
@@ -415,7 +519,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(257, 7);
+            this.label13.Location = new System.Drawing.Point(246, 7);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(38, 13);
@@ -449,11 +553,11 @@
             this.groupBox5.Controls.Add(this.label16);
             this.groupBox5.Controls.Add(this.label17);
             this.groupBox5.Controls.Add(this.label18);
-            this.groupBox5.Location = new System.Drawing.Point(43, 239);
+            this.groupBox5.Location = new System.Drawing.Point(8, 94);
             this.groupBox5.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox5.Size = new System.Drawing.Size(298, 24);
+            this.groupBox5.Size = new System.Drawing.Size(284, 24);
             this.groupBox5.TabIndex = 67;
             this.groupBox5.TabStop = false;
             // 
@@ -469,7 +573,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(257, 7);
+            this.label16.Location = new System.Drawing.Point(246, 7);
             this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(38, 13);
@@ -503,11 +607,11 @@
             this.groupBox3.Controls.Add(this.label10);
             this.groupBox3.Controls.Add(this.label11);
             this.groupBox3.Controls.Add(this.label12);
-            this.groupBox3.Location = new System.Drawing.Point(43, 210);
+            this.groupBox3.Location = new System.Drawing.Point(8, 65);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox3.Size = new System.Drawing.Size(298, 24);
+            this.groupBox3.Size = new System.Drawing.Size(284, 24);
             this.groupBox3.TabIndex = 66;
             this.groupBox3.TabStop = false;
             // 
@@ -523,7 +627,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(257, 7);
+            this.label10.Location = new System.Drawing.Point(246, 7);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(38, 13);
@@ -557,11 +661,11 @@
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Location = new System.Drawing.Point(43, 183);
+            this.groupBox2.Location = new System.Drawing.Point(8, 38);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox2.Size = new System.Drawing.Size(298, 24);
+            this.groupBox2.Size = new System.Drawing.Size(284, 24);
             this.groupBox2.TabIndex = 65;
             this.groupBox2.TabStop = false;
             // 
@@ -577,7 +681,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(257, 7);
+            this.label7.Location = new System.Drawing.Point(246, 7);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(38, 13);
@@ -611,11 +715,11 @@
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Location = new System.Drawing.Point(43, 153);
+            this.groupBox1.Location = new System.Drawing.Point(8, 8);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox1.Size = new System.Drawing.Size(298, 24);
+            this.groupBox1.Size = new System.Drawing.Size(284, 24);
             this.groupBox1.TabIndex = 64;
             this.groupBox1.TabStop = false;
             // 
@@ -631,7 +735,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(257, 7);
+            this.label6.Location = new System.Drawing.Point(246, 7);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(38, 13);
@@ -677,7 +781,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(226, 132);
+            this.label2.Location = new System.Drawing.Point(214, 135);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(62, 17);
@@ -903,6 +1007,959 @@
             this.label57.TabIndex = 92;
             this.label57.Text = "label57";
             // 
+            // panel1
+            // 
+            this.panel1.AutoScroll = true;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Controls.Add(this.groupBox1);
+            this.panel1.Controls.Add(this.groupBox2);
+            this.panel1.Controls.Add(this.groupBox3);
+            this.panel1.Controls.Add(this.groupBox5);
+            this.panel1.Controls.Add(this.groupBo26);
+            this.panel1.Controls.Add(this.groupBox4);
+            this.panel1.Controls.Add(this.groupBox6);
+            this.panel1.Controls.Add(this.groupBox7);
+            this.panel1.Controls.Add(this.groupBo7);
+            this.panel1.Controls.Add(this.groupBo25);
+            this.panel1.Controls.Add(this.groupBo24);
+            this.panel1.Controls.Add(this.groupBo23);
+            this.panel1.Controls.Add(this.groupBo22);
+            this.panel1.Controls.Add(this.groupBo21);
+            this.panel1.Controls.Add(this.groupBo20);
+            this.panel1.Controls.Add(this.groupBo19);
+            this.panel1.Controls.Add(this.groupBo18);
+            this.panel1.Controls.Add(this.groupBo17);
+            this.panel1.Controls.Add(this.groupBo6);
+            this.panel1.Controls.Add(this.groupBo5);
+            this.panel1.Controls.Add(this.groupBo4);
+            this.panel1.Controls.Add(this.groupBo3);
+            this.panel1.Controls.Add(this.groupBo2);
+            this.panel1.Controls.Add(this.groupBo1);
+            this.panel1.Controls.Add(this.groupBo9);
+            this.panel1.Controls.Add(this.groupBo8);
+            this.panel1.Location = new System.Drawing.Point(35, 151);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(317, 249);
+            this.panel1.TabIndex = 93;
+            // 
+            // groupBo26
+            // 
+            this.groupBo26.BackColor = System.Drawing.Color.Transparent;
+            this.groupBo26.Controls.Add(this.labe262);
+            this.groupBo26.Controls.Add(this.labe264);
+            this.groupBo26.Controls.Add(this.labe263);
+            this.groupBo26.Controls.Add(this.labe261);
+            this.groupBo26.Location = new System.Drawing.Point(8, 710);
+            this.groupBo26.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBo26.Name = "groupBo26";
+            this.groupBo26.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBo26.Size = new System.Drawing.Size(284, 24);
+            this.groupBo26.TabIndex = 72;
+            this.groupBo26.TabStop = false;
+            // 
+            // labe262
+            // 
+            this.labe262.AutoSize = true;
+            this.labe262.Location = new System.Drawing.Point(50, 7);
+            this.labe262.Name = "labe262";
+            this.labe262.Size = new System.Drawing.Size(41, 13);
+            this.labe262.TabIndex = 44;
+            this.labe262.Text = "label55";
+            // 
+            // labe264
+            // 
+            this.labe264.AutoSize = true;
+            this.labe264.Location = new System.Drawing.Point(246, 7);
+            this.labe264.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe264.Name = "labe264";
+            this.labe264.Size = new System.Drawing.Size(38, 13);
+            this.labe264.TabIndex = 43;
+            this.labe264.Text = "ไม่ระบุ";
+            // 
+            // labe263
+            // 
+            this.labe263.AutoSize = true;
+            this.labe263.Location = new System.Drawing.Point(200, 7);
+            this.labe263.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe263.Name = "labe263";
+            this.labe263.Size = new System.Drawing.Size(14, 13);
+            this.labe263.TabIndex = 42;
+            this.labe263.Text = "X";
+            // 
+            // labe261
+            // 
+            this.labe261.AutoSize = true;
+            this.labe261.Location = new System.Drawing.Point(4, 7);
+            this.labe261.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe261.Name = "labe261";
+            this.labe261.Size = new System.Drawing.Size(26, 13);
+            this.labe261.TabIndex = 41;
+            this.labe261.Text = "ชื่อ1";
+            // 
+            // groupBo25
+            // 
+            this.groupBo25.BackColor = System.Drawing.Color.Transparent;
+            this.groupBo25.Controls.Add(this.labe252);
+            this.groupBo25.Controls.Add(this.labe254);
+            this.groupBo25.Controls.Add(this.labe253);
+            this.groupBo25.Controls.Add(this.labe251);
+            this.groupBo25.Location = new System.Drawing.Point(8, 682);
+            this.groupBo25.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBo25.Name = "groupBo25";
+            this.groupBo25.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBo25.Size = new System.Drawing.Size(284, 24);
+            this.groupBo25.TabIndex = 72;
+            this.groupBo25.TabStop = false;
+            // 
+            // labe252
+            // 
+            this.labe252.AutoSize = true;
+            this.labe252.Location = new System.Drawing.Point(50, 7);
+            this.labe252.Name = "labe252";
+            this.labe252.Size = new System.Drawing.Size(41, 13);
+            this.labe252.TabIndex = 44;
+            this.labe252.Text = "label55";
+            // 
+            // labe254
+            // 
+            this.labe254.AutoSize = true;
+            this.labe254.Location = new System.Drawing.Point(246, 7);
+            this.labe254.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe254.Name = "labe254";
+            this.labe254.Size = new System.Drawing.Size(38, 13);
+            this.labe254.TabIndex = 43;
+            this.labe254.Text = "ไม่ระบุ";
+            // 
+            // labe253
+            // 
+            this.labe253.AutoSize = true;
+            this.labe253.Location = new System.Drawing.Point(200, 7);
+            this.labe253.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe253.Name = "labe253";
+            this.labe253.Size = new System.Drawing.Size(14, 13);
+            this.labe253.TabIndex = 42;
+            this.labe253.Text = "X";
+            // 
+            // labe251
+            // 
+            this.labe251.AutoSize = true;
+            this.labe251.Location = new System.Drawing.Point(4, 7);
+            this.labe251.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe251.Name = "labe251";
+            this.labe251.Size = new System.Drawing.Size(26, 13);
+            this.labe251.TabIndex = 41;
+            this.labe251.Text = "ชื่อ1";
+            // 
+            // groupBo24
+            // 
+            this.groupBo24.BackColor = System.Drawing.Color.Transparent;
+            this.groupBo24.Controls.Add(this.labe242);
+            this.groupBo24.Controls.Add(this.labe244);
+            this.groupBo24.Controls.Add(this.labe243);
+            this.groupBo24.Controls.Add(this.labe241);
+            this.groupBo24.Location = new System.Drawing.Point(8, 654);
+            this.groupBo24.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBo24.Name = "groupBo24";
+            this.groupBo24.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBo24.Size = new System.Drawing.Size(284, 24);
+            this.groupBo24.TabIndex = 72;
+            this.groupBo24.TabStop = false;
+            // 
+            // labe242
+            // 
+            this.labe242.AutoSize = true;
+            this.labe242.Location = new System.Drawing.Point(50, 7);
+            this.labe242.Name = "labe242";
+            this.labe242.Size = new System.Drawing.Size(41, 13);
+            this.labe242.TabIndex = 44;
+            this.labe242.Text = "label55";
+            // 
+            // labe244
+            // 
+            this.labe244.AutoSize = true;
+            this.labe244.Location = new System.Drawing.Point(246, 7);
+            this.labe244.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe244.Name = "labe244";
+            this.labe244.Size = new System.Drawing.Size(38, 13);
+            this.labe244.TabIndex = 43;
+            this.labe244.Text = "ไม่ระบุ";
+            // 
+            // labe243
+            // 
+            this.labe243.AutoSize = true;
+            this.labe243.Location = new System.Drawing.Point(200, 7);
+            this.labe243.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe243.Name = "labe243";
+            this.labe243.Size = new System.Drawing.Size(14, 13);
+            this.labe243.TabIndex = 42;
+            this.labe243.Text = "X";
+            // 
+            // labe241
+            // 
+            this.labe241.AutoSize = true;
+            this.labe241.Location = new System.Drawing.Point(4, 7);
+            this.labe241.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe241.Name = "labe241";
+            this.labe241.Size = new System.Drawing.Size(26, 13);
+            this.labe241.TabIndex = 41;
+            this.labe241.Text = "ชื่อ1";
+            // 
+            // groupBo23
+            // 
+            this.groupBo23.BackColor = System.Drawing.Color.Transparent;
+            this.groupBo23.Controls.Add(this.labe232);
+            this.groupBo23.Controls.Add(this.labe234);
+            this.groupBo23.Controls.Add(this.labe233);
+            this.groupBo23.Controls.Add(this.labe231);
+            this.groupBo23.Location = new System.Drawing.Point(8, 626);
+            this.groupBo23.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBo23.Name = "groupBo23";
+            this.groupBo23.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBo23.Size = new System.Drawing.Size(284, 24);
+            this.groupBo23.TabIndex = 72;
+            this.groupBo23.TabStop = false;
+            // 
+            // labe232
+            // 
+            this.labe232.AutoSize = true;
+            this.labe232.Location = new System.Drawing.Point(50, 7);
+            this.labe232.Name = "labe232";
+            this.labe232.Size = new System.Drawing.Size(41, 13);
+            this.labe232.TabIndex = 44;
+            this.labe232.Text = "label55";
+            // 
+            // labe234
+            // 
+            this.labe234.AutoSize = true;
+            this.labe234.Location = new System.Drawing.Point(246, 7);
+            this.labe234.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe234.Name = "labe234";
+            this.labe234.Size = new System.Drawing.Size(38, 13);
+            this.labe234.TabIndex = 43;
+            this.labe234.Text = "ไม่ระบุ";
+            // 
+            // labe233
+            // 
+            this.labe233.AutoSize = true;
+            this.labe233.Location = new System.Drawing.Point(200, 7);
+            this.labe233.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe233.Name = "labe233";
+            this.labe233.Size = new System.Drawing.Size(14, 13);
+            this.labe233.TabIndex = 42;
+            this.labe233.Text = "X";
+            // 
+            // labe231
+            // 
+            this.labe231.AutoSize = true;
+            this.labe231.Location = new System.Drawing.Point(4, 7);
+            this.labe231.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe231.Name = "labe231";
+            this.labe231.Size = new System.Drawing.Size(26, 13);
+            this.labe231.TabIndex = 41;
+            this.labe231.Text = "ชื่อ1";
+            // 
+            // groupBo22
+            // 
+            this.groupBo22.BackColor = System.Drawing.Color.Transparent;
+            this.groupBo22.Controls.Add(this.labe222);
+            this.groupBo22.Controls.Add(this.labe224);
+            this.groupBo22.Controls.Add(this.labe223);
+            this.groupBo22.Controls.Add(this.labe221);
+            this.groupBo22.Location = new System.Drawing.Point(8, 598);
+            this.groupBo22.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBo22.Name = "groupBo22";
+            this.groupBo22.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBo22.Size = new System.Drawing.Size(284, 24);
+            this.groupBo22.TabIndex = 72;
+            this.groupBo22.TabStop = false;
+            // 
+            // labe222
+            // 
+            this.labe222.AutoSize = true;
+            this.labe222.Location = new System.Drawing.Point(50, 7);
+            this.labe222.Name = "labe222";
+            this.labe222.Size = new System.Drawing.Size(41, 13);
+            this.labe222.TabIndex = 44;
+            this.labe222.Text = "label55";
+            // 
+            // labe224
+            // 
+            this.labe224.AutoSize = true;
+            this.labe224.Location = new System.Drawing.Point(246, 7);
+            this.labe224.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe224.Name = "labe224";
+            this.labe224.Size = new System.Drawing.Size(38, 13);
+            this.labe224.TabIndex = 43;
+            this.labe224.Text = "ไม่ระบุ";
+            // 
+            // labe223
+            // 
+            this.labe223.AutoSize = true;
+            this.labe223.Location = new System.Drawing.Point(200, 7);
+            this.labe223.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe223.Name = "labe223";
+            this.labe223.Size = new System.Drawing.Size(14, 13);
+            this.labe223.TabIndex = 42;
+            this.labe223.Text = "X";
+            // 
+            // labe221
+            // 
+            this.labe221.AutoSize = true;
+            this.labe221.Location = new System.Drawing.Point(4, 7);
+            this.labe221.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe221.Name = "labe221";
+            this.labe221.Size = new System.Drawing.Size(26, 13);
+            this.labe221.TabIndex = 41;
+            this.labe221.Text = "ชื่อ1";
+            // 
+            // groupBo21
+            // 
+            this.groupBo21.BackColor = System.Drawing.Color.Transparent;
+            this.groupBo21.Controls.Add(this.labe212);
+            this.groupBo21.Controls.Add(this.labe214);
+            this.groupBo21.Controls.Add(this.labe213);
+            this.groupBo21.Controls.Add(this.labe211);
+            this.groupBo21.Location = new System.Drawing.Point(8, 570);
+            this.groupBo21.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBo21.Name = "groupBo21";
+            this.groupBo21.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBo21.Size = new System.Drawing.Size(284, 24);
+            this.groupBo21.TabIndex = 72;
+            this.groupBo21.TabStop = false;
+            // 
+            // labe212
+            // 
+            this.labe212.AutoSize = true;
+            this.labe212.Location = new System.Drawing.Point(50, 7);
+            this.labe212.Name = "labe212";
+            this.labe212.Size = new System.Drawing.Size(41, 13);
+            this.labe212.TabIndex = 44;
+            this.labe212.Text = "label55";
+            // 
+            // labe214
+            // 
+            this.labe214.AutoSize = true;
+            this.labe214.Location = new System.Drawing.Point(246, 7);
+            this.labe214.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe214.Name = "labe214";
+            this.labe214.Size = new System.Drawing.Size(38, 13);
+            this.labe214.TabIndex = 43;
+            this.labe214.Text = "ไม่ระบุ";
+            // 
+            // labe213
+            // 
+            this.labe213.AutoSize = true;
+            this.labe213.Location = new System.Drawing.Point(200, 7);
+            this.labe213.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe213.Name = "labe213";
+            this.labe213.Size = new System.Drawing.Size(14, 13);
+            this.labe213.TabIndex = 42;
+            this.labe213.Text = "X";
+            // 
+            // labe211
+            // 
+            this.labe211.AutoSize = true;
+            this.labe211.Location = new System.Drawing.Point(4, 7);
+            this.labe211.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe211.Name = "labe211";
+            this.labe211.Size = new System.Drawing.Size(26, 13);
+            this.labe211.TabIndex = 41;
+            this.labe211.Text = "ชื่อ1";
+            // 
+            // groupBo20
+            // 
+            this.groupBo20.BackColor = System.Drawing.Color.Transparent;
+            this.groupBo20.Controls.Add(this.labe202);
+            this.groupBo20.Controls.Add(this.labe204);
+            this.groupBo20.Controls.Add(this.labe203);
+            this.groupBo20.Controls.Add(this.labe201);
+            this.groupBo20.Location = new System.Drawing.Point(8, 542);
+            this.groupBo20.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBo20.Name = "groupBo20";
+            this.groupBo20.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBo20.Size = new System.Drawing.Size(284, 24);
+            this.groupBo20.TabIndex = 72;
+            this.groupBo20.TabStop = false;
+            // 
+            // labe202
+            // 
+            this.labe202.AutoSize = true;
+            this.labe202.Location = new System.Drawing.Point(50, 7);
+            this.labe202.Name = "labe202";
+            this.labe202.Size = new System.Drawing.Size(41, 13);
+            this.labe202.TabIndex = 44;
+            this.labe202.Text = "label55";
+            // 
+            // labe204
+            // 
+            this.labe204.AutoSize = true;
+            this.labe204.Location = new System.Drawing.Point(246, 7);
+            this.labe204.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe204.Name = "labe204";
+            this.labe204.Size = new System.Drawing.Size(38, 13);
+            this.labe204.TabIndex = 43;
+            this.labe204.Text = "ไม่ระบุ";
+            // 
+            // labe203
+            // 
+            this.labe203.AutoSize = true;
+            this.labe203.Location = new System.Drawing.Point(200, 7);
+            this.labe203.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe203.Name = "labe203";
+            this.labe203.Size = new System.Drawing.Size(14, 13);
+            this.labe203.TabIndex = 42;
+            this.labe203.Text = "X";
+            // 
+            // labe201
+            // 
+            this.labe201.AutoSize = true;
+            this.labe201.Location = new System.Drawing.Point(4, 7);
+            this.labe201.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe201.Name = "labe201";
+            this.labe201.Size = new System.Drawing.Size(26, 13);
+            this.labe201.TabIndex = 41;
+            this.labe201.Text = "ชื่อ1";
+            // 
+            // groupBo19
+            // 
+            this.groupBo19.BackColor = System.Drawing.Color.Transparent;
+            this.groupBo19.Controls.Add(this.labe192);
+            this.groupBo19.Controls.Add(this.labe194);
+            this.groupBo19.Controls.Add(this.labe193);
+            this.groupBo19.Controls.Add(this.labe191);
+            this.groupBo19.Location = new System.Drawing.Point(8, 514);
+            this.groupBo19.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBo19.Name = "groupBo19";
+            this.groupBo19.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBo19.Size = new System.Drawing.Size(284, 24);
+            this.groupBo19.TabIndex = 72;
+            this.groupBo19.TabStop = false;
+            // 
+            // labe192
+            // 
+            this.labe192.AutoSize = true;
+            this.labe192.Location = new System.Drawing.Point(50, 7);
+            this.labe192.Name = "labe192";
+            this.labe192.Size = new System.Drawing.Size(41, 13);
+            this.labe192.TabIndex = 44;
+            this.labe192.Text = "label55";
+            // 
+            // labe194
+            // 
+            this.labe194.AutoSize = true;
+            this.labe194.Location = new System.Drawing.Point(246, 7);
+            this.labe194.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe194.Name = "labe194";
+            this.labe194.Size = new System.Drawing.Size(38, 13);
+            this.labe194.TabIndex = 43;
+            this.labe194.Text = "ไม่ระบุ";
+            // 
+            // labe193
+            // 
+            this.labe193.AutoSize = true;
+            this.labe193.Location = new System.Drawing.Point(200, 7);
+            this.labe193.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe193.Name = "labe193";
+            this.labe193.Size = new System.Drawing.Size(14, 13);
+            this.labe193.TabIndex = 42;
+            this.labe193.Text = "X";
+            // 
+            // labe191
+            // 
+            this.labe191.AutoSize = true;
+            this.labe191.Location = new System.Drawing.Point(4, 7);
+            this.labe191.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe191.Name = "labe191";
+            this.labe191.Size = new System.Drawing.Size(26, 13);
+            this.labe191.TabIndex = 41;
+            this.labe191.Text = "ชื่อ1";
+            // 
+            // groupBo18
+            // 
+            this.groupBo18.BackColor = System.Drawing.Color.Transparent;
+            this.groupBo18.Controls.Add(this.labe182);
+            this.groupBo18.Controls.Add(this.labe184);
+            this.groupBo18.Controls.Add(this.labe183);
+            this.groupBo18.Controls.Add(this.labe181);
+            this.groupBo18.Location = new System.Drawing.Point(8, 486);
+            this.groupBo18.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBo18.Name = "groupBo18";
+            this.groupBo18.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBo18.Size = new System.Drawing.Size(284, 24);
+            this.groupBo18.TabIndex = 72;
+            this.groupBo18.TabStop = false;
+            // 
+            // labe182
+            // 
+            this.labe182.AutoSize = true;
+            this.labe182.Location = new System.Drawing.Point(50, 7);
+            this.labe182.Name = "labe182";
+            this.labe182.Size = new System.Drawing.Size(41, 13);
+            this.labe182.TabIndex = 44;
+            this.labe182.Text = "label55";
+            // 
+            // labe184
+            // 
+            this.labe184.AutoSize = true;
+            this.labe184.Location = new System.Drawing.Point(246, 7);
+            this.labe184.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe184.Name = "labe184";
+            this.labe184.Size = new System.Drawing.Size(38, 13);
+            this.labe184.TabIndex = 43;
+            this.labe184.Text = "ไม่ระบุ";
+            // 
+            // labe183
+            // 
+            this.labe183.AutoSize = true;
+            this.labe183.Location = new System.Drawing.Point(200, 7);
+            this.labe183.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe183.Name = "labe183";
+            this.labe183.Size = new System.Drawing.Size(14, 13);
+            this.labe183.TabIndex = 42;
+            this.labe183.Text = "X";
+            // 
+            // labe181
+            // 
+            this.labe181.AutoSize = true;
+            this.labe181.Location = new System.Drawing.Point(4, 7);
+            this.labe181.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe181.Name = "labe181";
+            this.labe181.Size = new System.Drawing.Size(26, 13);
+            this.labe181.TabIndex = 41;
+            this.labe181.Text = "ชื่อ1";
+            // 
+            // groupBo17
+            // 
+            this.groupBo17.BackColor = System.Drawing.Color.Transparent;
+            this.groupBo17.Controls.Add(this.labe172);
+            this.groupBo17.Controls.Add(this.labe174);
+            this.groupBo17.Controls.Add(this.labe173);
+            this.groupBo17.Controls.Add(this.labe171);
+            this.groupBo17.Location = new System.Drawing.Point(8, 458);
+            this.groupBo17.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBo17.Name = "groupBo17";
+            this.groupBo17.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBo17.Size = new System.Drawing.Size(284, 24);
+            this.groupBo17.TabIndex = 72;
+            this.groupBo17.TabStop = false;
+            // 
+            // labe172
+            // 
+            this.labe172.AutoSize = true;
+            this.labe172.Location = new System.Drawing.Point(50, 7);
+            this.labe172.Name = "labe172";
+            this.labe172.Size = new System.Drawing.Size(41, 13);
+            this.labe172.TabIndex = 44;
+            this.labe172.Text = "label55";
+            // 
+            // labe174
+            // 
+            this.labe174.AutoSize = true;
+            this.labe174.Location = new System.Drawing.Point(246, 7);
+            this.labe174.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe174.Name = "labe174";
+            this.labe174.Size = new System.Drawing.Size(38, 13);
+            this.labe174.TabIndex = 43;
+            this.labe174.Text = "ไม่ระบุ";
+            // 
+            // labe173
+            // 
+            this.labe173.AutoSize = true;
+            this.labe173.Location = new System.Drawing.Point(200, 7);
+            this.labe173.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe173.Name = "labe173";
+            this.labe173.Size = new System.Drawing.Size(14, 13);
+            this.labe173.TabIndex = 42;
+            this.labe173.Text = "X";
+            // 
+            // labe171
+            // 
+            this.labe171.AutoSize = true;
+            this.labe171.Location = new System.Drawing.Point(4, 7);
+            this.labe171.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe171.Name = "labe171";
+            this.labe171.Size = new System.Drawing.Size(26, 13);
+            this.labe171.TabIndex = 41;
+            this.labe171.Text = "ชื่อ1";
+            // 
+            // groupBo6
+            // 
+            this.groupBo6.BackColor = System.Drawing.Color.Transparent;
+            this.groupBo6.Controls.Add(this.labe62);
+            this.groupBo6.Controls.Add(this.labe64);
+            this.groupBo6.Controls.Add(this.labe63);
+            this.groupBo6.Controls.Add(this.labe61);
+            this.groupBo6.Location = new System.Drawing.Point(8, 430);
+            this.groupBo6.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBo6.Name = "groupBo6";
+            this.groupBo6.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBo6.Size = new System.Drawing.Size(284, 24);
+            this.groupBo6.TabIndex = 72;
+            this.groupBo6.TabStop = false;
+            // 
+            // labe62
+            // 
+            this.labe62.AutoSize = true;
+            this.labe62.Location = new System.Drawing.Point(50, 7);
+            this.labe62.Name = "labe62";
+            this.labe62.Size = new System.Drawing.Size(41, 13);
+            this.labe62.TabIndex = 44;
+            this.labe62.Text = "label55";
+            // 
+            // labe64
+            // 
+            this.labe64.AutoSize = true;
+            this.labe64.Location = new System.Drawing.Point(246, 7);
+            this.labe64.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe64.Name = "labe64";
+            this.labe64.Size = new System.Drawing.Size(38, 13);
+            this.labe64.TabIndex = 43;
+            this.labe64.Text = "ไม่ระบุ";
+            // 
+            // labe63
+            // 
+            this.labe63.AutoSize = true;
+            this.labe63.Location = new System.Drawing.Point(200, 7);
+            this.labe63.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe63.Name = "labe63";
+            this.labe63.Size = new System.Drawing.Size(14, 13);
+            this.labe63.TabIndex = 42;
+            this.labe63.Text = "X";
+            // 
+            // labe61
+            // 
+            this.labe61.AutoSize = true;
+            this.labe61.Location = new System.Drawing.Point(4, 7);
+            this.labe61.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe61.Name = "labe61";
+            this.labe61.Size = new System.Drawing.Size(26, 13);
+            this.labe61.TabIndex = 41;
+            this.labe61.Text = "ชื่อ1";
+            // 
+            // groupBo5
+            // 
+            this.groupBo5.BackColor = System.Drawing.Color.Transparent;
+            this.groupBo5.Controls.Add(this.labe52);
+            this.groupBo5.Controls.Add(this.labe54);
+            this.groupBo5.Controls.Add(this.labe53);
+            this.groupBo5.Controls.Add(this.labe51);
+            this.groupBo5.Location = new System.Drawing.Point(8, 402);
+            this.groupBo5.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBo5.Name = "groupBo5";
+            this.groupBo5.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBo5.Size = new System.Drawing.Size(284, 24);
+            this.groupBo5.TabIndex = 72;
+            this.groupBo5.TabStop = false;
+            // 
+            // labe52
+            // 
+            this.labe52.AutoSize = true;
+            this.labe52.Location = new System.Drawing.Point(50, 7);
+            this.labe52.Name = "labe52";
+            this.labe52.Size = new System.Drawing.Size(41, 13);
+            this.labe52.TabIndex = 44;
+            this.labe52.Text = "label55";
+            // 
+            // labe54
+            // 
+            this.labe54.AutoSize = true;
+            this.labe54.Location = new System.Drawing.Point(246, 7);
+            this.labe54.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe54.Name = "labe54";
+            this.labe54.Size = new System.Drawing.Size(38, 13);
+            this.labe54.TabIndex = 43;
+            this.labe54.Text = "ไม่ระบุ";
+            // 
+            // labe53
+            // 
+            this.labe53.AutoSize = true;
+            this.labe53.Location = new System.Drawing.Point(200, 7);
+            this.labe53.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe53.Name = "labe53";
+            this.labe53.Size = new System.Drawing.Size(14, 13);
+            this.labe53.TabIndex = 42;
+            this.labe53.Text = "X";
+            // 
+            // labe51
+            // 
+            this.labe51.AutoSize = true;
+            this.labe51.Location = new System.Drawing.Point(4, 7);
+            this.labe51.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe51.Name = "labe51";
+            this.labe51.Size = new System.Drawing.Size(26, 13);
+            this.labe51.TabIndex = 41;
+            this.labe51.Text = "ชื่อ1";
+            // 
+            // groupBo4
+            // 
+            this.groupBo4.BackColor = System.Drawing.Color.Transparent;
+            this.groupBo4.Controls.Add(this.labe42);
+            this.groupBo4.Controls.Add(this.labe44);
+            this.groupBo4.Controls.Add(this.labe43);
+            this.groupBo4.Controls.Add(this.labe41);
+            this.groupBo4.Location = new System.Drawing.Point(8, 374);
+            this.groupBo4.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBo4.Name = "groupBo4";
+            this.groupBo4.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBo4.Size = new System.Drawing.Size(284, 24);
+            this.groupBo4.TabIndex = 72;
+            this.groupBo4.TabStop = false;
+            // 
+            // labe42
+            // 
+            this.labe42.AutoSize = true;
+            this.labe42.Location = new System.Drawing.Point(50, 7);
+            this.labe42.Name = "labe42";
+            this.labe42.Size = new System.Drawing.Size(41, 13);
+            this.labe42.TabIndex = 44;
+            this.labe42.Text = "label55";
+            // 
+            // labe44
+            // 
+            this.labe44.AutoSize = true;
+            this.labe44.Location = new System.Drawing.Point(246, 7);
+            this.labe44.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe44.Name = "labe44";
+            this.labe44.Size = new System.Drawing.Size(38, 13);
+            this.labe44.TabIndex = 43;
+            this.labe44.Text = "ไม่ระบุ";
+            // 
+            // labe43
+            // 
+            this.labe43.AutoSize = true;
+            this.labe43.Location = new System.Drawing.Point(200, 7);
+            this.labe43.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe43.Name = "labe43";
+            this.labe43.Size = new System.Drawing.Size(14, 13);
+            this.labe43.TabIndex = 42;
+            this.labe43.Text = "X";
+            // 
+            // labe41
+            // 
+            this.labe41.AutoSize = true;
+            this.labe41.Location = new System.Drawing.Point(4, 7);
+            this.labe41.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe41.Name = "labe41";
+            this.labe41.Size = new System.Drawing.Size(26, 13);
+            this.labe41.TabIndex = 41;
+            this.labe41.Text = "ชื่อ1";
+            // 
+            // groupBo3
+            // 
+            this.groupBo3.BackColor = System.Drawing.Color.Transparent;
+            this.groupBo3.Controls.Add(this.labe32);
+            this.groupBo3.Controls.Add(this.labe34);
+            this.groupBo3.Controls.Add(this.labe33);
+            this.groupBo3.Controls.Add(this.labe31);
+            this.groupBo3.Location = new System.Drawing.Point(8, 346);
+            this.groupBo3.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBo3.Name = "groupBo3";
+            this.groupBo3.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBo3.Size = new System.Drawing.Size(284, 24);
+            this.groupBo3.TabIndex = 72;
+            this.groupBo3.TabStop = false;
+            // 
+            // labe32
+            // 
+            this.labe32.AutoSize = true;
+            this.labe32.Location = new System.Drawing.Point(50, 7);
+            this.labe32.Name = "labe32";
+            this.labe32.Size = new System.Drawing.Size(41, 13);
+            this.labe32.TabIndex = 44;
+            this.labe32.Text = "label55";
+            // 
+            // labe34
+            // 
+            this.labe34.AutoSize = true;
+            this.labe34.Location = new System.Drawing.Point(246, 7);
+            this.labe34.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe34.Name = "labe34";
+            this.labe34.Size = new System.Drawing.Size(38, 13);
+            this.labe34.TabIndex = 43;
+            this.labe34.Text = "ไม่ระบุ";
+            // 
+            // labe33
+            // 
+            this.labe33.AutoSize = true;
+            this.labe33.Location = new System.Drawing.Point(200, 7);
+            this.labe33.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe33.Name = "labe33";
+            this.labe33.Size = new System.Drawing.Size(14, 13);
+            this.labe33.TabIndex = 42;
+            this.labe33.Text = "X";
+            // 
+            // labe31
+            // 
+            this.labe31.AutoSize = true;
+            this.labe31.Location = new System.Drawing.Point(4, 7);
+            this.labe31.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe31.Name = "labe31";
+            this.labe31.Size = new System.Drawing.Size(26, 13);
+            this.labe31.TabIndex = 41;
+            this.labe31.Text = "ชื่อ1";
+            // 
+            // groupBo2
+            // 
+            this.groupBo2.BackColor = System.Drawing.Color.Transparent;
+            this.groupBo2.Controls.Add(this.labe22);
+            this.groupBo2.Controls.Add(this.labe24);
+            this.groupBo2.Controls.Add(this.labe23);
+            this.groupBo2.Controls.Add(this.labe21);
+            this.groupBo2.Location = new System.Drawing.Point(8, 318);
+            this.groupBo2.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBo2.Name = "groupBo2";
+            this.groupBo2.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBo2.Size = new System.Drawing.Size(284, 24);
+            this.groupBo2.TabIndex = 72;
+            this.groupBo2.TabStop = false;
+            // 
+            // labe22
+            // 
+            this.labe22.AutoSize = true;
+            this.labe22.Location = new System.Drawing.Point(50, 7);
+            this.labe22.Name = "labe22";
+            this.labe22.Size = new System.Drawing.Size(41, 13);
+            this.labe22.TabIndex = 44;
+            this.labe22.Text = "label55";
+            // 
+            // labe24
+            // 
+            this.labe24.AutoSize = true;
+            this.labe24.Location = new System.Drawing.Point(246, 7);
+            this.labe24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe24.Name = "labe24";
+            this.labe24.Size = new System.Drawing.Size(38, 13);
+            this.labe24.TabIndex = 43;
+            this.labe24.Text = "ไม่ระบุ";
+            // 
+            // labe23
+            // 
+            this.labe23.AutoSize = true;
+            this.labe23.Location = new System.Drawing.Point(200, 7);
+            this.labe23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe23.Name = "labe23";
+            this.labe23.Size = new System.Drawing.Size(14, 13);
+            this.labe23.TabIndex = 42;
+            this.labe23.Text = "X";
+            // 
+            // labe21
+            // 
+            this.labe21.AutoSize = true;
+            this.labe21.Location = new System.Drawing.Point(4, 7);
+            this.labe21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe21.Name = "labe21";
+            this.labe21.Size = new System.Drawing.Size(26, 13);
+            this.labe21.TabIndex = 41;
+            this.labe21.Text = "ชื่อ1";
+            // 
+            // groupBo1
+            // 
+            this.groupBo1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBo1.Controls.Add(this.labe12);
+            this.groupBo1.Controls.Add(this.labe14);
+            this.groupBo1.Controls.Add(this.labe13);
+            this.groupBo1.Controls.Add(this.labe11);
+            this.groupBo1.Location = new System.Drawing.Point(8, 290);
+            this.groupBo1.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBo1.Name = "groupBo1";
+            this.groupBo1.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBo1.Size = new System.Drawing.Size(284, 24);
+            this.groupBo1.TabIndex = 72;
+            this.groupBo1.TabStop = false;
+            // 
+            // labe12
+            // 
+            this.labe12.AutoSize = true;
+            this.labe12.Location = new System.Drawing.Point(50, 7);
+            this.labe12.Name = "labe12";
+            this.labe12.Size = new System.Drawing.Size(41, 13);
+            this.labe12.TabIndex = 44;
+            this.labe12.Text = "label55";
+            // 
+            // labe14
+            // 
+            this.labe14.AutoSize = true;
+            this.labe14.Location = new System.Drawing.Point(246, 7);
+            this.labe14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe14.Name = "labe14";
+            this.labe14.Size = new System.Drawing.Size(38, 13);
+            this.labe14.TabIndex = 43;
+            this.labe14.Text = "ไม่ระบุ";
+            // 
+            // labe13
+            // 
+            this.labe13.AutoSize = true;
+            this.labe13.Location = new System.Drawing.Point(200, 7);
+            this.labe13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe13.Name = "labe13";
+            this.labe13.Size = new System.Drawing.Size(14, 13);
+            this.labe13.TabIndex = 42;
+            this.labe13.Text = "X";
+            // 
+            // labe11
+            // 
+            this.labe11.AutoSize = true;
+            this.labe11.Location = new System.Drawing.Point(4, 7);
+            this.labe11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe11.Name = "labe11";
+            this.labe11.Size = new System.Drawing.Size(26, 13);
+            this.labe11.TabIndex = 41;
+            this.labe11.Text = "ชื่อ1";
+            // 
+            // groupBo9
+            // 
+            this.groupBo9.BackColor = System.Drawing.Color.Transparent;
+            this.groupBo9.Controls.Add(this.labe92);
+            this.groupBo9.Controls.Add(this.labe94);
+            this.groupBo9.Controls.Add(this.labe93);
+            this.groupBo9.Controls.Add(this.labe91);
+            this.groupBo9.Location = new System.Drawing.Point(8, 262);
+            this.groupBo9.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBo9.Name = "groupBo9";
+            this.groupBo9.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBo9.Size = new System.Drawing.Size(284, 24);
+            this.groupBo9.TabIndex = 72;
+            this.groupBo9.TabStop = false;
+            // 
+            // labe92
+            // 
+            this.labe92.AutoSize = true;
+            this.labe92.Location = new System.Drawing.Point(50, 7);
+            this.labe92.Name = "labe92";
+            this.labe92.Size = new System.Drawing.Size(41, 13);
+            this.labe92.TabIndex = 44;
+            this.labe92.Text = "label55";
+            // 
+            // labe94
+            // 
+            this.labe94.AutoSize = true;
+            this.labe94.Location = new System.Drawing.Point(246, 7);
+            this.labe94.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe94.Name = "labe94";
+            this.labe94.Size = new System.Drawing.Size(38, 13);
+            this.labe94.TabIndex = 43;
+            this.labe94.Text = "ไม่ระบุ";
+            // 
+            // labe93
+            // 
+            this.labe93.AutoSize = true;
+            this.labe93.Location = new System.Drawing.Point(200, 7);
+            this.labe93.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe93.Name = "labe93";
+            this.labe93.Size = new System.Drawing.Size(14, 13);
+            this.labe93.TabIndex = 42;
+            this.labe93.Text = "X";
+            // 
+            // labe91
+            // 
+            this.labe91.AutoSize = true;
+            this.labe91.Location = new System.Drawing.Point(4, 7);
+            this.labe91.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labe91.Name = "labe91";
+            this.labe91.Size = new System.Drawing.Size(26, 13);
+            this.labe91.TabIndex = 41;
+            this.labe91.Text = "ชื่อ1";
+            // 
             // Form8
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -910,7 +1967,10 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(388, 696);
+            this.Controls.Add(this.label32);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.label57);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label56);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.button2);
@@ -929,19 +1989,8 @@
             this.Controls.Add(this.label33);
             this.Controls.Add(this.label35);
             this.Controls.Add(this.label34);
-            this.Controls.Add(this.label32);
             this.Controls.Add(this.label31);
-            this.Controls.Add(this.groupBox9);
-            this.Controls.Add(this.groupBox8);
-            this.Controls.Add(this.groupBox7);
-            this.Controls.Add(this.groupBox6);
-            this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.groupBox5);
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
             this.DoubleBuffered = true;
@@ -952,10 +2001,10 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form8";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.groupBox9.ResumeLayout(false);
-            this.groupBox9.PerformLayout();
-            this.groupBox8.ResumeLayout(false);
-            this.groupBox8.PerformLayout();
+            this.groupBo8.ResumeLayout(false);
+            this.groupBo8.PerformLayout();
+            this.groupBo7.ResumeLayout(false);
+            this.groupBo7.PerformLayout();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
             this.groupBox6.ResumeLayout(false);
@@ -970,6 +2019,41 @@
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.groupBo26.ResumeLayout(false);
+            this.groupBo26.PerformLayout();
+            this.groupBo25.ResumeLayout(false);
+            this.groupBo25.PerformLayout();
+            this.groupBo24.ResumeLayout(false);
+            this.groupBo24.PerformLayout();
+            this.groupBo23.ResumeLayout(false);
+            this.groupBo23.PerformLayout();
+            this.groupBo22.ResumeLayout(false);
+            this.groupBo22.PerformLayout();
+            this.groupBo21.ResumeLayout(false);
+            this.groupBo21.PerformLayout();
+            this.groupBo20.ResumeLayout(false);
+            this.groupBo20.PerformLayout();
+            this.groupBo19.ResumeLayout(false);
+            this.groupBo19.PerformLayout();
+            this.groupBo18.ResumeLayout(false);
+            this.groupBo18.PerformLayout();
+            this.groupBo17.ResumeLayout(false);
+            this.groupBo17.PerformLayout();
+            this.groupBo6.ResumeLayout(false);
+            this.groupBo6.PerformLayout();
+            this.groupBo5.ResumeLayout(false);
+            this.groupBo5.PerformLayout();
+            this.groupBo4.ResumeLayout(false);
+            this.groupBo4.PerformLayout();
+            this.groupBo3.ResumeLayout(false);
+            this.groupBo3.PerformLayout();
+            this.groupBo2.ResumeLayout(false);
+            this.groupBo2.PerformLayout();
+            this.groupBo1.ResumeLayout(false);
+            this.groupBo1.PerformLayout();
+            this.groupBo9.ResumeLayout(false);
+            this.groupBo9.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -981,14 +2065,14 @@
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.GroupBox groupBox9;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.GroupBox groupBox8;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.GroupBox groupBo8;
+        private System.Windows.Forms.Label labe84;
+        private System.Windows.Forms.Label labe83;
+        private System.Windows.Forms.Label labe81;
+        private System.Windows.Forms.GroupBox groupBo7;
+        private System.Windows.Forms.Label labe74;
+        private System.Windows.Forms.Label labe73;
+        private System.Windows.Forms.Label labe71;
         private System.Windows.Forms.GroupBox groupBox7;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
@@ -1034,8 +2118,8 @@
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label55;
-        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.Label labe82;
+        private System.Windows.Forms.Label labe72;
         private System.Windows.Forms.Label label53;
         private System.Windows.Forms.Label label52;
         private System.Windows.Forms.Label label51;
@@ -1046,5 +2130,91 @@
         private System.Windows.Forms.Label label56;
         public System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.GroupBox groupBo26;
+        private System.Windows.Forms.Label labe262;
+        private System.Windows.Forms.Label labe264;
+        private System.Windows.Forms.Label labe263;
+        private System.Windows.Forms.Label labe261;
+        private System.Windows.Forms.GroupBox groupBo25;
+        private System.Windows.Forms.Label labe252;
+        private System.Windows.Forms.Label labe254;
+        private System.Windows.Forms.Label labe253;
+        private System.Windows.Forms.Label labe251;
+        private System.Windows.Forms.GroupBox groupBo24;
+        private System.Windows.Forms.Label labe242;
+        private System.Windows.Forms.Label labe244;
+        private System.Windows.Forms.Label labe243;
+        private System.Windows.Forms.Label labe241;
+        private System.Windows.Forms.GroupBox groupBo23;
+        private System.Windows.Forms.Label labe232;
+        private System.Windows.Forms.Label labe234;
+        private System.Windows.Forms.Label labe233;
+        private System.Windows.Forms.Label labe231;
+        private System.Windows.Forms.GroupBox groupBo22;
+        private System.Windows.Forms.Label labe222;
+        private System.Windows.Forms.Label labe224;
+        private System.Windows.Forms.Label labe223;
+        private System.Windows.Forms.Label labe221;
+        private System.Windows.Forms.GroupBox groupBo21;
+        private System.Windows.Forms.Label labe212;
+        private System.Windows.Forms.Label labe214;
+        private System.Windows.Forms.Label labe213;
+        private System.Windows.Forms.Label labe211;
+        private System.Windows.Forms.GroupBox groupBo20;
+        private System.Windows.Forms.Label labe202;
+        private System.Windows.Forms.Label labe204;
+        private System.Windows.Forms.Label labe203;
+        private System.Windows.Forms.Label labe201;
+        private System.Windows.Forms.GroupBox groupBo19;
+        private System.Windows.Forms.Label labe192;
+        private System.Windows.Forms.Label labe194;
+        private System.Windows.Forms.Label labe193;
+        private System.Windows.Forms.Label labe191;
+        private System.Windows.Forms.GroupBox groupBo18;
+        private System.Windows.Forms.Label labe182;
+        private System.Windows.Forms.Label labe184;
+        private System.Windows.Forms.Label labe183;
+        private System.Windows.Forms.Label labe181;
+        private System.Windows.Forms.GroupBox groupBo17;
+        private System.Windows.Forms.Label labe172;
+        private System.Windows.Forms.Label labe174;
+        private System.Windows.Forms.Label labe173;
+        private System.Windows.Forms.Label labe171;
+        private System.Windows.Forms.GroupBox groupBo6;
+        private System.Windows.Forms.Label labe62;
+        private System.Windows.Forms.Label labe64;
+        private System.Windows.Forms.Label labe63;
+        private System.Windows.Forms.Label labe61;
+        private System.Windows.Forms.GroupBox groupBo5;
+        private System.Windows.Forms.Label labe52;
+        private System.Windows.Forms.Label labe54;
+        private System.Windows.Forms.Label labe53;
+        private System.Windows.Forms.Label labe51;
+        private System.Windows.Forms.GroupBox groupBo4;
+        private System.Windows.Forms.Label labe42;
+        private System.Windows.Forms.Label labe44;
+        private System.Windows.Forms.Label labe43;
+        private System.Windows.Forms.Label labe41;
+        private System.Windows.Forms.GroupBox groupBo3;
+        private System.Windows.Forms.Label labe32;
+        private System.Windows.Forms.Label labe34;
+        private System.Windows.Forms.Label labe33;
+        private System.Windows.Forms.Label labe31;
+        private System.Windows.Forms.GroupBox groupBo2;
+        private System.Windows.Forms.Label labe22;
+        private System.Windows.Forms.Label labe24;
+        private System.Windows.Forms.Label labe23;
+        private System.Windows.Forms.Label labe21;
+        private System.Windows.Forms.GroupBox groupBo1;
+        private System.Windows.Forms.Label labe12;
+        private System.Windows.Forms.Label labe14;
+        private System.Windows.Forms.Label labe13;
+        private System.Windows.Forms.Label labe11;
+        private System.Windows.Forms.GroupBox groupBo9;
+        private System.Windows.Forms.Label labe92;
+        private System.Windows.Forms.Label labe94;
+        private System.Windows.Forms.Label labe93;
+        private System.Windows.Forms.Label labe91;
     }
 }

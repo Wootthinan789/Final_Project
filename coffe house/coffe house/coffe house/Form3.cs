@@ -14,7 +14,6 @@ namespace coffe_house
 {
     public partial class Form3 : Form
     {
-        static string[] mamo = {"0","1"};
         static int num = 1;
         public Form3()
         {
@@ -986,10 +985,32 @@ namespace coffe_house
         }
         private void pictureBox16_Click(object sender, EventArgs e)
         {
+            List<string> checkproduct = new List<string>();
+            string sql8 = "SELECT * FROM `products`";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
 
-            num = Convert.ToInt32(label1.Text);                  //erferjfneirfjeirj
-            num += 1;
-            label1.Text = Convert.ToString(num);
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+
+            while (reader8.Read())
+            {
+                checkproduct.Add(reader8.GetString("ProductID"));
+            }
+            int max = checkproduct.Count;
+            int max2 = max / 4;
+            if (num < max2)
+            {
+                num = Convert.ToInt32(label1.Text);                  //erferjfneirfjeirj
+                num += 1;
+                label1.Text = Convert.ToString(num);
+            }
+            else
+            {
+                MessageBox.Show("สิ้นสุด");
+            }
+
+            
             if (label1.Text == "2")
             {
                 pictureBox6.LoadAsync(@"F:\x\614005.png");

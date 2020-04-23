@@ -40,7 +40,25 @@ namespace coffe_house
             groupBox5.Visible = groupBox5.Visible;
             groupBox6.Visible = groupBox6.Visible;
             groupBox7.Visible = groupBox7.Visible;
-            groupBox8.Visible = groupBox8.Visible;
+            groupBo7.Visible = groupBo7.Visible;
+            groupBo8.Visible = false;
+            groupBo9.Visible = false;
+            groupBo1.Visible = false;
+            groupBo2.Visible = false;
+            groupBo3.Visible = false;
+            groupBo4.Visible = false;
+            groupBo5.Visible = false;
+            groupBo6.Visible = false;
+            groupBo17.Visible = false;
+            groupBo18.Visible = false;
+            groupBo19.Visible = false;
+            groupBo20.Visible = false;
+            groupBo21.Visible = false;
+            groupBo22.Visible = false;
+            groupBo23.Visible = false;
+            groupBo24.Visible = false;
+            groupBo25.Visible = false;
+            groupBo26.Visible = false;
             label32.Text = "";
             label34.Text = "";
             label57.Text = "123"+dateTimePicker1.Value;
@@ -195,9 +213,311 @@ namespace coffe_house
                         }
                     }
                 }
+                if (i == 7)
+                {
+                    groupBo7.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            labe71.Text = AuthorList2[x];
+                            labe72.Text = AuthorList5[x];
+                            labe73.Text = AuthorList4[i];
+                            labe74.Text = Convert.ToString((Convert.ToInt32(labe72.Text)) * (Convert.ToInt32(labe73.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(labe74.Text);
+                        }
+                    }
+                }
+                if (i == 8)
+                {
+                    groupBo8.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            labe81.Text = AuthorList2[x];
+                            labe82.Text = AuthorList5[x];
+                            labe83.Text = AuthorList4[i];
+                            labe84.Text = Convert.ToString((Convert.ToInt32(labe82.Text)) * (Convert.ToInt32(labe83.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(labe84.Text);
+                        }
+                    }
+                }
+                if (i == 9)
+                {
+                    groupBo9.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            labe91.Text = AuthorList2[x];
+                            labe92.Text = AuthorList5[x];
+                            labe93.Text = AuthorList4[i];
+                            labe94.Text = Convert.ToString((Convert.ToInt32(labe92.Text)) * (Convert.ToInt32(labe93.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(labe94.Text);
+                        }
+                    }
+                }
+                if (i == 10)
+                {
+                    groupBo1.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            labe11.Text = AuthorList2[x];
+                            labe12.Text = AuthorList5[x];
+                            labe13.Text = AuthorList4[i];
+                            labe14.Text = Convert.ToString((Convert.ToInt32(labe12.Text)) * (Convert.ToInt32(labe13.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(labe14.Text);
+                        }
+                    }
+                }
+                if (i == 11)
+                {
+                    groupBo2.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            labe21.Text = AuthorList2[x];
+                            labe22.Text = AuthorList5[x];
+                            labe23.Text = AuthorList4[i];
+                            labe24.Text = Convert.ToString((Convert.ToInt32(labe22.Text)) * (Convert.ToInt32(labe23.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(labe24.Text);
+                        }
+                    }
+                }
+                if (i == 12)
+                {
+                    groupBo3.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            labe31.Text = AuthorList2[x];
+                            labe32.Text = AuthorList5[x];
+                            labe33.Text = AuthorList4[i];
+                            labe34.Text = Convert.ToString((Convert.ToInt32(labe32.Text)) * (Convert.ToInt32(labe33.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(labe34.Text);
+                        }
+                    }
+                }
+                if (i == 13)
+                {
+                    groupBo4.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            labe41.Text = AuthorList2[x];
+                            labe42.Text = AuthorList5[x];
+                            labe43.Text = AuthorList4[i];
+                            labe44.Text = Convert.ToString((Convert.ToInt32(labe42.Text)) * (Convert.ToInt32(labe43.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(labe44.Text);
+                        }
+                    }
+                }
+                if (i == 14)
+                {
+                    groupBo5.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            labe51.Text = AuthorList2[x];
+                            labe52.Text = AuthorList5[x];
+                            labe53.Text = AuthorList4[i];
+                            labe54.Text = Convert.ToString((Convert.ToInt32(labe52.Text)) * (Convert.ToInt32(labe53.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(labe54.Text);
+                        }
+                    }
+                }
+                if (i == 15)
+                {
+                    groupBo6.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            labe61.Text = AuthorList2[x];
+                            labe62.Text = AuthorList5[x];
+                            labe63.Text = AuthorList4[i];
+                            labe64.Text = Convert.ToString((Convert.ToInt32(labe62.Text)) * (Convert.ToInt32(labe63.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(labe64.Text);
+                        }
+                    }
+                }
+                if (i == 16)
+                {
+                    groupBo17.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            labe171.Text = AuthorList2[x];
+                            labe172.Text = AuthorList5[x];
+                            labe173.Text = AuthorList4[i];
+                            labe174.Text = Convert.ToString((Convert.ToInt32(labe172.Text)) * (Convert.ToInt32(labe173.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(labe174.Text);
+                        }
+                    }
+                }
+                if (i == 17)
+                {
+                    groupBo18.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            labe181.Text = AuthorList2[x];
+                            labe182.Text = AuthorList5[x];
+                            labe183.Text = AuthorList4[i];
+                            labe184.Text = Convert.ToString((Convert.ToInt32(labe182.Text)) * (Convert.ToInt32(labe183.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(labe184.Text);
+                        }
+                    }
+                }
+                if (i == 18)
+                {
+                    groupBo19.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            labe191.Text = AuthorList2[x];
+                            labe192.Text = AuthorList5[x];
+                            labe193.Text = AuthorList4[i];
+                            labe194.Text = Convert.ToString((Convert.ToInt32(labe192.Text)) * (Convert.ToInt32(labe193.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(labe194.Text);
+                        }
+                    }
+                }
+                if (i == 19)
+                {
+                    groupBo20.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            labe201.Text = AuthorList2[x];
+                            labe202.Text = AuthorList5[x];
+                            labe203.Text = AuthorList4[i];
+                            labe204.Text = Convert.ToString((Convert.ToInt32(labe202.Text)) * (Convert.ToInt32(labe203.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(labe204.Text);
+                        }
+                    }
+                }
+                if (i == 20)
+                {
+                    groupBo21.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            labe211.Text = AuthorList2[x];
+                            labe212.Text = AuthorList5[x];
+                            labe213.Text = AuthorList4[i];
+                            labe214.Text = Convert.ToString((Convert.ToInt32(labe212.Text)) * (Convert.ToInt32(labe213.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(labe214.Text);
+                        }
+                    }
+                }
+                if (i == 21)
+                {
+                    groupBo22.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            labe221.Text = AuthorList2[x];
+                            labe222.Text = AuthorList5[x];
+                            labe223.Text = AuthorList4[i];
+                            labe224.Text = Convert.ToString((Convert.ToInt32(labe222.Text)) * (Convert.ToInt32(labe223.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(labe224.Text);
+                        }
+                    }
+                }
+                if (i == 22)
+                {
+                    groupBo23.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            labe231.Text = AuthorList2[x];
+                            labe232.Text = AuthorList5[x];
+                            labe233.Text = AuthorList4[i];
+                            labe234.Text = Convert.ToString((Convert.ToInt32(labe232.Text)) * (Convert.ToInt32(labe233.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(labe234.Text);
+                        }
+                    }
+                }
+                if (i == 23)
+                {
+                    groupBo24.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            labe241.Text = AuthorList2[x];
+                            labe242.Text = AuthorList5[x];
+                            labe243.Text = AuthorList4[i];
+                            labe244.Text = Convert.ToString((Convert.ToInt32(labe242.Text)) * (Convert.ToInt32(labe243.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(labe244.Text);
+                        }
+                    }
+                }
+                if (i == 24)
+                {
+                    groupBo25.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            labe251.Text = AuthorList2[x];
+                            labe252.Text = AuthorList5[x];
+                            labe253.Text = AuthorList4[i];
+                            labe254.Text = Convert.ToString((Convert.ToInt32(labe252.Text)) * (Convert.ToInt32(labe253.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(labe254.Text);
+                        }
+                    }
+                }
+                if (i == 25)
+                {
+                    groupBo26.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            labe261.Text = AuthorList2[x];
+                            labe262.Text = AuthorList5[x];
+                            labe263.Text = AuthorList4[i];
+                            labe264.Text = Convert.ToString((Convert.ToInt32(labe262.Text)) * (Convert.ToInt32(labe263.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(labe264.Text);
+                        }
+                    }
+                }
             }
-            groupBox8.Visible = false;
-            groupBox9.Visible = false;
             
             for (int w = 0; w < sumQ.Count; ++w)
             {
@@ -308,6 +628,7 @@ namespace coffe_house
             {
                 try
                 {
+                    //MessageBox.Show(Convert.ToString(Convert.ToInt32(sumQ[a]) ,Convert.ToInt32(sumP[a])));
                     string amount = Convert.ToString(Convert.ToInt32(sumQ[a]) * Convert.ToInt32(sumP[a]));
                     string sale_detail = "INSERT INTO `sale_details`(`SaleDetailID`, `SaleID`, `ProductID`, `Price`, `Quantity`, `Amount`) VALUES('" + SaleDetailID + "','" + randomnumber + "','" + AuthorList3[a] + "','" + sumP[a] + "','" + AuthorList4[a] + "','" + amount + "')";
                     MySqlConnection con2 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
@@ -319,6 +640,7 @@ namespace coffe_house
                 catch
                 {
                     SaleDetailID = random2.Next(10000, 99999);
+                    //MessageBox.Show(Convert.ToString(SaleDetailID));
                     a -= 1;
                 }
             }
