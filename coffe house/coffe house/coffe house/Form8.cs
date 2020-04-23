@@ -240,11 +240,11 @@ namespace coffe_house
                 CustomerTelNo.Add(reader8.GetString("CustomerTelNo"));
                 Gender.Add(reader8.GetString("Gender"));
             }
-            MessageBox.Show(Convert.ToString(CustomerID.Count));
-            MessageBox.Show(CustomerID[0]);
+            //MessageBox.Show(Convert.ToString(CustomerID.Count));
+            //MessageBox.Show(CustomerID[0]);
             for (int v =0; v < 5; ++v)
             {
-                MessageBox.Show(CustomerID[v]);
+                //MessageBox.Show(CustomerID[v]);
                 //MessageBox.Show("--"+medid[0]+"=="+CustomerID[0]+"--");
                 string x = CustomerID[v];
                 if (medid[0] == x)

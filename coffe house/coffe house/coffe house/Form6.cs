@@ -24,6 +24,29 @@ namespace coffe_house
             groupBox6.Visible = groupBox6.Visible; 
             groupBox7.Visible = groupBox7.Visible;
             groupBox8.Visible = groupBox8.Visible;
+            groupBox16.Visible = false;
+            groupBox14.Visible = false;
+            groupBox12.Visible = false;
+            groupBox9.Visible = false;
+            groupBox11.Visible = false;
+            groupBox13.Visible = false;
+            groupBox15.Visible = false;
+            groupBox31.Visible = false;
+            groupBox26.Visible = false;
+            groupBox22.Visible = false;
+            groupBox17.Visible = false;
+            groupBox19.Visible = false;
+            groupBox24.Visible = false;
+            groupBox28.Visible = false;
+            groupBox32.Visible = false;
+            groupBox29.Visible = false;
+            groupBox25.Visible = false;
+            groupBox20.Visible = false;
+            groupBox23.Visible = false;
+
+
+
+
             label32.Text = "";
             label34.Text = "";
 
@@ -191,6 +214,311 @@ namespace coffe_house
                         }
                     }
                 }
+                if (i == 7)
+                {
+                    groupBox16.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            label69.Text = AuthorList2[x];
+                            label66.Text = AuthorList5[x];
+                            label68.Text = AuthorList4[i];
+                            label67.Text = Convert.ToString((Convert.ToInt32(label68.Text)) * (Convert.ToInt32(label66.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(label25.Text);
+                        }
+                    }
+                }
+                if (i == 8)
+                {
+                    groupBox14.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            label61.Text = AuthorList2[x];
+                            label58.Text = AuthorList5[x];
+                            label60.Text = AuthorList4[i];
+                            label59.Text = Convert.ToString((Convert.ToInt32(label60.Text)) * (Convert.ToInt32(label58.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(label25.Text);
+                        }
+                    }
+                }
+                if (i == 9)
+                {
+                    groupBox12.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            label53.Text = AuthorList2[x];
+                            label50.Text = AuthorList5[x];
+                            label52.Text = AuthorList4[i];
+                            label51.Text = Convert.ToString((Convert.ToInt32(label50.Text)) * (Convert.ToInt32(label52.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(label25.Text);
+                        }
+                    }
+                }
+                if (i == 10)
+                {
+                    groupBox9.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            label45.Text = AuthorList2[x];
+                            label39.Text = AuthorList5[x];
+                            label44.Text = AuthorList4[i];
+                            label43.Text = Convert.ToString((Convert.ToInt32(label39.Text)) * (Convert.ToInt32(label44.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(label25.Text);
+                        }
+                    }
+                }
+                if (i == 11)
+                {
+                    groupBox11.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            label49.Text = AuthorList2[x];
+                            label46.Text = AuthorList5[x];
+                            label48.Text = AuthorList4[i];
+                            label47.Text = Convert.ToString((Convert.ToInt32(label46.Text)) * (Convert.ToInt32(label48.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(label25.Text);
+                        }
+                    }
+                }
+                if (i == 12)
+                {
+                    groupBox13.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            label57.Text = AuthorList2[x];
+                            label54.Text = AuthorList5[x];
+                            label56.Text = AuthorList4[i];
+                            label55.Text = Convert.ToString((Convert.ToInt32(label54.Text)) * (Convert.ToInt32(label56.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(label25.Text);
+                        }
+                    }
+                }
+                if (i == 13)
+                {
+                    groupBox15.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            label65.Text = AuthorList2[x];
+                            label62.Text = AuthorList5[x];
+                            label64.Text = AuthorList4[i];
+                            label63.Text = Convert.ToString((Convert.ToInt32(label62.Text)) * (Convert.ToInt32(label64.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(label25.Text);
+                        }
+                    }
+                }
+                if (i == 14)
+                {
+                    groupBox31.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            label127.Text = AuthorList2[x];
+                            label124.Text = AuthorList5[x];
+                            label126.Text = AuthorList4[i];
+                            label125.Text = Convert.ToString((Convert.ToInt32(label124.Text)) * (Convert.ToInt32(label126.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(label25.Text);
+                        }
+                    }
+                }
+                if (i == 15)
+                {
+                    groupBox26.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            label107.Text = AuthorList2[x];
+                            label104.Text = AuthorList5[x];
+                            label106.Text = AuthorList4[i];
+                            label105.Text = Convert.ToString((Convert.ToInt32(label104.Text)) * (Convert.ToInt32(label106.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(label25.Text);
+                        }
+                    }
+                }
+                if (i == 16)
+                {
+                    groupBox22.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            label91.Text = AuthorList2[x];
+                            label88.Text = AuthorList5[x];
+                            label90.Text = AuthorList4[i];
+                            label89.Text = Convert.ToString((Convert.ToInt32(label88.Text)) * (Convert.ToInt32(label90.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(label25.Text);
+                        }
+                    }
+                }
+                if (i == 17)
+                {
+                    groupBox17.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            label76.Text = AuthorList2[x];
+                            label70.Text = AuthorList5[x];
+                            label75.Text = AuthorList4[i];
+                            label74.Text = Convert.ToString((Convert.ToInt32(label70.Text)) * (Convert.ToInt32(label75.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(label25.Text);
+                        }
+                    }
+                }
+                if (i == 18)
+                {
+                    groupBox19.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            label80.Text = AuthorList2[x];
+                            label77.Text = AuthorList5[x];
+                            label79.Text = AuthorList4[i];
+                            label78.Text = Convert.ToString((Convert.ToInt32(label77.Text)) * (Convert.ToInt32(label79.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(label25.Text);
+                        }
+                    }
+                }
+                if (i == 19)
+                {
+                    groupBox24.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            label99.Text = AuthorList2[x];
+                            label96.Text = AuthorList5[x];
+                            label98.Text = AuthorList4[i];
+                            label97.Text = Convert.ToString((Convert.ToInt32(label96.Text)) * (Convert.ToInt32(label98.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(label25.Text);
+                        }
+                    }
+                }
+                if (i == 20)
+                {
+                    groupBox28.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            label115.Text = AuthorList2[x];
+                            label112.Text = AuthorList5[x];
+                            label114.Text = AuthorList4[i];
+                            label113.Text = Convert.ToString((Convert.ToInt32(label112.Text)) * (Convert.ToInt32(label114.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(label25.Text);
+                        }
+                    }
+                }
+                if (i == 21)
+                {
+                    groupBox32.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            label131.Text = AuthorList2[x];
+                            label128.Text = AuthorList5[x];
+                            label130.Text = AuthorList4[i];
+                            label129.Text = Convert.ToString((Convert.ToInt32(label128.Text)) * (Convert.ToInt32(label130.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(label25.Text);
+                        }
+                    }
+                }
+                if (i == 22)
+                {
+                    groupBox29.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            label119.Text = AuthorList2[x];
+                            label116.Text = AuthorList5[x];
+                            label118.Text = AuthorList4[i];
+                            label117.Text = Convert.ToString((Convert.ToInt32(label116.Text)) * (Convert.ToInt32(label118.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(label25.Text);
+                        }
+                    }
+                }
+                if (i == 23)
+                {
+                    groupBox25.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            label103.Text = AuthorList2[x];
+                            label100.Text = AuthorList5[x];
+                            label102.Text = AuthorList4[i];
+                            label101.Text = Convert.ToString((Convert.ToInt32(label100.Text)) * (Convert.ToInt32(label102.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(label25.Text);
+                        }
+                    }
+                }
+                if (i == 24)
+                {
+                    groupBox20.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            label87.Text = AuthorList2[x];
+                            label81.Text = AuthorList5[x];
+                            label86.Text = AuthorList4[i];
+                            label85.Text = Convert.ToString((Convert.ToInt32(label81.Text)) * (Convert.ToInt32(label86.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(label25.Text);
+                        }
+                    }
+                }
+                if (i == 25)
+                {
+                    groupBox23.Visible = true;
+                    for (int x = 0; x < AuthorList.Count; ++x)
+                    {
+                        if (AuthorList3[i] == AuthorList[x])
+                        {
+                            label95.Text = AuthorList2[x];
+                            label92.Text = AuthorList5[x];
+                            label94.Text = AuthorList4[i];
+                            label93.Text = Convert.ToString((Convert.ToInt32(label92.Text)) * (Convert.ToInt32(label94.Text)));
+                            sumQ.Add(AuthorList4[i]);
+                            sumP.Add(label25.Text);
+                        }
+                    }
+                }
+
             }
             int sumpp = 0;
             int sumqq = 0;

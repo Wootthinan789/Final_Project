@@ -56,13 +56,13 @@ namespace coffe_house
             }
             for (int i = 0; i < AuthorList.Count; ++i)
             {
-                MessageBox.Show("in if" + AuthorList3[1]+AuthorList[i]);
+                //MessageBox.Show("in if" + AuthorList3[1]+AuthorList[i]);
                 if (AuthorList3[1] == AuthorList[i])
                 {
-                    MessageBox.Show("in if" + AuthorList[i]);
+                    //MessageBox.Show("in if" + AuthorList[i]);
                     proid = AuthorList[i];
                     pictureBox1.LoadAsync(@"F:\x\" + AuthorList[i]+".png");
-                    MessageBox.Show("in if"+AuthorList[i]);
+                    //MessageBox.Show("in if"+AuthorList[i]);
                     label2.Text = name[i];
                     label8.Text = pri[i];
 
