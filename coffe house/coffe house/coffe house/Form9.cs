@@ -14,9 +14,33 @@ namespace coffe_house
     public partial class Form9 : Form
     {
         static List<string> staffID = new List<string>();
+        static string forsave = "";
         public Form9()
         {
             InitializeComponent();
+            List<string> formsave = new List<string>();
+            string sql3 = "SELECT * FROM `from_save`";
+            MySqlConnection con3 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd1 = new MySqlCommand(sql3, con3);
+
+            con3.Open();
+            MySqlDataReader reader4 = cmd1.ExecuteReader();
+
+            while (reader4.Read())
+            {
+                formsave.Add(reader4.GetString("formid"));
+            }
+            forsave = formsave[0];
+
+            string del = "DELETE FROM `from_save` WHERE formid";
+            MySqlConnection con = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd = new MySqlCommand(del, con);
+
+            con.Open();
+            cmd.ExecuteReader();
+            con.Close();
+
+
             comboBox1.Text = "Staff";
         }
 
@@ -70,14 +94,31 @@ namespace coffe_house
                            
                             checkloop = 1;
                             staffID.Add(StaffID[i]);
+                            ////////////////////////////////////////////////////////////////////////////////////
+                            if (forsave == "1")
+                            {
+                                Form1 form1 = new Form1();
+                                form1.Hide();
+                                form1.Show();
+                            }
+                            if (forsave == "2")
+                            {
+                                Form2 form2 = new Form2();
+                                form2.Hide();
+                                form2.Show();
+                            }
+                            if (forsave == "3")
+                            {
+                                Form3 form3 = new Form3();
+                                form3.Hide();
+                                form3.Show();
+                            }
 
-                            Form1 form1 = new Form1();
-                            form1.Hide();
-                            form1.Show();
 
                             Form7 form7 = new Form7();
                             form7.Show();
                             this.Hide();
+                            ////////////////////////////////////////////////////////////////////////////////////
                         }
                         else
                         {

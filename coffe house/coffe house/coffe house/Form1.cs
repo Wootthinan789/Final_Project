@@ -62,6 +62,14 @@ namespace coffe_house
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
+            string sql = "INSERT INTO `from_save`(`formid`) VALUES ('1')";
+            MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd = new MySqlCommand(sql, con1);
+
+            con1.Open();
+            cmd.ExecuteReader();
+            con1.Close();
+
             Form9 form9 = new Form9();
             form9.Show();
         }

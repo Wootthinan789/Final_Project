@@ -18,6 +18,27 @@ namespace coffe_house
         public Form3()
         {
             InitializeComponent();
+            List<string> staffID = new List<string>();
+            string sql3 = "SELECT * FROM `login_save`";
+            MySqlConnection con3 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd1 = new MySqlCommand(sql3, con3);
+
+            con3.Open();
+            MySqlDataReader reader3 = cmd1.ExecuteReader();
+            while (reader3.Read())
+            {
+                staffID.Add(reader3.GetString("staffsID"));
+            }
+            if (staffID.Count == 0)
+            {
+                pictureBox11.Hide();
+                label3.Text = "NO login";
+            }
+            else
+            {
+                pictureBox5.Hide();
+                label3.Text = "StaffID = " + staffID[0];
+            }
 
         }
 
@@ -30,6 +51,14 @@ namespace coffe_house
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
+            string sql = "INSERT INTO `from_save`(`formid`) VALUES ('3')";
+            MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd = new MySqlCommand(sql, con1);
+
+            con1.Open();
+            cmd.ExecuteReader();
+            con1.Close();
+
             Form9 form9 = new Form9();
             form9.Show();
 
@@ -1149,6 +1178,20 @@ namespace coffe_house
 
                 }
             }
+        }
+
+        private void pictureBox11_Click_1(object sender, EventArgs e)
+        {
+            label3.Text = "NO login";
+            string del = "DELETE FROM `login_save` WHERE staffsID";
+            MySqlConnection con = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd = new MySqlCommand(del, con);
+
+            con.Open();
+            cmd.ExecuteReader();
+            con.Close();
+            pictureBox11.Hide();
+            pictureBox5.Show();
         }
     }
 }
