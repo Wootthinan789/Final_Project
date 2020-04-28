@@ -61,7 +61,7 @@ namespace coffe_house
             groupBo26.Visible = false;
             label32.Text = "";
             label34.Text = "";
-            label57.Text = "123"+dateTimePicker1.Value;
+            label57.Text = ""+dateTimePicker1.Value;
 
             var random = new Random();
             randomnumber = random.Next(00000, 99999);
@@ -652,6 +652,16 @@ namespace coffe_house
             con3.Open();
             cmd3.ExecuteReader();
             con3.Close();
+
+
+
+
+            string Del = "DELETE FROM `basket` WHERE ProductID";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
 
             this.Close();
 

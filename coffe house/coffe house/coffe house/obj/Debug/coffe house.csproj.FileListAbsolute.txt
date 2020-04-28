@@ -236,3 +236,19 @@ C:\Users\chan\Desktop\Final_Project 4.5\Final_Project\coffe house\coffe house\co
 C:\Users\chan\Desktop\Final_Project 4.5\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.csproj.CopyComplete
 C:\Users\chan\Desktop\Final_Project 4.5\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.exe
 C:\Users\chan\Desktop\Final_Project 4.5\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.pdb
+C:\Users\oommi\OneDrive\เดสก์ท็อป\beta\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.csprojAssemblyReference.cache
+C:\Users\oommi\OneDrive\เดสก์ท็อป\beta\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form1.resources
+C:\Users\oommi\OneDrive\เดสก์ท็อป\beta\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form10.resources
+C:\Users\oommi\OneDrive\เดสก์ท็อป\beta\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form11.resources
+C:\Users\oommi\OneDrive\เดสก์ท็อป\beta\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form2.resources
+C:\Users\oommi\OneDrive\เดสก์ท็อป\beta\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form3.resources
+C:\Users\oommi\OneDrive\เดสก์ท็อป\beta\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form4.resources
+C:\Users\oommi\OneDrive\เดสก์ท็อป\beta\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form5.resources
+C:\Users\oommi\OneDrive\เดสก์ท็อป\beta\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form6.resources
+C:\Users\oommi\OneDrive\เดสก์ท็อป\beta\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form7.resources
+C:\Users\oommi\OneDrive\เดสก์ท็อป\beta\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form8.resources
+C:\Users\oommi\OneDrive\เดสก์ท็อป\beta\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form9.resources
+C:\Users\oommi\OneDrive\เดสก์ท็อป\beta\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Properties.Resources.resources
+C:\Users\oommi\OneDrive\เดสก์ท็อป\beta\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.csproj.GenerateResource.cache
+C:\Users\oommi\OneDrive\เดสก์ท็อป\beta\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.exe
+C:\Users\oommi\OneDrive\เดสก์ท็อป\beta\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.pdb

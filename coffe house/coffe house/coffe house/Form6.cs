@@ -540,39 +540,46 @@ namespace coffe_house
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string sel = "SELECT * FROM `login_save`";
-            MySqlConnection con = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
-            MySqlCommand cmd = new MySqlCommand(sel, con);
-            List<string> AuthorList9 = new List<string>();
-            con.Open();
-            MySqlDataReader reader0 = cmd.ExecuteReader();
-            while (reader0.Read())
+            if (label32.Text != "0")
             {
-                AuthorList9.Add(reader0.GetString("staffsID"));
-            }
-            //MessageBox.Show(Convert.ToString(AuthorList9.Count));
-            if (AuthorList9.Count == 0)
-            {
-                string sql10 = "INSERT INTO `from_save`(`formid`) VALUES ('"+data+"')";
-                MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
-                MySqlCommand cmd2 = new MySqlCommand(sql10, con1);
+                string sel = "SELECT * FROM `login_save`";
+                MySqlConnection con = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+                MySqlCommand cmd = new MySqlCommand(sel, con);
+                List<string> AuthorList9 = new List<string>();
+                con.Open();
+                MySqlDataReader reader0 = cmd.ExecuteReader();
+                while (reader0.Read())
+                {
+                    AuthorList9.Add(reader0.GetString("staffsID"));
+                }
+                //MessageBox.Show(Convert.ToString(AuthorList9.Count));
+                if (AuthorList9.Count == 0)
+                {
+                    string sql10 = "INSERT INTO `from_save`(`formid`) VALUES ('" + data + "')";
+                    MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+                    MySqlCommand cmd2 = new MySqlCommand(sql10, con1);
 
-                con1.Open();
-                cmd2.ExecuteReader();
-                con1.Close();
+                    con1.Open();
+                    cmd2.ExecuteReader();
+                    con1.Close();
 
-                Form9 form9 = new Form9();
-                form9.Show();
-                this.Hide();
+                    Form9 form9 = new Form9();
+                    form9.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    Form7 form7 = new Form7();
+                    form7.Show();
+                    this.Hide();
+                }
+
+
             }
             else
-            { 
-                Form7 form7 = new Form7();
-                form7.Show();
+            {
+                MessageBox.Show("ตระกร้าว่างเปล่า โปรดเลือกสินค้าก่อน");
             }
-
-
-            
         }
     }
 }
