@@ -14,9 +14,11 @@ namespace coffe_house
     public partial class Form6 : Form
     {
         static List<string> AuthorList8 = new List<string>();
-        public Form6()
+        static string data = "";
+        public Form6(string bb)
         {
             InitializeComponent();
+            data = bb;
             groupBox1.Visible = groupBox1.Visible;
             groupBox2.Visible = groupBox2.Visible;
             groupBox3.Visible = groupBox3.Visible;
@@ -551,6 +553,14 @@ namespace coffe_house
             //MessageBox.Show(Convert.ToString(AuthorList9.Count));
             if (AuthorList9.Count == 0)
             {
+                string sql10 = "INSERT INTO `from_save`(`formid`) VALUES ('"+data+"')";
+                MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+                MySqlCommand cmd2 = new MySqlCommand(sql10, con1);
+
+                con1.Open();
+                cmd2.ExecuteReader();
+                con1.Close();
+
                 Form9 form9 = new Form9();
                 form9.Show();
                 this.Hide();

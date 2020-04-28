@@ -69,7 +69,7 @@ namespace coffe_house
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            Form6 form6 = new Form6();
+            Form6 form6 = new Form6("2");
             form6.Show();
         }
 

@@ -76,7 +76,8 @@ namespace coffe_house
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            Form6 form6 = new Form6();
+            string bb = "1";
+            Form6 form6 = new Form6(bb);
             form6.Show();
             /*
             string sel = "SELECT * FROM `login_save`";
