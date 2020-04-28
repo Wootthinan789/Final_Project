@@ -567,7 +567,7 @@ namespace coffe_house
                 //MessageBox.Show(CustomerID[v]);
                 //MessageBox.Show("--"+medid[0]+"=="+CustomerID[0]+"--");
                 string x = CustomerID[v];
-                if (medid[0] == x)
+                if (medid[1] == x)
                 {
                     label39.Text = CustomerType[v];
                     label45.Text = CustomerName[v];

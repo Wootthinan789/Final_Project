@@ -280,7 +280,7 @@ namespace coffe_house
             groupBox4.Visible = false;
             groupBox5.Visible = false;
             groupBox6.Visible = false;
-            string sel = "SELECT * FROM `staffs`";
+            string sel = "SELECT * FROM staffs WHERE StaffLevel <> 'Admin' AND StaffLevel <> 'Manager'";
             MySqlConnection con = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
             MySqlCommand cmd = new MySqlCommand(sel, con);
 
