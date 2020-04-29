@@ -115,7 +115,7 @@
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Yu Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Sukhumvit Set", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.button1.Location = new System.Drawing.Point(517, 566);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -192,11 +192,11 @@
             // 
             this.C.AutoSize = true;
             this.C.BackColor = System.Drawing.Color.Transparent;
-            this.C.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C.Font = new System.Drawing.Font("Sukhumvit Set", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C.Location = new System.Drawing.Point(100, 13);
             this.C.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.C.Name = "C";
-            this.C.Size = new System.Drawing.Size(78, 19);
+            this.C.Size = new System.Drawing.Size(82, 21);
             this.C.TabIndex = 11;
             this.C.Text = "STAFF ID";
             // 

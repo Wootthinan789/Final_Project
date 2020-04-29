@@ -225,11 +225,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Sukhumvit Set", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(49, 131);
+            this.label1.Location = new System.Drawing.Point(55, 129);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(30, 19);
+            this.label1.Size = new System.Drawing.Size(35, 21);
             this.label1.TabIndex = 37;
             this.label1.Text = "Iist";
             // 
@@ -237,11 +237,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Sukhumvit Set", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(282, 131);
+            this.label2.Location = new System.Drawing.Point(324, 131);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 19);
+            this.label2.Size = new System.Drawing.Size(75, 21);
             this.label2.TabIndex = 38;
             this.label2.Text = "Amount";
             // 
@@ -249,11 +249,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Sukhumvit Set", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(351, 131);
+            this.label3.Location = new System.Drawing.Point(405, 131);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 19);
+            this.label3.Size = new System.Drawing.Size(52, 21);
             this.label3.TabIndex = 39;
             this.label3.Text = "Price";
             // 
@@ -269,51 +269,52 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(366, 39);
+            this.groupBox1.Size = new System.Drawing.Size(430, 39);
             this.groupBox1.TabIndex = 40;
             this.groupBox1.TabStop = false;
             // 
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(190, 17);
+            this.label28.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label28.Location = new System.Drawing.Point(227, 16);
             this.label28.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(49, 17);
+            this.label28.Size = new System.Drawing.Size(47, 14);
             this.label28.TabIndex = 44;
             this.label28.Text = "label28";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label6.Location = new System.Drawing.Point(308, 17);
+            this.label6.Location = new System.Drawing.Point(345, 16);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(36, 17);
+            this.label6.Size = new System.Drawing.Size(37, 14);
             this.label6.TabIndex = 43;
             this.label6.Text = "ไม่ระบุ";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label5.Location = new System.Drawing.Point(260, 17);
+            this.label5.Location = new System.Drawing.Point(306, 16);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(16, 17);
+            this.label5.Size = new System.Drawing.Size(15, 14);
             this.label5.TabIndex = 42;
             this.label5.Text = "X";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(5, 17);
+            this.label4.Location = new System.Drawing.Point(5, 16);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(27, 17);
+            this.label4.Size = new System.Drawing.Size(30, 14);
             this.label4.TabIndex = 41;
             this.label4.Text = "ชื่อ1";
             // 
@@ -321,11 +322,11 @@
             // 
             this.label31.AutoSize = true;
             this.label31.BackColor = System.Drawing.Color.Transparent;
-            this.label31.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Font = new System.Drawing.Font("Sukhumvit Set", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.ForeColor = System.Drawing.Color.White;
-            this.label31.Location = new System.Drawing.Point(39, 491);
+            this.label31.Location = new System.Drawing.Point(52, 569);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(46, 19);
+            this.label31.Size = new System.Drawing.Size(51, 21);
             this.label31.TabIndex = 47;
             this.label31.Text = "Total";
             // 
@@ -333,11 +334,11 @@
             // 
             this.label32.AutoSize = true;
             this.label32.BackColor = System.Drawing.Color.Transparent;
-            this.label32.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Font = new System.Drawing.Font("Sukhumvit Set", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.ForeColor = System.Drawing.Color.White;
-            this.label32.Location = new System.Drawing.Point(302, 491);
+            this.label32.Location = new System.Drawing.Point(356, 569);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(29, 19);
+            this.label32.Size = new System.Drawing.Size(34, 21);
             this.label32.TabIndex = 48;
             this.label32.Text = "XX";
             // 
@@ -345,11 +346,11 @@
             // 
             this.label34.AutoSize = true;
             this.label34.BackColor = System.Drawing.Color.Transparent;
-            this.label34.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Font = new System.Drawing.Font("Sukhumvit Set", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.ForeColor = System.Drawing.Color.White;
-            this.label34.Location = new System.Drawing.Point(351, 491);
+            this.label34.Location = new System.Drawing.Point(405, 569);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(49, 19);
+            this.label34.Size = new System.Drawing.Size(58, 21);
             this.label34.TabIndex = 50;
             this.label34.Text = "XXXX";
             // 
@@ -357,11 +358,11 @@
             // 
             this.label35.AutoSize = true;
             this.label35.BackColor = System.Drawing.Color.Transparent;
-            this.label35.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Font = new System.Drawing.Font("Sukhumvit Set", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label35.ForeColor = System.Drawing.Color.White;
-            this.label35.Location = new System.Drawing.Point(414, 491);
+            this.label35.Location = new System.Drawing.Point(465, 572);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(18, 19);
+            this.label35.Size = new System.Drawing.Size(21, 21);
             this.label35.TabIndex = 51;
             this.label35.Text = "฿";
             // 
@@ -371,9 +372,9 @@
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderSize = 2;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe MDL2 Assets", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Sukhumvit Set", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(195, 552);
+            this.button1.Location = new System.Drawing.Point(243, 623);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(104, 39);
@@ -420,51 +421,52 @@
             this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox2.Size = new System.Drawing.Size(366, 39);
+            this.groupBox2.Size = new System.Drawing.Size(430, 39);
             this.groupBox2.TabIndex = 44;
             this.groupBox2.TabStop = false;
             // 
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(190, 17);
+            this.label29.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label29.Location = new System.Drawing.Point(227, 16);
             this.label29.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(49, 17);
+            this.label29.Size = new System.Drawing.Size(47, 14);
             this.label29.TabIndex = 44;
             this.label29.Text = "label29";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label7.Location = new System.Drawing.Point(308, 17);
+            this.label7.Location = new System.Drawing.Point(345, 16);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(36, 17);
+            this.label7.Size = new System.Drawing.Size(37, 14);
             this.label7.TabIndex = 43;
             this.label7.Text = "ไม่ระบุ";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label8.Location = new System.Drawing.Point(260, 17);
+            this.label8.Location = new System.Drawing.Point(306, 16);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(16, 17);
+            this.label8.Size = new System.Drawing.Size(15, 14);
             this.label8.TabIndex = 42;
             this.label8.Text = "X";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(5, 17);
+            this.label9.Location = new System.Drawing.Point(5, 16);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(27, 17);
+            this.label9.Size = new System.Drawing.Size(30, 14);
             this.label9.TabIndex = 41;
             this.label9.Text = "ชื่อ1";
             // 
@@ -480,51 +482,52 @@
             this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox3.Size = new System.Drawing.Size(366, 39);
+            this.groupBox3.Size = new System.Drawing.Size(430, 39);
             this.groupBox3.TabIndex = 44;
             this.groupBox3.TabStop = false;
             // 
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(190, 17);
+            this.label30.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label30.Location = new System.Drawing.Point(227, 16);
             this.label30.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(49, 17);
+            this.label30.Size = new System.Drawing.Size(47, 14);
             this.label30.TabIndex = 44;
             this.label30.Text = "label30";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label10.Location = new System.Drawing.Point(306, 17);
+            this.label10.Location = new System.Drawing.Point(345, 19);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(36, 17);
+            this.label10.Size = new System.Drawing.Size(37, 14);
             this.label10.TabIndex = 43;
             this.label10.Text = "ไม่ระบุ";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label11.Location = new System.Drawing.Point(260, 17);
+            this.label11.Location = new System.Drawing.Point(306, 16);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(16, 17);
+            this.label11.Size = new System.Drawing.Size(15, 14);
             this.label11.TabIndex = 42;
             this.label11.Text = "X";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(5, 17);
+            this.label12.Location = new System.Drawing.Point(5, 16);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(27, 17);
+            this.label12.Size = new System.Drawing.Size(30, 14);
             this.label12.TabIndex = 41;
             this.label12.Text = "ชื่อ1";
             // 
@@ -541,18 +544,19 @@
             this.groupBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox4.Size = new System.Drawing.Size(366, 39);
+            this.groupBox4.Size = new System.Drawing.Size(430, 39);
             this.groupBox4.TabIndex = 44;
             this.groupBox4.TabStop = false;
             // 
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(190, 17);
+            this.label33.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label33.Location = new System.Drawing.Point(227, 16);
             this.label33.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(49, 17);
+            this.label33.Size = new System.Drawing.Size(47, 14);
             this.label33.TabIndex = 45;
             this.label33.Text = "label33";
             // 
@@ -577,7 +581,7 @@
             this.label16.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label16.Location = new System.Drawing.Point(345, 17);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(44, 17);
+            this.label16.Size = new System.Drawing.Size(37, 14);
             this.label16.TabIndex = 43;
             this.label16.Text = "ไม่ระบุ";
             // 
@@ -587,7 +591,7 @@
             this.label17.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label17.Location = new System.Drawing.Point(285, 17);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(17, 17);
+            this.label17.Size = new System.Drawing.Size(15, 14);
             this.label17.TabIndex = 42;
             this.label17.Text = "X";
             // 
@@ -597,40 +601,40 @@
             this.label18.ForeColor = System.Drawing.Color.White;
             this.label18.Location = new System.Drawing.Point(5, 17);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(31, 17);
+            this.label18.Size = new System.Drawing.Size(29, 14);
             this.label18.TabIndex = 41;
             this.label18.Text = "ชื่อ1";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label13.Location = new System.Drawing.Point(306, 17);
+            this.label13.Location = new System.Drawing.Point(344, 16);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(36, 17);
+            this.label13.Size = new System.Drawing.Size(37, 14);
             this.label13.TabIndex = 43;
             this.label13.Text = "ไม่ระบุ";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label14.Location = new System.Drawing.Point(260, 17);
+            this.label14.Location = new System.Drawing.Point(306, 16);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(16, 17);
+            this.label14.Size = new System.Drawing.Size(15, 14);
             this.label14.TabIndex = 42;
             this.label14.Text = "X";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(5, 17);
+            this.label15.Location = new System.Drawing.Point(5, 16);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(27, 17);
+            this.label15.Size = new System.Drawing.Size(30, 14);
             this.label15.TabIndex = 41;
             this.label15.Text = "ชื่อ1";
             // 
@@ -646,51 +650,52 @@
             this.groupBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox6.Size = new System.Drawing.Size(366, 39);
+            this.groupBox6.Size = new System.Drawing.Size(430, 39);
             this.groupBox6.TabIndex = 44;
             this.groupBox6.TabStop = false;
             // 
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(190, 14);
+            this.label36.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label36.Location = new System.Drawing.Point(229, 13);
             this.label36.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(49, 17);
+            this.label36.Size = new System.Drawing.Size(47, 14);
             this.label36.TabIndex = 44;
             this.label36.Text = "label36";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label19.Location = new System.Drawing.Point(306, 14);
+            this.label19.Location = new System.Drawing.Point(344, 16);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(36, 17);
+            this.label19.Size = new System.Drawing.Size(37, 14);
             this.label19.TabIndex = 43;
             this.label19.Text = "ไม่ระบุ";
             // 
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label20.Location = new System.Drawing.Point(260, 14);
+            this.label20.Location = new System.Drawing.Point(306, 11);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(16, 17);
+            this.label20.Size = new System.Drawing.Size(15, 14);
             this.label20.TabIndex = 42;
             this.label20.Text = "X";
             // 
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.ForeColor = System.Drawing.Color.White;
-            this.label21.Location = new System.Drawing.Point(5, 17);
+            this.label21.Location = new System.Drawing.Point(5, 16);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(27, 17);
+            this.label21.Size = new System.Drawing.Size(30, 14);
             this.label21.TabIndex = 41;
             this.label21.Text = "ชื่อ1";
             // 
@@ -706,51 +711,52 @@
             this.groupBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox7.Size = new System.Drawing.Size(366, 39);
+            this.groupBox7.Size = new System.Drawing.Size(430, 39);
             this.groupBox7.TabIndex = 44;
             this.groupBox7.TabStop = false;
             // 
             // label37
             // 
             this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(190, 17);
+            this.label37.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label37.Location = new System.Drawing.Point(226, 16);
             this.label37.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(49, 17);
+            this.label37.Size = new System.Drawing.Size(48, 14);
             this.label37.TabIndex = 44;
             this.label37.Text = "label37";
             // 
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label22.Location = new System.Drawing.Point(306, 17);
+            this.label22.Location = new System.Drawing.Point(340, 16);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(36, 17);
+            this.label22.Size = new System.Drawing.Size(37, 14);
             this.label22.TabIndex = 43;
             this.label22.Text = "ไม่ระบุ";
             // 
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label23.Location = new System.Drawing.Point(260, 17);
+            this.label23.Location = new System.Drawing.Point(306, 16);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(16, 17);
+            this.label23.Size = new System.Drawing.Size(15, 14);
             this.label23.TabIndex = 42;
             this.label23.Text = "X";
             // 
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.ForeColor = System.Drawing.Color.White;
-            this.label24.Location = new System.Drawing.Point(5, 17);
+            this.label24.Location = new System.Drawing.Point(5, 16);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(27, 17);
+            this.label24.Size = new System.Drawing.Size(30, 14);
             this.label24.TabIndex = 41;
             this.label24.Text = "ชื่อ1";
             // 
@@ -766,51 +772,52 @@
             this.groupBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox8.Name = "groupBox8";
             this.groupBox8.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox8.Size = new System.Drawing.Size(366, 39);
+            this.groupBox8.Size = new System.Drawing.Size(430, 39);
             this.groupBox8.TabIndex = 45;
             this.groupBox8.TabStop = false;
             // 
             // label38
             // 
             this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.Location = new System.Drawing.Point(190, 17);
+            this.label38.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label38.Location = new System.Drawing.Point(226, 16);
             this.label38.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(49, 17);
+            this.label38.Size = new System.Drawing.Size(47, 14);
             this.label38.TabIndex = 44;
             this.label38.Text = "label38";
             // 
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label25.Location = new System.Drawing.Point(306, 17);
+            this.label25.Location = new System.Drawing.Point(344, 16);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(36, 17);
+            this.label25.Size = new System.Drawing.Size(37, 14);
             this.label25.TabIndex = 43;
             this.label25.Text = "ไม่ระบุ";
             // 
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label26.Location = new System.Drawing.Point(260, 17);
+            this.label26.Location = new System.Drawing.Point(306, 16);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(16, 17);
+            this.label26.Size = new System.Drawing.Size(15, 14);
             this.label26.TabIndex = 42;
             this.label26.Text = "X";
             // 
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.Color.White;
-            this.label27.Location = new System.Drawing.Point(5, 17);
+            this.label27.Location = new System.Drawing.Point(5, 16);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(27, 17);
+            this.label27.Size = new System.Drawing.Size(30, 14);
             this.label27.TabIndex = 41;
             this.label27.Text = "ชื่อ1";
             // 
@@ -844,10 +851,11 @@
             this.panel1.Controls.Add(this.groupBox19);
             this.panel1.Controls.Add(this.groupBox22);
             this.panel1.Controls.Add(this.groupBox23);
-            this.panel1.Location = new System.Drawing.Point(40, 154);
+            this.panel1.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel1.Location = new System.Drawing.Point(53, 154);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(405, 315);
+            this.panel1.Size = new System.Drawing.Size(463, 368);
             this.panel1.TabIndex = 58;
             // 
             // groupBox32
@@ -862,51 +870,52 @@
             this.groupBox32.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox32.Name = "groupBox32";
             this.groupBox32.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox32.Size = new System.Drawing.Size(366, 39);
+            this.groupBox32.Size = new System.Drawing.Size(430, 39);
             this.groupBox32.TabIndex = 40;
             this.groupBox32.TabStop = false;
             // 
             // label128
             // 
             this.label128.AutoSize = true;
-            this.label128.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label128.Location = new System.Drawing.Point(190, 17);
+            this.label128.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label128.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label128.Location = new System.Drawing.Point(226, 16);
             this.label128.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label128.Name = "label128";
-            this.label128.Size = new System.Drawing.Size(49, 17);
+            this.label128.Size = new System.Drawing.Size(47, 14);
             this.label128.TabIndex = 44;
             this.label128.Text = "label28";
             // 
             // label129
             // 
             this.label129.AutoSize = true;
-            this.label129.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label129.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label129.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label129.Location = new System.Drawing.Point(306, 17);
+            this.label129.Location = new System.Drawing.Point(340, 16);
             this.label129.Name = "label129";
-            this.label129.Size = new System.Drawing.Size(36, 17);
+            this.label129.Size = new System.Drawing.Size(37, 14);
             this.label129.TabIndex = 43;
             this.label129.Text = "ไม่ระบุ";
             // 
             // label130
             // 
             this.label130.AutoSize = true;
-            this.label130.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label130.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label130.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label130.Location = new System.Drawing.Point(260, 17);
+            this.label130.Location = new System.Drawing.Point(306, 16);
             this.label130.Name = "label130";
-            this.label130.Size = new System.Drawing.Size(16, 17);
+            this.label130.Size = new System.Drawing.Size(15, 14);
             this.label130.TabIndex = 42;
             this.label130.Text = "X";
             // 
             // label131
             // 
             this.label131.AutoSize = true;
-            this.label131.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label131.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label131.ForeColor = System.Drawing.Color.White;
-            this.label131.Location = new System.Drawing.Point(5, 17);
+            this.label131.Location = new System.Drawing.Point(5, 16);
             this.label131.Name = "label131";
-            this.label131.Size = new System.Drawing.Size(27, 17);
+            this.label131.Size = new System.Drawing.Size(30, 14);
             this.label131.TabIndex = 41;
             this.label131.Text = "ชื่อ1";
             // 
@@ -922,51 +931,52 @@
             this.groupBox16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox16.Name = "groupBox16";
             this.groupBox16.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox16.Size = new System.Drawing.Size(366, 39);
+            this.groupBox16.Size = new System.Drawing.Size(430, 39);
             this.groupBox16.TabIndex = 40;
             this.groupBox16.TabStop = false;
             // 
             // label66
             // 
             this.label66.AutoSize = true;
-            this.label66.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label66.Location = new System.Drawing.Point(190, 17);
+            this.label66.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label66.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label66.Location = new System.Drawing.Point(226, 16);
             this.label66.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(49, 17);
+            this.label66.Size = new System.Drawing.Size(47, 14);
             this.label66.TabIndex = 44;
             this.label66.Text = "label28";
             // 
             // label67
             // 
             this.label67.AutoSize = true;
-            this.label67.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label67.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label67.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label67.Location = new System.Drawing.Point(308, 17);
+            this.label67.Location = new System.Drawing.Point(340, 16);
             this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(36, 17);
+            this.label67.Size = new System.Drawing.Size(37, 14);
             this.label67.TabIndex = 43;
             this.label67.Text = "ไม่ระบุ";
             // 
             // label68
             // 
             this.label68.AutoSize = true;
-            this.label68.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label68.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label68.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label68.Location = new System.Drawing.Point(260, 17);
+            this.label68.Location = new System.Drawing.Point(306, 16);
             this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(16, 17);
+            this.label68.Size = new System.Drawing.Size(15, 14);
             this.label68.TabIndex = 42;
             this.label68.Text = "X";
             // 
             // label69
             // 
             this.label69.AutoSize = true;
-            this.label69.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label69.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label69.ForeColor = System.Drawing.Color.White;
-            this.label69.Location = new System.Drawing.Point(5, 17);
+            this.label69.Location = new System.Drawing.Point(5, 16);
             this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(27, 17);
+            this.label69.Size = new System.Drawing.Size(30, 14);
             this.label69.TabIndex = 41;
             this.label69.Text = "ชื่อ1";
             // 
@@ -982,51 +992,52 @@
             this.groupBox15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox15.Name = "groupBox15";
             this.groupBox15.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox15.Size = new System.Drawing.Size(366, 39);
+            this.groupBox15.Size = new System.Drawing.Size(430, 39);
             this.groupBox15.TabIndex = 45;
             this.groupBox15.TabStop = false;
             // 
             // label62
             // 
             this.label62.AutoSize = true;
-            this.label62.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label62.Location = new System.Drawing.Point(190, 17);
+            this.label62.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label62.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label62.Location = new System.Drawing.Point(226, 16);
             this.label62.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(49, 17);
+            this.label62.Size = new System.Drawing.Size(47, 14);
             this.label62.TabIndex = 44;
             this.label62.Text = "label38";
             // 
             // label63
             // 
             this.label63.AutoSize = true;
-            this.label63.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label63.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label63.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label63.Location = new System.Drawing.Point(308, 17);
+            this.label63.Location = new System.Drawing.Point(344, 16);
             this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(36, 17);
+            this.label63.Size = new System.Drawing.Size(37, 14);
             this.label63.TabIndex = 43;
             this.label63.Text = "ไม่ระบุ";
             // 
             // label64
             // 
             this.label64.AutoSize = true;
-            this.label64.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label64.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label64.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label64.Location = new System.Drawing.Point(260, 17);
+            this.label64.Location = new System.Drawing.Point(306, 16);
             this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(16, 17);
+            this.label64.Size = new System.Drawing.Size(15, 14);
             this.label64.TabIndex = 42;
             this.label64.Text = "X";
             // 
             // label65
             // 
             this.label65.AutoSize = true;
-            this.label65.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label65.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label65.ForeColor = System.Drawing.Color.White;
-            this.label65.Location = new System.Drawing.Point(5, 17);
+            this.label65.Location = new System.Drawing.Point(5, 16);
             this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(27, 17);
+            this.label65.Size = new System.Drawing.Size(30, 14);
             this.label65.TabIndex = 41;
             this.label65.Text = "ชื่อ1";
             // 
@@ -1042,51 +1053,52 @@
             this.groupBox14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox14.Name = "groupBox14";
             this.groupBox14.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox14.Size = new System.Drawing.Size(366, 39);
+            this.groupBox14.Size = new System.Drawing.Size(430, 40);
             this.groupBox14.TabIndex = 44;
             this.groupBox14.TabStop = false;
             // 
             // label58
             // 
             this.label58.AutoSize = true;
-            this.label58.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label58.Location = new System.Drawing.Point(190, 17);
+            this.label58.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label58.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label58.Location = new System.Drawing.Point(226, 16);
             this.label58.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(49, 17);
+            this.label58.Size = new System.Drawing.Size(47, 14);
             this.label58.TabIndex = 44;
             this.label58.Text = "label29";
             // 
             // label59
             // 
             this.label59.AutoSize = true;
-            this.label59.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label59.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label59.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label59.Location = new System.Drawing.Point(308, 17);
+            this.label59.Location = new System.Drawing.Point(340, 19);
             this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(36, 17);
+            this.label59.Size = new System.Drawing.Size(37, 14);
             this.label59.TabIndex = 43;
             this.label59.Text = "ไม่ระบุ";
             // 
             // label60
             // 
             this.label60.AutoSize = true;
-            this.label60.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label60.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label60.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label60.Location = new System.Drawing.Point(260, 17);
+            this.label60.Location = new System.Drawing.Point(306, 19);
             this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(16, 17);
+            this.label60.Size = new System.Drawing.Size(15, 14);
             this.label60.TabIndex = 42;
             this.label60.Text = "X";
             // 
             // label61
             // 
             this.label61.AutoSize = true;
-            this.label61.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label61.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label61.ForeColor = System.Drawing.Color.White;
-            this.label61.Location = new System.Drawing.Point(5, 17);
+            this.label61.Location = new System.Drawing.Point(5, 16);
             this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(27, 17);
+            this.label61.Size = new System.Drawing.Size(30, 14);
             this.label61.TabIndex = 41;
             this.label61.Text = "ชื่อ1";
             // 
@@ -1102,51 +1114,52 @@
             this.groupBox31.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox31.Name = "groupBox31";
             this.groupBox31.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox31.Size = new System.Drawing.Size(366, 39);
+            this.groupBox31.Size = new System.Drawing.Size(430, 39);
             this.groupBox31.TabIndex = 40;
             this.groupBox31.TabStop = false;
             // 
             // label124
             // 
             this.label124.AutoSize = true;
-            this.label124.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label124.Location = new System.Drawing.Point(190, 17);
+            this.label124.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label124.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label124.Location = new System.Drawing.Point(226, 16);
             this.label124.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label124.Name = "label124";
-            this.label124.Size = new System.Drawing.Size(49, 17);
+            this.label124.Size = new System.Drawing.Size(47, 14);
             this.label124.TabIndex = 44;
             this.label124.Text = "label28";
             // 
             // label125
             // 
             this.label125.AutoSize = true;
-            this.label125.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label125.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label125.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label125.Location = new System.Drawing.Point(308, 17);
+            this.label125.Location = new System.Drawing.Point(340, 16);
             this.label125.Name = "label125";
-            this.label125.Size = new System.Drawing.Size(36, 17);
+            this.label125.Size = new System.Drawing.Size(37, 14);
             this.label125.TabIndex = 43;
             this.label125.Text = "ไม่ระบุ";
             // 
             // label126
             // 
             this.label126.AutoSize = true;
-            this.label126.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label126.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label126.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label126.Location = new System.Drawing.Point(260, 17);
+            this.label126.Location = new System.Drawing.Point(306, 16);
             this.label126.Name = "label126";
-            this.label126.Size = new System.Drawing.Size(16, 17);
+            this.label126.Size = new System.Drawing.Size(15, 14);
             this.label126.TabIndex = 42;
             this.label126.Text = "X";
             // 
             // label127
             // 
             this.label127.AutoSize = true;
-            this.label127.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label127.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label127.ForeColor = System.Drawing.Color.White;
-            this.label127.Location = new System.Drawing.Point(5, 17);
+            this.label127.Location = new System.Drawing.Point(5, 16);
             this.label127.Name = "label127";
-            this.label127.Size = new System.Drawing.Size(27, 17);
+            this.label127.Size = new System.Drawing.Size(30, 14);
             this.label127.TabIndex = 41;
             this.label127.Text = "ชื่อ1";
             // 
@@ -1162,51 +1175,52 @@
             this.groupBox13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox13.Name = "groupBox13";
             this.groupBox13.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox13.Size = new System.Drawing.Size(366, 39);
+            this.groupBox13.Size = new System.Drawing.Size(430, 39);
             this.groupBox13.TabIndex = 44;
             this.groupBox13.TabStop = false;
             // 
             // label54
             // 
             this.label54.AutoSize = true;
-            this.label54.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(190, 17);
+            this.label54.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label54.Location = new System.Drawing.Point(226, 16);
             this.label54.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(49, 17);
+            this.label54.Size = new System.Drawing.Size(48, 14);
             this.label54.TabIndex = 44;
             this.label54.Text = "label37";
             // 
             // label55
             // 
             this.label55.AutoSize = true;
-            this.label55.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label55.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label55.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label55.Location = new System.Drawing.Point(306, 17);
+            this.label55.Location = new System.Drawing.Point(340, 16);
             this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(36, 17);
+            this.label55.Size = new System.Drawing.Size(37, 14);
             this.label55.TabIndex = 43;
             this.label55.Text = "ไม่ระบุ";
             // 
             // label56
             // 
             this.label56.AutoSize = true;
-            this.label56.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label56.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label56.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label56.Location = new System.Drawing.Point(260, 17);
+            this.label56.Location = new System.Drawing.Point(306, 19);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(16, 17);
+            this.label56.Size = new System.Drawing.Size(15, 14);
             this.label56.TabIndex = 42;
             this.label56.Text = "X";
             // 
             // label57
             // 
             this.label57.AutoSize = true;
-            this.label57.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label57.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label57.ForeColor = System.Drawing.Color.White;
-            this.label57.Location = new System.Drawing.Point(5, 17);
+            this.label57.Location = new System.Drawing.Point(5, 16);
             this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(27, 17);
+            this.label57.Size = new System.Drawing.Size(30, 14);
             this.label57.TabIndex = 41;
             this.label57.Text = "ชื่อ1";
             // 
@@ -1222,51 +1236,52 @@
             this.groupBox29.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox29.Name = "groupBox29";
             this.groupBox29.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox29.Size = new System.Drawing.Size(366, 39);
+            this.groupBox29.Size = new System.Drawing.Size(430, 39);
             this.groupBox29.TabIndex = 44;
             this.groupBox29.TabStop = false;
             // 
             // label116
             // 
             this.label116.AutoSize = true;
-            this.label116.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label116.Location = new System.Drawing.Point(190, 17);
+            this.label116.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label116.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label116.Location = new System.Drawing.Point(226, 16);
             this.label116.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label116.Name = "label116";
-            this.label116.Size = new System.Drawing.Size(49, 17);
+            this.label116.Size = new System.Drawing.Size(47, 14);
             this.label116.TabIndex = 44;
             this.label116.Text = "label29";
             // 
             // label117
             // 
             this.label117.AutoSize = true;
-            this.label117.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label117.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label117.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label117.Location = new System.Drawing.Point(306, 20);
+            this.label117.Location = new System.Drawing.Point(344, 19);
             this.label117.Name = "label117";
-            this.label117.Size = new System.Drawing.Size(36, 17);
+            this.label117.Size = new System.Drawing.Size(37, 14);
             this.label117.TabIndex = 43;
             this.label117.Text = "ไม่ระบุ";
             // 
             // label118
             // 
             this.label118.AutoSize = true;
-            this.label118.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label118.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label118.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label118.Location = new System.Drawing.Point(260, 17);
+            this.label118.Location = new System.Drawing.Point(306, 16);
             this.label118.Name = "label118";
-            this.label118.Size = new System.Drawing.Size(16, 17);
+            this.label118.Size = new System.Drawing.Size(15, 14);
             this.label118.TabIndex = 42;
             this.label118.Text = "X";
             // 
             // label119
             // 
             this.label119.AutoSize = true;
-            this.label119.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label119.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label119.ForeColor = System.Drawing.Color.White;
-            this.label119.Location = new System.Drawing.Point(5, 17);
+            this.label119.Location = new System.Drawing.Point(5, 16);
             this.label119.Name = "label119";
-            this.label119.Size = new System.Drawing.Size(27, 17);
+            this.label119.Size = new System.Drawing.Size(30, 14);
             this.label119.TabIndex = 41;
             this.label119.Text = "ชื่อ1";
             // 
@@ -1282,51 +1297,52 @@
             this.groupBox24.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox24.Name = "groupBox24";
             this.groupBox24.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox24.Size = new System.Drawing.Size(366, 39);
+            this.groupBox24.Size = new System.Drawing.Size(430, 39);
             this.groupBox24.TabIndex = 44;
             this.groupBox24.TabStop = false;
             // 
             // label96
             // 
             this.label96.AutoSize = true;
-            this.label96.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label96.Location = new System.Drawing.Point(190, 17);
+            this.label96.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label96.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label96.Location = new System.Drawing.Point(226, 16);
             this.label96.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label96.Name = "label96";
-            this.label96.Size = new System.Drawing.Size(49, 17);
+            this.label96.Size = new System.Drawing.Size(48, 14);
             this.label96.TabIndex = 44;
             this.label96.Text = "label37";
             // 
             // label97
             // 
             this.label97.AutoSize = true;
-            this.label97.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label97.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label97.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label97.Location = new System.Drawing.Point(306, 20);
+            this.label97.Location = new System.Drawing.Point(340, 19);
             this.label97.Name = "label97";
-            this.label97.Size = new System.Drawing.Size(36, 17);
+            this.label97.Size = new System.Drawing.Size(37, 14);
             this.label97.TabIndex = 43;
             this.label97.Text = "ไม่ระบุ";
             // 
             // label98
             // 
             this.label98.AutoSize = true;
-            this.label98.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label98.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label98.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label98.Location = new System.Drawing.Point(260, 17);
+            this.label98.Location = new System.Drawing.Point(306, 16);
             this.label98.Name = "label98";
-            this.label98.Size = new System.Drawing.Size(16, 17);
+            this.label98.Size = new System.Drawing.Size(15, 14);
             this.label98.TabIndex = 42;
             this.label98.Text = "X";
             // 
             // label99
             // 
             this.label99.AutoSize = true;
-            this.label99.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label99.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label99.ForeColor = System.Drawing.Color.White;
-            this.label99.Location = new System.Drawing.Point(5, 17);
+            this.label99.Location = new System.Drawing.Point(5, 16);
             this.label99.Name = "label99";
-            this.label99.Size = new System.Drawing.Size(27, 17);
+            this.label99.Size = new System.Drawing.Size(30, 14);
             this.label99.TabIndex = 41;
             this.label99.Text = "ชื่อ1";
             // 
@@ -1342,51 +1358,52 @@
             this.groupBox12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox12.Name = "groupBox12";
             this.groupBox12.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox12.Size = new System.Drawing.Size(366, 39);
+            this.groupBox12.Size = new System.Drawing.Size(430, 39);
             this.groupBox12.TabIndex = 44;
             this.groupBox12.TabStop = false;
             // 
             // label50
             // 
             this.label50.AutoSize = true;
-            this.label50.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.Location = new System.Drawing.Point(190, 17);
+            this.label50.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label50.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label50.Location = new System.Drawing.Point(229, 19);
             this.label50.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(49, 17);
+            this.label50.Size = new System.Drawing.Size(47, 14);
             this.label50.TabIndex = 44;
             this.label50.Text = "label30";
             // 
             // label51
             // 
             this.label51.AutoSize = true;
-            this.label51.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label51.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label51.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label51.Location = new System.Drawing.Point(308, 17);
+            this.label51.Location = new System.Drawing.Point(340, 16);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(36, 17);
+            this.label51.Size = new System.Drawing.Size(37, 14);
             this.label51.TabIndex = 43;
             this.label51.Text = "ไม่ระบุ";
             // 
             // label52
             // 
             this.label52.AutoSize = true;
-            this.label52.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label52.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label52.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label52.Location = new System.Drawing.Point(260, 17);
+            this.label52.Location = new System.Drawing.Point(306, 16);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(16, 17);
+            this.label52.Size = new System.Drawing.Size(15, 14);
             this.label52.TabIndex = 42;
             this.label52.Text = "X";
             // 
             // label53
             // 
             this.label53.AutoSize = true;
-            this.label53.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label53.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label53.ForeColor = System.Drawing.Color.White;
-            this.label53.Location = new System.Drawing.Point(5, 17);
+            this.label53.Location = new System.Drawing.Point(5, 16);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(27, 17);
+            this.label53.Size = new System.Drawing.Size(30, 14);
             this.label53.TabIndex = 41;
             this.label53.Text = "ชื่อ1";
             // 
@@ -1403,18 +1420,19 @@
             this.groupBox17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox17.Name = "groupBox17";
             this.groupBox17.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox17.Size = new System.Drawing.Size(366, 39);
+            this.groupBox17.Size = new System.Drawing.Size(430, 39);
             this.groupBox17.TabIndex = 44;
             this.groupBox17.TabStop = false;
             // 
             // label70
             // 
             this.label70.AutoSize = true;
-            this.label70.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label70.Location = new System.Drawing.Point(190, 17);
+            this.label70.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label70.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label70.Location = new System.Drawing.Point(226, 16);
             this.label70.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(49, 17);
+            this.label70.Size = new System.Drawing.Size(47, 14);
             this.label70.TabIndex = 45;
             this.label70.Text = "label33";
             // 
@@ -1439,7 +1457,7 @@
             this.label71.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label71.Location = new System.Drawing.Point(345, 17);
             this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(44, 17);
+            this.label71.Size = new System.Drawing.Size(37, 14);
             this.label71.TabIndex = 43;
             this.label71.Text = "ไม่ระบุ";
             // 
@@ -1449,7 +1467,7 @@
             this.label72.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label72.Location = new System.Drawing.Point(285, 17);
             this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(17, 17);
+            this.label72.Size = new System.Drawing.Size(15, 14);
             this.label72.TabIndex = 42;
             this.label72.Text = "X";
             // 
@@ -1459,40 +1477,40 @@
             this.label73.ForeColor = System.Drawing.Color.White;
             this.label73.Location = new System.Drawing.Point(5, 17);
             this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(31, 17);
+            this.label73.Size = new System.Drawing.Size(29, 14);
             this.label73.TabIndex = 41;
             this.label73.Text = "ชื่อ1";
             // 
             // label74
             // 
             this.label74.AutoSize = true;
-            this.label74.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label74.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label74.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label74.Location = new System.Drawing.Point(306, 17);
+            this.label74.Location = new System.Drawing.Point(340, 16);
             this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(36, 17);
+            this.label74.Size = new System.Drawing.Size(37, 14);
             this.label74.TabIndex = 43;
             this.label74.Text = "ไม่ระบุ";
             // 
             // label75
             // 
             this.label75.AutoSize = true;
-            this.label75.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label75.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label75.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label75.Location = new System.Drawing.Point(260, 17);
+            this.label75.Location = new System.Drawing.Point(306, 16);
             this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(16, 17);
+            this.label75.Size = new System.Drawing.Size(15, 14);
             this.label75.TabIndex = 42;
             this.label75.Text = "X";
             // 
             // label76
             // 
             this.label76.AutoSize = true;
-            this.label76.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label76.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label76.ForeColor = System.Drawing.Color.White;
-            this.label76.Location = new System.Drawing.Point(5, 17);
+            this.label76.Location = new System.Drawing.Point(5, 16);
             this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(27, 17);
+            this.label76.Size = new System.Drawing.Size(30, 14);
             this.label76.TabIndex = 41;
             this.label76.Text = "ชื่อ1";
             // 
@@ -1508,51 +1526,52 @@
             this.groupBox25.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox25.Name = "groupBox25";
             this.groupBox25.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox25.Size = new System.Drawing.Size(366, 39);
+            this.groupBox25.Size = new System.Drawing.Size(430, 39);
             this.groupBox25.TabIndex = 44;
             this.groupBox25.TabStop = false;
             // 
             // label100
             // 
             this.label100.AutoSize = true;
-            this.label100.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label100.Location = new System.Drawing.Point(190, 17);
+            this.label100.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label100.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label100.Location = new System.Drawing.Point(226, 19);
             this.label100.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label100.Name = "label100";
-            this.label100.Size = new System.Drawing.Size(49, 17);
+            this.label100.Size = new System.Drawing.Size(47, 14);
             this.label100.TabIndex = 44;
             this.label100.Text = "label30";
             // 
             // label101
             // 
             this.label101.AutoSize = true;
-            this.label101.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label101.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label101.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label101.Location = new System.Drawing.Point(306, 17);
+            this.label101.Location = new System.Drawing.Point(340, 16);
             this.label101.Name = "label101";
-            this.label101.Size = new System.Drawing.Size(36, 17);
+            this.label101.Size = new System.Drawing.Size(37, 14);
             this.label101.TabIndex = 43;
             this.label101.Text = "ไม่ระบุ";
             // 
             // label102
             // 
             this.label102.AutoSize = true;
-            this.label102.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label102.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label102.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label102.Location = new System.Drawing.Point(260, 17);
+            this.label102.Location = new System.Drawing.Point(306, 16);
             this.label102.Name = "label102";
-            this.label102.Size = new System.Drawing.Size(16, 17);
+            this.label102.Size = new System.Drawing.Size(15, 14);
             this.label102.TabIndex = 42;
             this.label102.Text = "X";
             // 
             // label103
             // 
             this.label103.AutoSize = true;
-            this.label103.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label103.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label103.ForeColor = System.Drawing.Color.White;
-            this.label103.Location = new System.Drawing.Point(5, 17);
+            this.label103.Location = new System.Drawing.Point(5, 16);
             this.label103.Name = "label103";
-            this.label103.Size = new System.Drawing.Size(27, 17);
+            this.label103.Size = new System.Drawing.Size(30, 14);
             this.label103.TabIndex = 41;
             this.label103.Text = "ชื่อ1";
             // 
@@ -1568,51 +1587,52 @@
             this.groupBox11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox11.Name = "groupBox11";
             this.groupBox11.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox11.Size = new System.Drawing.Size(366, 39);
+            this.groupBox11.Size = new System.Drawing.Size(430, 39);
             this.groupBox11.TabIndex = 44;
             this.groupBox11.TabStop = false;
             // 
             // label46
             // 
             this.label46.AutoSize = true;
-            this.label46.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.Location = new System.Drawing.Point(190, 17);
+            this.label46.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label46.Location = new System.Drawing.Point(229, 16);
             this.label46.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(49, 17);
+            this.label46.Size = new System.Drawing.Size(47, 14);
             this.label46.TabIndex = 44;
             this.label46.Text = "label36";
             // 
             // label47
             // 
             this.label47.AutoSize = true;
-            this.label47.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label47.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label47.Location = new System.Drawing.Point(308, 17);
+            this.label47.Location = new System.Drawing.Point(345, 16);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(36, 17);
+            this.label47.Size = new System.Drawing.Size(37, 14);
             this.label47.TabIndex = 43;
             this.label47.Text = "ไม่ระบุ";
             // 
             // label48
             // 
             this.label48.AutoSize = true;
-            this.label48.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label48.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label48.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label48.Location = new System.Drawing.Point(260, 17);
+            this.label48.Location = new System.Drawing.Point(306, 16);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(16, 17);
+            this.label48.Size = new System.Drawing.Size(15, 14);
             this.label48.TabIndex = 42;
             this.label48.Text = "X";
             // 
             // label49
             // 
             this.label49.AutoSize = true;
-            this.label49.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label49.ForeColor = System.Drawing.Color.White;
-            this.label49.Location = new System.Drawing.Point(5, 17);
+            this.label49.Location = new System.Drawing.Point(5, 16);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(27, 17);
+            this.label49.Size = new System.Drawing.Size(30, 14);
             this.label49.TabIndex = 41;
             this.label49.Text = "ชื่อ1";
             // 
@@ -1628,51 +1648,52 @@
             this.groupBox28.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox28.Name = "groupBox28";
             this.groupBox28.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox28.Size = new System.Drawing.Size(366, 39);
+            this.groupBox28.Size = new System.Drawing.Size(430, 39);
             this.groupBox28.TabIndex = 45;
             this.groupBox28.TabStop = false;
             // 
             // label112
             // 
             this.label112.AutoSize = true;
-            this.label112.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label112.Location = new System.Drawing.Point(190, 17);
+            this.label112.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label112.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label112.Location = new System.Drawing.Point(226, 16);
             this.label112.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label112.Name = "label112";
-            this.label112.Size = new System.Drawing.Size(49, 17);
+            this.label112.Size = new System.Drawing.Size(47, 14);
             this.label112.TabIndex = 44;
             this.label112.Text = "label38";
             // 
             // label113
             // 
             this.label113.AutoSize = true;
-            this.label113.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label113.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label113.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label113.Location = new System.Drawing.Point(306, 17);
+            this.label113.Location = new System.Drawing.Point(340, 16);
             this.label113.Name = "label113";
-            this.label113.Size = new System.Drawing.Size(36, 17);
+            this.label113.Size = new System.Drawing.Size(37, 14);
             this.label113.TabIndex = 43;
             this.label113.Text = "ไม่ระบุ";
             // 
             // label114
             // 
             this.label114.AutoSize = true;
-            this.label114.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label114.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label114.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label114.Location = new System.Drawing.Point(260, 17);
+            this.label114.Location = new System.Drawing.Point(306, 16);
             this.label114.Name = "label114";
-            this.label114.Size = new System.Drawing.Size(16, 17);
+            this.label114.Size = new System.Drawing.Size(15, 14);
             this.label114.TabIndex = 42;
             this.label114.Text = "X";
             // 
             // label115
             // 
             this.label115.AutoSize = true;
-            this.label115.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label115.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label115.ForeColor = System.Drawing.Color.White;
-            this.label115.Location = new System.Drawing.Point(5, 17);
+            this.label115.Location = new System.Drawing.Point(5, 16);
             this.label115.Name = "label115";
-            this.label115.Size = new System.Drawing.Size(27, 17);
+            this.label115.Size = new System.Drawing.Size(30, 14);
             this.label115.TabIndex = 41;
             this.label115.Text = "ชื่อ1";
             // 
@@ -1689,18 +1710,19 @@
             this.groupBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox9.Name = "groupBox9";
             this.groupBox9.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox9.Size = new System.Drawing.Size(366, 39);
+            this.groupBox9.Size = new System.Drawing.Size(430, 39);
             this.groupBox9.TabIndex = 44;
             this.groupBox9.TabStop = false;
             // 
             // label39
             // 
             this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(190, 17);
+            this.label39.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label39.Location = new System.Drawing.Point(226, 19);
             this.label39.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(49, 17);
+            this.label39.Size = new System.Drawing.Size(47, 14);
             this.label39.TabIndex = 45;
             this.label39.Text = "label33";
             // 
@@ -1725,7 +1747,7 @@
             this.label40.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label40.Location = new System.Drawing.Point(345, 17);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(44, 17);
+            this.label40.Size = new System.Drawing.Size(37, 14);
             this.label40.TabIndex = 43;
             this.label40.Text = "ไม่ระบุ";
             // 
@@ -1735,7 +1757,7 @@
             this.label41.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label41.Location = new System.Drawing.Point(285, 17);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(17, 17);
+            this.label41.Size = new System.Drawing.Size(15, 14);
             this.label41.TabIndex = 42;
             this.label41.Text = "X";
             // 
@@ -1745,40 +1767,40 @@
             this.label42.ForeColor = System.Drawing.Color.White;
             this.label42.Location = new System.Drawing.Point(5, 17);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(31, 17);
+            this.label42.Size = new System.Drawing.Size(29, 14);
             this.label42.TabIndex = 41;
             this.label42.Text = "ชื่อ1";
             // 
             // label43
             // 
             this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label43.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label43.Location = new System.Drawing.Point(308, 17);
+            this.label43.Location = new System.Drawing.Point(345, 16);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(36, 17);
+            this.label43.Size = new System.Drawing.Size(37, 14);
             this.label43.TabIndex = 43;
             this.label43.Text = "ไม่ระบุ";
             // 
             // label44
             // 
             this.label44.AutoSize = true;
-            this.label44.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label44.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label44.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label44.Location = new System.Drawing.Point(260, 17);
+            this.label44.Location = new System.Drawing.Point(306, 16);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(16, 17);
+            this.label44.Size = new System.Drawing.Size(15, 14);
             this.label44.TabIndex = 42;
             this.label44.Text = "X";
             // 
             // label45
             // 
             this.label45.AutoSize = true;
-            this.label45.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label45.ForeColor = System.Drawing.Color.White;
-            this.label45.Location = new System.Drawing.Point(5, 17);
+            this.label45.Location = new System.Drawing.Point(5, 16);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(27, 17);
+            this.label45.Size = new System.Drawing.Size(30, 14);
             this.label45.TabIndex = 41;
             this.label45.Text = "ชื่อ1";
             // 
@@ -1795,18 +1817,19 @@
             this.groupBox20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox20.Name = "groupBox20";
             this.groupBox20.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox20.Size = new System.Drawing.Size(366, 39);
+            this.groupBox20.Size = new System.Drawing.Size(430, 39);
             this.groupBox20.TabIndex = 44;
             this.groupBox20.TabStop = false;
             // 
             // label81
             // 
             this.label81.AutoSize = true;
-            this.label81.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label81.Location = new System.Drawing.Point(190, 17);
+            this.label81.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label81.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label81.Location = new System.Drawing.Point(226, 16);
             this.label81.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(49, 17);
+            this.label81.Size = new System.Drawing.Size(47, 14);
             this.label81.TabIndex = 45;
             this.label81.Text = "label33";
             // 
@@ -1831,7 +1854,7 @@
             this.label82.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label82.Location = new System.Drawing.Point(345, 17);
             this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(44, 17);
+            this.label82.Size = new System.Drawing.Size(37, 14);
             this.label82.TabIndex = 43;
             this.label82.Text = "ไม่ระบุ";
             // 
@@ -1841,7 +1864,7 @@
             this.label83.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label83.Location = new System.Drawing.Point(285, 17);
             this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(17, 17);
+            this.label83.Size = new System.Drawing.Size(15, 14);
             this.label83.TabIndex = 42;
             this.label83.Text = "X";
             // 
@@ -1851,40 +1874,40 @@
             this.label84.ForeColor = System.Drawing.Color.White;
             this.label84.Location = new System.Drawing.Point(5, 17);
             this.label84.Name = "label84";
-            this.label84.Size = new System.Drawing.Size(31, 17);
+            this.label84.Size = new System.Drawing.Size(29, 14);
             this.label84.TabIndex = 41;
             this.label84.Text = "ชื่อ1";
             // 
             // label85
             // 
             this.label85.AutoSize = true;
-            this.label85.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label85.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label85.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label85.Location = new System.Drawing.Point(306, 17);
+            this.label85.Location = new System.Drawing.Point(340, 16);
             this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(36, 17);
+            this.label85.Size = new System.Drawing.Size(37, 14);
             this.label85.TabIndex = 43;
             this.label85.Text = "ไม่ระบุ";
             // 
             // label86
             // 
             this.label86.AutoSize = true;
-            this.label86.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label86.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label86.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label86.Location = new System.Drawing.Point(260, 17);
+            this.label86.Location = new System.Drawing.Point(306, 19);
             this.label86.Name = "label86";
-            this.label86.Size = new System.Drawing.Size(16, 17);
+            this.label86.Size = new System.Drawing.Size(15, 14);
             this.label86.TabIndex = 42;
             this.label86.Text = "X";
             // 
             // label87
             // 
             this.label87.AutoSize = true;
-            this.label87.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label87.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label87.ForeColor = System.Drawing.Color.White;
-            this.label87.Location = new System.Drawing.Point(5, 17);
+            this.label87.Location = new System.Drawing.Point(5, 16);
             this.label87.Name = "label87";
-            this.label87.Size = new System.Drawing.Size(27, 17);
+            this.label87.Size = new System.Drawing.Size(30, 14);
             this.label87.TabIndex = 41;
             this.label87.Text = "ชื่อ1";
             // 
@@ -1900,51 +1923,52 @@
             this.groupBox26.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox26.Name = "groupBox26";
             this.groupBox26.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox26.Size = new System.Drawing.Size(366, 39);
+            this.groupBox26.Size = new System.Drawing.Size(430, 39);
             this.groupBox26.TabIndex = 44;
             this.groupBox26.TabStop = false;
             // 
             // label104
             // 
             this.label104.AutoSize = true;
-            this.label104.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label104.Location = new System.Drawing.Point(190, 20);
+            this.label104.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label104.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label104.Location = new System.Drawing.Point(226, 19);
             this.label104.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label104.Name = "label104";
-            this.label104.Size = new System.Drawing.Size(49, 17);
+            this.label104.Size = new System.Drawing.Size(47, 14);
             this.label104.TabIndex = 44;
             this.label104.Text = "label29";
             // 
             // label105
             // 
             this.label105.AutoSize = true;
-            this.label105.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label105.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label105.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label105.Location = new System.Drawing.Point(308, 20);
+            this.label105.Location = new System.Drawing.Point(344, 19);
             this.label105.Name = "label105";
-            this.label105.Size = new System.Drawing.Size(36, 17);
+            this.label105.Size = new System.Drawing.Size(37, 14);
             this.label105.TabIndex = 43;
             this.label105.Text = "ไม่ระบุ";
             // 
             // label106
             // 
             this.label106.AutoSize = true;
-            this.label106.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label106.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label106.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label106.Location = new System.Drawing.Point(260, 17);
+            this.label106.Location = new System.Drawing.Point(306, 16);
             this.label106.Name = "label106";
-            this.label106.Size = new System.Drawing.Size(16, 17);
+            this.label106.Size = new System.Drawing.Size(15, 14);
             this.label106.TabIndex = 42;
             this.label106.Text = "X";
             // 
             // label107
             // 
             this.label107.AutoSize = true;
-            this.label107.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label107.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label107.ForeColor = System.Drawing.Color.White;
-            this.label107.Location = new System.Drawing.Point(5, 17);
+            this.label107.Location = new System.Drawing.Point(5, 16);
             this.label107.Name = "label107";
-            this.label107.Size = new System.Drawing.Size(27, 17);
+            this.label107.Size = new System.Drawing.Size(30, 14);
             this.label107.TabIndex = 41;
             this.label107.Text = "ชื่อ1";
             // 
@@ -1960,51 +1984,52 @@
             this.groupBox19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox19.Name = "groupBox19";
             this.groupBox19.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox19.Size = new System.Drawing.Size(366, 39);
+            this.groupBox19.Size = new System.Drawing.Size(430, 39);
             this.groupBox19.TabIndex = 44;
             this.groupBox19.TabStop = false;
             // 
             // label77
             // 
             this.label77.AutoSize = true;
-            this.label77.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label77.Location = new System.Drawing.Point(190, 14);
+            this.label77.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label77.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label77.Location = new System.Drawing.Point(226, 16);
             this.label77.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(49, 17);
+            this.label77.Size = new System.Drawing.Size(47, 14);
             this.label77.TabIndex = 44;
             this.label77.Text = "label36";
             // 
             // label78
             // 
             this.label78.AutoSize = true;
-            this.label78.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label78.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label78.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label78.Location = new System.Drawing.Point(308, 14);
+            this.label78.Location = new System.Drawing.Point(340, 16);
             this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(36, 17);
+            this.label78.Size = new System.Drawing.Size(37, 14);
             this.label78.TabIndex = 43;
             this.label78.Text = "ไม่ระบุ";
             // 
             // label79
             // 
             this.label79.AutoSize = true;
-            this.label79.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label79.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label79.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label79.Location = new System.Drawing.Point(260, 14);
+            this.label79.Location = new System.Drawing.Point(306, 13);
             this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(16, 17);
+            this.label79.Size = new System.Drawing.Size(15, 14);
             this.label79.TabIndex = 42;
             this.label79.Text = "X";
             // 
             // label80
             // 
             this.label80.AutoSize = true;
-            this.label80.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label80.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label80.ForeColor = System.Drawing.Color.White;
-            this.label80.Location = new System.Drawing.Point(5, 17);
+            this.label80.Location = new System.Drawing.Point(5, 16);
             this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(27, 17);
+            this.label80.Size = new System.Drawing.Size(30, 14);
             this.label80.TabIndex = 41;
             this.label80.Text = "ชื่อ1";
             // 
@@ -2020,51 +2045,52 @@
             this.groupBox22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox22.Name = "groupBox22";
             this.groupBox22.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox22.Size = new System.Drawing.Size(366, 39);
+            this.groupBox22.Size = new System.Drawing.Size(430, 39);
             this.groupBox22.TabIndex = 44;
             this.groupBox22.TabStop = false;
             // 
             // label88
             // 
             this.label88.AutoSize = true;
-            this.label88.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label88.Location = new System.Drawing.Point(190, 17);
+            this.label88.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label88.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label88.Location = new System.Drawing.Point(226, 16);
             this.label88.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label88.Name = "label88";
-            this.label88.Size = new System.Drawing.Size(49, 17);
+            this.label88.Size = new System.Drawing.Size(47, 14);
             this.label88.TabIndex = 44;
             this.label88.Text = "label30";
             // 
             // label89
             // 
             this.label89.AutoSize = true;
-            this.label89.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label89.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label89.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label89.Location = new System.Drawing.Point(306, 20);
+            this.label89.Location = new System.Drawing.Point(345, 19);
             this.label89.Name = "label89";
-            this.label89.Size = new System.Drawing.Size(36, 17);
+            this.label89.Size = new System.Drawing.Size(37, 14);
             this.label89.TabIndex = 43;
             this.label89.Text = "ไม่ระบุ";
             // 
             // label90
             // 
             this.label90.AutoSize = true;
-            this.label90.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label90.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label90.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label90.Location = new System.Drawing.Point(260, 17);
+            this.label90.Location = new System.Drawing.Point(306, 19);
             this.label90.Name = "label90";
-            this.label90.Size = new System.Drawing.Size(16, 17);
+            this.label90.Size = new System.Drawing.Size(15, 14);
             this.label90.TabIndex = 42;
             this.label90.Text = "X";
             // 
             // label91
             // 
             this.label91.AutoSize = true;
-            this.label91.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label91.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label91.ForeColor = System.Drawing.Color.White;
-            this.label91.Location = new System.Drawing.Point(5, 17);
+            this.label91.Location = new System.Drawing.Point(5, 16);
             this.label91.Name = "label91";
-            this.label91.Size = new System.Drawing.Size(27, 17);
+            this.label91.Size = new System.Drawing.Size(30, 14);
             this.label91.TabIndex = 41;
             this.label91.Text = "ชื่อ1";
             // 
@@ -2080,51 +2106,52 @@
             this.groupBox23.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox23.Name = "groupBox23";
             this.groupBox23.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox23.Size = new System.Drawing.Size(366, 39);
+            this.groupBox23.Size = new System.Drawing.Size(430, 39);
             this.groupBox23.TabIndex = 44;
             this.groupBox23.TabStop = false;
             // 
             // label92
             // 
             this.label92.AutoSize = true;
-            this.label92.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label92.Location = new System.Drawing.Point(190, 17);
+            this.label92.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label92.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label92.Location = new System.Drawing.Point(226, 20);
             this.label92.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label92.Name = "label92";
-            this.label92.Size = new System.Drawing.Size(49, 17);
+            this.label92.Size = new System.Drawing.Size(47, 14);
             this.label92.TabIndex = 44;
             this.label92.Text = "label36";
             // 
             // label93
             // 
             this.label93.AutoSize = true;
-            this.label93.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label93.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label93.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label93.Location = new System.Drawing.Point(306, 14);
+            this.label93.Location = new System.Drawing.Point(340, 17);
             this.label93.Name = "label93";
-            this.label93.Size = new System.Drawing.Size(36, 17);
+            this.label93.Size = new System.Drawing.Size(37, 14);
             this.label93.TabIndex = 43;
             this.label93.Text = "ไม่ระบุ";
             // 
             // label94
             // 
             this.label94.AutoSize = true;
-            this.label94.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label94.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label94.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label94.Location = new System.Drawing.Point(260, 12);
+            this.label94.Location = new System.Drawing.Point(306, 17);
             this.label94.Name = "label94";
-            this.label94.Size = new System.Drawing.Size(16, 17);
+            this.label94.Size = new System.Drawing.Size(15, 14);
             this.label94.TabIndex = 42;
             this.label94.Text = "X";
             // 
             // label95
             // 
             this.label95.AutoSize = true;
-            this.label95.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label95.Font = new System.Drawing.Font("Sukhumvit Set", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label95.ForeColor = System.Drawing.Color.White;
-            this.label95.Location = new System.Drawing.Point(5, 17);
+            this.label95.Location = new System.Drawing.Point(5, 20);
             this.label95.Name = "label95";
-            this.label95.Size = new System.Drawing.Size(27, 17);
+            this.label95.Size = new System.Drawing.Size(30, 14);
             this.label95.TabIndex = 41;
             this.label95.Text = "ชื่อ1";
             // 
@@ -2135,7 +2162,7 @@
             this.AutoScroll = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(489, 700);
+            this.ClientSize = new System.Drawing.Size(565, 799);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.button1);
