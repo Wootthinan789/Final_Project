@@ -15,11 +15,9 @@ namespace coffe_house
     {
         static List<string> staffID = new List<string>();
         static string forsave = "";
-        string checkform = "";
-        public Form9(string formcheck)
+        public Form9()
         {
             InitializeComponent();
-            checkform = formcheck;
             List<string> formsave = new List<string>();
             string sql3 = "SELECT * FROM `from_save`";
             MySqlConnection con3 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
@@ -42,6 +40,8 @@ namespace coffe_house
             cmd.ExecuteReader();
             con.Close();
 
+
+            comboBox1.Text = "Staff";
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -83,78 +83,42 @@ namespace coffe_house
                         if (textBox1.Text == StaffPassword[i])
                         {
                             MessageBox.Show("ผ่าน StaffPassword , Staff");
-                            if (checkform == "0") 
+                            checkloop = 1;
+                            string insert = "INSERT INTO `login_save`(`staffsID`) VALUES ('" + StaffID[i] + "')";
+                            MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+                            MySqlCommand cmd = new MySqlCommand(insert, con1);
+
+                            con1.Open();
+                            cmd.ExecuteReader();
+                            con1.Close();
+                           
+                            checkloop = 1;
+                            staffID.Add(StaffID[i]);
+                            ////////////////////////////////////////////////////////////////////////////////////
+                            if (forsave == "1")
                             {
-                                checkloop = 1;
-                                string insert = "INSERT INTO `login_save`(`staffsID`) VALUES ('" + StaffID[i] + "')";
-                                MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
-                                MySqlCommand cmd = new MySqlCommand(insert, con1);
-
-                                con1.Open();
-                                cmd.ExecuteReader();
-                                con1.Close();
-
-                                checkloop = 1;
-                                staffID.Add(StaffID[i]);
-                                ////////////////////////////////////////////////////////////////////////////////////
-                                if (forsave == "1")
-                                {
-                                    Form1 form1 = new Form1();
-                                    form1.Hide();
-                                    form1.Show();
-                                }
-                                if (forsave == "2")
-                                {
-                                    Form2 form2 = new Form2();
-                                    form2.Hide();
-                                    form2.Show();
-                                }
-                                if (forsave == "3")
-                                {
-                                    Form3 form3 = new Form3();
-                                    form3.Hide();
-                                    form3.Show();
-                                }
-
-
-                                Form7 form7 = new Form7();
-                                form7.Show();
-                                this.Hide();
-                                ////////////////////////////////////////////////////////////////////////////////////
+                                Form1 form1 = new Form1();
+                                form1.Hide();
+                                form1.Show();
                             }
-                            else
+                            if (forsave == "2")
                             {
-                                checkloop = 1;
-                                string insert = "INSERT INTO `login_save`(`staffsID`) VALUES ('" + StaffID[i] + "')";
-                                MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
-                                MySqlCommand cmd = new MySqlCommand(insert, con1);
-
-                                con1.Open();
-                                cmd.ExecuteReader();
-                                con1.Close();
-
-                                checkloop = 1;
-                                staffID.Add(StaffID[i]);
-                                ////////////////////////////////////////////////////////////////////////////////////
-                                if (forsave == "1")
-                                {
-                                    Form1 form1 = new Form1();
-                                    form1.Hide();
-                                    form1.Show();
-                                }
-                                if (forsave == "2")
-                                {
-                                    Form2 form2 = new Form2();
-                                    form2.Hide();
-                                    form2.Show();
-                                }
-                                if (forsave == "3")
-                                {
-                                    Form3 form3 = new Form3();
-                                    form3.Hide();
-                                    form3.Show();
-                                }
+                                Form2 form2 = new Form2();
+                                form2.Hide();
+                                form2.Show();
                             }
+                            if (forsave == "3")
+                            {
+                                Form3 form3 = new Form3();
+                                form3.Hide();
+                                form3.Show();
+                            }
+
+
+                            Form7 form7 = new Form7();
+                            form7.Show();
+                            this.Hide();
+                            ////////////////////////////////////////////////////////////////////////////////////
                         }
                         else
                         {

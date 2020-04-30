@@ -13,8 +13,8 @@ namespace coffe_house
 {
     public partial class Form1 : Form
     {
-        List<string> staffID = new List<string>();
-        List<string> save = new List<string>();
+        static List<string> staffID = new List<string>();
+        static List<string> save = new List<string>();
         public Form1()
         {
             InitializeComponent();
@@ -70,7 +70,7 @@ namespace coffe_house
             cmd.ExecuteReader();
             con1.Close();
 
-            Form9 form9 = new Form9("1");
+            Form9 form9 = new Form9();
             form9.Show();
         }
 

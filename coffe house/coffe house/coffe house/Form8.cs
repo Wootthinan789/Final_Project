@@ -13,22 +13,22 @@ namespace coffe_house
 {
     public partial class Form8 : Form
     {
-        string cumid = "";
-        int randomnumber = 0;                           //randomnumber
-        int sumpp = 0;                                  //summore Price basket
-        int sumqq = 0;                                  //summore Quantity basket
-        List<string> AuthorList3 = new List<string>();  //ProductID basket
-        List<string> AuthorList4 = new List<string>();  //Quantity basket
-        List<string> AuthorList = new List<string>();   //ProductID products
-        List<string> AuthorList2 = new List<string>();  //ProductName products
-        List<string> AuthorList5 = new List<string>();  //Price products
-        List<string> CustomerID = new List<string>();   //customersID
-        List<string> CustomerName = new List<string>(); //customersName
-        List<string> CustomerType = new List<string>(); //customersType
-        List<string> CustomerTelNo = new List<string>();//customersTelNo
-        List<string> Gender = new List<string>();       //customersGerder
-        List<string> sumQ = new List<string>();         //sumQuantity
-        List<string> sumP = new List<string>();         //sumProductID
+        static string cumid = "";
+        static int randomnumber = 0;                           //randomnumber
+        static int sumpp = 0;                                  //summore Price basket
+        static int sumqq = 0;                                  //summore Quantity basket
+        static List<string> AuthorList3 = new List<string>();  //ProductID basket
+        static List<string> AuthorList4 = new List<string>();  //Quantity basket
+        static List<string> AuthorList = new List<string>();   //ProductID products
+        static List<string> AuthorList2 = new List<string>();  //ProductName products
+        static List<string> AuthorList5 = new List<string>();  //Price products
+        static List<string> CustomerID = new List<string>();   //customersID
+        static List<string> CustomerName = new List<string>(); //customersName
+        static List<string> CustomerType = new List<string>(); //customersType
+        static List<string> CustomerTelNo = new List<string>();//customersTelNo
+        static List<string> Gender = new List<string>();       //customersGerder
+        static List<string> sumQ = new List<string>();         //sumQuantity
+        static List<string> sumP = new List<string>();         //sumProductID
 
         public Form8()
         {
@@ -61,7 +61,7 @@ namespace coffe_house
             groupBo26.Visible = false;
             label32.Text = "";
             label34.Text = "";
-            label57.Text = ""+dateTimePicker1.Value;
+            label57.Text = "123"+dateTimePicker1.Value;
 
             var random = new Random();
             randomnumber = random.Next(00000, 99999);
@@ -652,16 +652,6 @@ namespace coffe_house
             con3.Open();
             cmd3.ExecuteReader();
             con3.Close();
-
-
-
-
-            string Del = "DELETE FROM `basket` WHERE ProductID";
-            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
-            MySqlCommand comd = new MySqlCommand(Del, connect);
-            connect.Open();
-            comd.ExecuteReader();
-            connect.Close();
 
             this.Close();
 
