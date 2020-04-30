@@ -100,7 +100,7 @@ namespace coffe_house
 
             for (int i = 0; i < AuthorList3.Count; ++i)
             {
-                MessageBox.Show("aa"+Convert.ToString(AuthorList3.Count));
+                //MessageBox.Show("aa"+Convert.ToString(AuthorList3.Count));
                 if (i == 0)
                 {
                     groupBox1.Visible = true;
@@ -644,8 +644,7 @@ namespace coffe_house
                     a -= 1;
                 }
             }
-            string vv = dateTimePicker1.CustomFormat;
-            MessageBox.Show(Convert.ToString(dateTimePicker1.Value));
+            MessageBox.Show("เสร็จสิ้น");
             string sale = "INSERT INTO `sales`(`SaleID`, `SaleDateTime`, `CustomerID`, `StaffID`, `GrandTotal`) VALUES ('"+ randomnumber + "','"+ dateTimePicker1.Value+ "','"+ cumid + "','"+ login_save[0] + "','"+ sumpp + "')";
             MySqlConnection con3 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
             MySqlCommand cmd3 = new MySqlCommand(sale, con3);

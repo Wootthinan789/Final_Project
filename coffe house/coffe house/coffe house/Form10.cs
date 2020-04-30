@@ -550,5 +550,12 @@ namespace coffe_house
             Form10 form101 = new Form10();
             form101.Show();
         }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form10 form101 = new Form10();
+            form101.Show();
+        }
     }
 }

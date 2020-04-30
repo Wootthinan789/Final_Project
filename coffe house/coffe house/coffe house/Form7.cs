@@ -75,7 +75,7 @@ namespace coffe_house
 
                     con1.Open();
                     cmd.ExecuteReader();
-                    MessageBox.Show("เพิ่มแล้ว");
+                    //MessageBox.Show("เพิ่มแล้ว");
                     Form8 form8 = new Form8();
                     form8.Show();
                     this.Hide();
