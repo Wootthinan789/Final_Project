@@ -59,7 +59,7 @@ namespace coffe_house
             cmd.ExecuteReader();
             con1.Close();
 
-            Form9 form9 = new Form9();
+            Form9 form9 = new Form9("1");
             form9.Show();
 
         }

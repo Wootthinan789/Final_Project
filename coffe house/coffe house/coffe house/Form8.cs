@@ -13,22 +13,22 @@ namespace coffe_house
 {
     public partial class Form8 : Form
     {
-        static string cumid = "";
-        static int randomnumber = 0;                           //randomnumber
-        static int sumpp = 0;                                  //summore Price basket
-        static int sumqq = 0;                                  //summore Quantity basket
-        static List<string> AuthorList3 = new List<string>();  //ProductID basket
-        static List<string> AuthorList4 = new List<string>();  //Quantity basket
-        static List<string> AuthorList = new List<string>();   //ProductID products
-        static List<string> AuthorList2 = new List<string>();  //ProductName products
-        static List<string> AuthorList5 = new List<string>();  //Price products
-        static List<string> CustomerID = new List<string>();   //customersID
-        static List<string> CustomerName = new List<string>(); //customersName
-        static List<string> CustomerType = new List<string>(); //customersType
-        static List<string> CustomerTelNo = new List<string>();//customersTelNo
-        static List<string> Gender = new List<string>();       //customersGerder
-        static List<string> sumQ = new List<string>();         //sumQuantity
-        static List<string> sumP = new List<string>();         //sumProductID
+        string cumid = "";
+        int randomnumber = 0;                           //randomnumber
+        int sumpp = 0;                                  //summore Price basket
+        int sumqq = 0;                                  //summore Quantity basket
+        List<string> AuthorList3 = new List<string>();  //ProductID basket
+        List<string> AuthorList4 = new List<string>();  //Quantity basket
+        List<string> AuthorList = new List<string>();   //ProductID products
+        List<string> AuthorList2 = new List<string>();  //ProductName products
+        List<string> AuthorList5 = new List<string>();  //Price products
+        List<string> CustomerID = new List<string>();   //customersID
+        List<string> CustomerName = new List<string>(); //customersName
+        List<string> CustomerType = new List<string>(); //customersType
+        List<string> CustomerTelNo = new List<string>();//customersTelNo
+        List<string> Gender = new List<string>();       //customersGerder
+        List<string> sumQ = new List<string>();         //sumQuantity
+        List<string> sumP = new List<string>();         //sumProductID
 
         public Form8()
         {
@@ -567,7 +567,7 @@ namespace coffe_house
                 //MessageBox.Show(CustomerID[v]);
                 //MessageBox.Show("--"+medid[0]+"=="+CustomerID[0]+"--");
                 string x = CustomerID[v];
-                if (medid[1] == x)
+                if (medid[0] == x)
                 {
                     label39.Text = CustomerType[v];
                     label45.Text = CustomerName[v];

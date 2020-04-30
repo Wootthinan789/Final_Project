@@ -33,6 +33,9 @@ namespace coffe_house
             groupBox4.Visible = false;
             groupBox5.Visible = false;
             groupBox6.Visible = false;
+            comboBox5.Text = "-";
+            comboBox6.Text = "-";
+            comboBox7.Text = "-";
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -359,15 +362,34 @@ namespace coffe_house
 
         private void button13_Click(object sender, EventArgs e)
         {
+            List<string> SaleDateTime = new List<string>();
+            List<string> GrandTotal = new List<string>();
+            List<string> YEAR = new List<string>();
+            List<string> MONTH = new List<string>();
+            List<string> DAY = new List<string>();
+            string sel = "SELECT SaleDateTime,GrandTotal, YEAR(SaleDateTime) AS YEAR, MONTH(SaleDateTime) AS MONTH, DAY(SaleDateTime) AS DAY FROM sales";
+            MySqlConnection con = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd = new MySqlCommand(sel, con);
+
+            con.Open();
+            MySqlDataReader reader0 = cmd.ExecuteReader();
+            while (reader0.Read())
+            {
+                SaleDateTime.Add(reader0.GetString("SaleDateTime"));
+                GrandTotal.Add(reader0.GetString("GrandTotal"));
+                YEAR.Add(reader0.GetString("YEAR"));
+                MONTH.Add(reader0.GetString("MONTH"));
+                DAY.Add(reader0.GetString("DAY"));
+            }
+            /*
             if (comboBox6.Text == "-" && comboBox7.Text == "-") 
             {
-                List<string> SaleDetailID = new List<string>();
+                List<string> SaleDateTime = new List<string>();
                 List<string> SaleID = new List<string>();
-                List<string> ProductID3 = new List<string>();
-                List<string> Price3 = new List<string>();
-                List<string> Quantity = new List<string>();
-                List<string> Amount = new List<string>();
-                string sel = "SELECT * FROM `sales` WHERE year = 2018";
+                List<string> CustomerID = new List<string>();
+                List<string> StaffID = new List<string>();
+                List<string> GrandTotal = new List<string>();
+                string sel = "SELECT * FROM sales WHERE SaleDateTime >= '"+ comboBox5.Text + "-01-01 00:00:00' AND SaleDateTime <= '"+ comboBox5.Text + "-12-30 23:59:59'";
                 MySqlConnection con = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
                 MySqlCommand cmd = new MySqlCommand(sel, con);
 
@@ -375,14 +397,33 @@ namespace coffe_house
                 MySqlDataReader reader0 = cmd.ExecuteReader();
                 while (reader0.Read())
                 {
-                    SaleDetailID.Add(reader0.GetString("SaleDetailID"));
+                    SaleDateTime.Add(reader0.GetString("SaleDateTime"));
                     SaleID.Add(reader0.GetString("SaleID"));
-                    ProductID3.Add(reader0.GetString("ProductID"));
-                    Price3.Add(reader0.GetString("Price"));
-                    Quantity.Add(reader0.GetString("Quantity"));
-                    Amount.Add(reader0.GetString("Amount"));
+                    CustomerID.Add(reader0.GetString("CustomerID"));
+                    StaffID.Add(reader0.GetString("StaffID"));
+                    GrandTotal.Add(reader0.GetString("GrandTotal"));
                 }
+                int sump = 0;
+                for (int i = 0; i < SaleDateTime.Count; ++i)
+                {
+                    sump += Convert.ToInt32(GrandTotal[i]);
+                }
+                label10.Text = Convert.ToString("-");
+                label11.Text = Convert.ToString(sump);
             }
+            */
+
+            /*
+            if ((comboBox5.Text == "-" && comboBox6.Text == "-" && comboBox7.Text == "-") || (comboBox5.Text == "" && comboBox6.Text == "" && comboBox7.Text == ""))
+            {
+                MessageBox.Show("โปรดกรอกข้อมูลให้ถูกต้อง");
+            }
+            */
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
 }
