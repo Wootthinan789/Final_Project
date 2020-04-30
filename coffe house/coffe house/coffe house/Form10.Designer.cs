@@ -32,6 +32,8 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
             this.dataGridView4 = new System.Windows.Forms.DataGridView();
             this.button14 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
@@ -89,8 +91,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
+            this.button17 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -158,6 +159,26 @@
             this.groupBox1.Size = new System.Drawing.Size(901, 480);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(786, 334);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(105, 108);
+            this.label19.TabIndex = 32;
+            this.label19.Text = "฿";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(687, 226);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(159, 108);
+            this.label18.TabIndex = 31;
+            this.label18.Text = "ชิ้น";
             // 
             // dataGridView4
             // 
@@ -737,6 +758,7 @@
             // groupBox6
             // 
             this.groupBox6.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox6.Controls.Add(this.button17);
             this.groupBox6.Controls.Add(this.pictureBox1);
             this.groupBox6.Controls.Add(this.label9);
             this.groupBox6.Controls.Add(this.label8);
@@ -746,7 +768,7 @@
             this.groupBox6.Controls.Add(this.textBox2);
             this.groupBox6.Controls.Add(this.textBox1);
             this.groupBox6.Controls.Add(this.comboBox1);
-            this.groupBox6.Location = new System.Drawing.Point(9, 61);
+            this.groupBox6.Location = new System.Drawing.Point(11, 59);
             this.groupBox6.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Padding = new System.Windows.Forms.Padding(2);
@@ -847,25 +869,15 @@
             this.comboBox1.TabIndex = 0;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // label18
+            // button17
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(687, 226);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(159, 108);
-            this.label18.TabIndex = 31;
-            this.label18.Text = "ชิ้น";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(786, 334);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(105, 108);
-            this.label19.TabIndex = 32;
-            this.label19.Text = "฿";
+            this.button17.Location = new System.Drawing.Point(50, 74);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(75, 23);
+            this.button17.TabIndex = 43;
+            this.button17.Text = "refresh";
+            this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // Form10
             // 
@@ -978,5 +990,6 @@
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Button button17;
     }
 }

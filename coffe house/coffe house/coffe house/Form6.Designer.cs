@@ -264,12 +264,12 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(243, 106);
+            this.label2.Location = new System.Drawing.Point(225, 107);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 18);
+            this.label2.Size = new System.Drawing.Size(59, 16);
             this.label2.TabIndex = 38;
             this.label2.Text = "Amount";
             // 
@@ -277,12 +277,12 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(304, 106);
+            this.label3.Location = new System.Drawing.Point(288, 107);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(47, 18);
+            this.label3.Size = new System.Drawing.Size(44, 16);
             this.label3.TabIndex = 39;
             this.label3.Text = "Price";
             // 
@@ -305,11 +305,11 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(58, 9);
+            this.button2.Location = new System.Drawing.Point(293, 9);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(80, 20);
+            this.button2.Size = new System.Drawing.Size(28, 20);
             this.button2.TabIndex = 45;
-            this.button2.Text = "button2";
+            this.button2.Text = "ลบ";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -318,7 +318,7 @@
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label28.Location = new System.Drawing.Point(170, 13);
+            this.label28.Location = new System.Drawing.Point(138, 13);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(48, 13);
             this.label28.TabIndex = 44;
@@ -329,7 +329,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label6.Location = new System.Drawing.Point(259, 13);
+            this.label6.Location = new System.Drawing.Point(246, 13);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(43, 13);
@@ -341,7 +341,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label5.Location = new System.Drawing.Point(230, 13);
+            this.label5.Location = new System.Drawing.Point(203, 13);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(15, 13);
@@ -405,7 +405,7 @@
             this.label35.BackColor = System.Drawing.Color.Transparent;
             this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label35.ForeColor = System.Drawing.Color.White;
-            this.label35.Location = new System.Drawing.Point(349, 465);
+            this.label35.Location = new System.Drawing.Point(350, 463);
             this.label35.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(18, 18);
@@ -420,10 +420,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(174, 516);
+            this.button1.Location = new System.Drawing.Point(158, 519);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(78, 32);
+            this.button1.Size = new System.Drawing.Size(94, 32);
             this.button1.TabIndex = 56;
             this.button1.Text = "CHARGE";
             this.button1.UseVisualStyleBackColor = false;
@@ -474,11 +474,11 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(58, 9);
+            this.button3.Location = new System.Drawing.Point(293, 9);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(80, 20);
+            this.button3.Size = new System.Drawing.Size(28, 20);
             this.button3.TabIndex = 46;
-            this.button3.Text = "button3";
+            this.button3.Text = "ลบ";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -487,7 +487,7 @@
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label29.Location = new System.Drawing.Point(170, 13);
+            this.label29.Location = new System.Drawing.Point(138, 13);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(48, 13);
             this.label29.TabIndex = 44;
@@ -498,7 +498,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label7.Location = new System.Drawing.Point(259, 13);
+            this.label7.Location = new System.Drawing.Point(246, 13);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(43, 13);
@@ -510,7 +510,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label8.Location = new System.Drawing.Point(230, 13);
+            this.label8.Location = new System.Drawing.Point(203, 13);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(15, 13);
@@ -548,11 +548,11 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(58, 9);
+            this.button4.Location = new System.Drawing.Point(293, 9);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(80, 20);
+            this.button4.Size = new System.Drawing.Size(28, 20);
             this.button4.TabIndex = 47;
-            this.button4.Text = "button4";
+            this.button4.Text = "ลบ";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -561,7 +561,7 @@
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label30.Location = new System.Drawing.Point(170, 13);
+            this.label30.Location = new System.Drawing.Point(138, 13);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(48, 13);
             this.label30.TabIndex = 44;
@@ -572,7 +572,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label10.Location = new System.Drawing.Point(259, 15);
+            this.label10.Location = new System.Drawing.Point(246, 15);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(43, 13);
@@ -584,7 +584,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label11.Location = new System.Drawing.Point(230, 13);
+            this.label11.Location = new System.Drawing.Point(203, 13);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(15, 13);
@@ -623,11 +623,11 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(58, 9);
+            this.button5.Location = new System.Drawing.Point(293, 9);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(80, 20);
+            this.button5.Size = new System.Drawing.Size(28, 20);
             this.button5.TabIndex = 48;
-            this.button5.Text = "button5";
+            this.button5.Text = "ลบ";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
@@ -636,7 +636,7 @@
             this.label33.AutoSize = true;
             this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label33.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label33.Location = new System.Drawing.Point(170, 13);
+            this.label33.Location = new System.Drawing.Point(138, 13);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(48, 13);
             this.label33.TabIndex = 45;
@@ -695,7 +695,7 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label13.Location = new System.Drawing.Point(258, 13);
+            this.label13.Location = new System.Drawing.Point(245, 13);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(43, 13);
@@ -707,7 +707,7 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label14.Location = new System.Drawing.Point(230, 13);
+            this.label14.Location = new System.Drawing.Point(203, 13);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(15, 13);
@@ -745,11 +745,11 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(58, 9);
+            this.button6.Location = new System.Drawing.Point(293, 9);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(80, 20);
+            this.button6.Size = new System.Drawing.Size(28, 20);
             this.button6.TabIndex = 48;
-            this.button6.Text = "button6";
+            this.button6.Text = "ลบ";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
@@ -758,7 +758,7 @@
             this.label36.AutoSize = true;
             this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label36.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label36.Location = new System.Drawing.Point(172, 11);
+            this.label36.Location = new System.Drawing.Point(140, 11);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(48, 13);
             this.label36.TabIndex = 44;
@@ -769,7 +769,7 @@
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label19.Location = new System.Drawing.Point(258, 13);
+            this.label19.Location = new System.Drawing.Point(245, 13);
             this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(43, 13);
@@ -781,7 +781,7 @@
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label20.Location = new System.Drawing.Point(230, 9);
+            this.label20.Location = new System.Drawing.Point(203, 9);
             this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(15, 13);
@@ -819,11 +819,11 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(58, 9);
+            this.button7.Location = new System.Drawing.Point(293, 9);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(80, 20);
+            this.button7.Size = new System.Drawing.Size(28, 20);
             this.button7.TabIndex = 48;
-            this.button7.Text = "button7";
+            this.button7.Text = "ลบ";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
@@ -832,7 +832,7 @@
             this.label37.AutoSize = true;
             this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label37.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label37.Location = new System.Drawing.Point(170, 13);
+            this.label37.Location = new System.Drawing.Point(138, 13);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(48, 13);
             this.label37.TabIndex = 44;
@@ -843,7 +843,7 @@
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label22.Location = new System.Drawing.Point(255, 13);
+            this.label22.Location = new System.Drawing.Point(242, 13);
             this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(43, 13);
@@ -855,7 +855,7 @@
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label23.Location = new System.Drawing.Point(230, 13);
+            this.label23.Location = new System.Drawing.Point(203, 13);
             this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(15, 13);
@@ -893,11 +893,11 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(58, 9);
+            this.button8.Location = new System.Drawing.Point(293, 9);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(80, 20);
+            this.button8.Size = new System.Drawing.Size(28, 20);
             this.button8.TabIndex = 48;
-            this.button8.Text = "button8";
+            this.button8.Text = "ลบ";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
@@ -906,7 +906,7 @@
             this.label38.AutoSize = true;
             this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label38.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label38.Location = new System.Drawing.Point(170, 13);
+            this.label38.Location = new System.Drawing.Point(138, 13);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(48, 13);
             this.label38.TabIndex = 44;
@@ -917,7 +917,7 @@
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label25.Location = new System.Drawing.Point(258, 13);
+            this.label25.Location = new System.Drawing.Point(245, 13);
             this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(43, 13);
@@ -929,7 +929,7 @@
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label26.Location = new System.Drawing.Point(230, 13);
+            this.label26.Location = new System.Drawing.Point(203, 13);
             this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(15, 13);
@@ -1003,11 +1003,11 @@
             // 
             // button23
             // 
-            this.button23.Location = new System.Drawing.Point(58, 9);
+            this.button23.Location = new System.Drawing.Point(293, 9);
             this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(80, 20);
+            this.button23.Size = new System.Drawing.Size(28, 20);
             this.button23.TabIndex = 48;
-            this.button23.Text = "button23";
+            this.button23.Text = "ลบ";
             this.button23.UseVisualStyleBackColor = true;
             this.button23.Click += new System.EventHandler(this.button23_Click);
             // 
@@ -1016,7 +1016,7 @@
             this.label128.AutoSize = true;
             this.label128.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label128.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label128.Location = new System.Drawing.Point(170, 13);
+            this.label128.Location = new System.Drawing.Point(138, 13);
             this.label128.Name = "label128";
             this.label128.Size = new System.Drawing.Size(48, 13);
             this.label128.TabIndex = 44;
@@ -1027,7 +1027,7 @@
             this.label129.AutoSize = true;
             this.label129.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label129.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label129.Location = new System.Drawing.Point(255, 13);
+            this.label129.Location = new System.Drawing.Point(242, 13);
             this.label129.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label129.Name = "label129";
             this.label129.Size = new System.Drawing.Size(43, 13);
@@ -1039,7 +1039,7 @@
             this.label130.AutoSize = true;
             this.label130.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label130.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label130.Location = new System.Drawing.Point(230, 13);
+            this.label130.Location = new System.Drawing.Point(203, 13);
             this.label130.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label130.Name = "label130";
             this.label130.Size = new System.Drawing.Size(15, 13);
@@ -1077,11 +1077,11 @@
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(58, 9);
+            this.button9.Location = new System.Drawing.Point(293, 9);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(80, 20);
+            this.button9.Size = new System.Drawing.Size(28, 20);
             this.button9.TabIndex = 48;
-            this.button9.Text = "button9";
+            this.button9.Text = "ลบ";
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
@@ -1090,7 +1090,7 @@
             this.label66.AutoSize = true;
             this.label66.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label66.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label66.Location = new System.Drawing.Point(170, 13);
+            this.label66.Location = new System.Drawing.Point(138, 13);
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(48, 13);
             this.label66.TabIndex = 44;
@@ -1101,7 +1101,7 @@
             this.label67.AutoSize = true;
             this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label67.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label67.Location = new System.Drawing.Point(255, 13);
+            this.label67.Location = new System.Drawing.Point(242, 13);
             this.label67.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label67.Name = "label67";
             this.label67.Size = new System.Drawing.Size(43, 13);
@@ -1113,7 +1113,7 @@
             this.label68.AutoSize = true;
             this.label68.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label68.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label68.Location = new System.Drawing.Point(230, 13);
+            this.label68.Location = new System.Drawing.Point(203, 13);
             this.label68.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label68.Name = "label68";
             this.label68.Size = new System.Drawing.Size(15, 13);
@@ -1151,11 +1151,11 @@
             // 
             // button15
             // 
-            this.button15.Location = new System.Drawing.Point(58, 9);
+            this.button15.Location = new System.Drawing.Point(293, 9);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(80, 20);
+            this.button15.Size = new System.Drawing.Size(28, 20);
             this.button15.TabIndex = 48;
-            this.button15.Text = "button15";
+            this.button15.Text = "ลบ";
             this.button15.UseVisualStyleBackColor = true;
             this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
@@ -1164,7 +1164,7 @@
             this.label62.AutoSize = true;
             this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label62.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label62.Location = new System.Drawing.Point(170, 13);
+            this.label62.Location = new System.Drawing.Point(138, 13);
             this.label62.Name = "label62";
             this.label62.Size = new System.Drawing.Size(48, 13);
             this.label62.TabIndex = 44;
@@ -1175,7 +1175,7 @@
             this.label63.AutoSize = true;
             this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label63.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label63.Location = new System.Drawing.Point(258, 13);
+            this.label63.Location = new System.Drawing.Point(245, 13);
             this.label63.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label63.Name = "label63";
             this.label63.Size = new System.Drawing.Size(43, 13);
@@ -1187,7 +1187,7 @@
             this.label64.AutoSize = true;
             this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label64.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label64.Location = new System.Drawing.Point(230, 13);
+            this.label64.Location = new System.Drawing.Point(203, 13);
             this.label64.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label64.Name = "label64";
             this.label64.Size = new System.Drawing.Size(15, 13);
@@ -1225,11 +1225,11 @@
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(58, 9);
+            this.button10.Location = new System.Drawing.Point(293, 9);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(80, 20);
+            this.button10.Size = new System.Drawing.Size(28, 20);
             this.button10.TabIndex = 48;
-            this.button10.Text = "button10";
+            this.button10.Text = "ลบ";
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
@@ -1238,7 +1238,7 @@
             this.label58.AutoSize = true;
             this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label58.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label58.Location = new System.Drawing.Point(170, 13);
+            this.label58.Location = new System.Drawing.Point(138, 13);
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(48, 13);
             this.label58.TabIndex = 44;
@@ -1249,7 +1249,7 @@
             this.label59.AutoSize = true;
             this.label59.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label59.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label59.Location = new System.Drawing.Point(255, 15);
+            this.label59.Location = new System.Drawing.Point(242, 15);
             this.label59.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(43, 13);
@@ -1261,7 +1261,7 @@
             this.label60.AutoSize = true;
             this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label60.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label60.Location = new System.Drawing.Point(230, 15);
+            this.label60.Location = new System.Drawing.Point(203, 15);
             this.label60.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(15, 13);
@@ -1299,11 +1299,11 @@
             // 
             // button16
             // 
-            this.button16.Location = new System.Drawing.Point(58, 9);
+            this.button16.Location = new System.Drawing.Point(293, 9);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(80, 20);
+            this.button16.Size = new System.Drawing.Size(28, 20);
             this.button16.TabIndex = 48;
-            this.button16.Text = "button16";
+            this.button16.Text = "ลบ";
             this.button16.UseVisualStyleBackColor = true;
             this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
@@ -1312,7 +1312,7 @@
             this.label124.AutoSize = true;
             this.label124.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label124.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label124.Location = new System.Drawing.Point(170, 13);
+            this.label124.Location = new System.Drawing.Point(138, 13);
             this.label124.Name = "label124";
             this.label124.Size = new System.Drawing.Size(48, 13);
             this.label124.TabIndex = 44;
@@ -1323,7 +1323,7 @@
             this.label125.AutoSize = true;
             this.label125.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label125.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label125.Location = new System.Drawing.Point(255, 13);
+            this.label125.Location = new System.Drawing.Point(242, 13);
             this.label125.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label125.Name = "label125";
             this.label125.Size = new System.Drawing.Size(43, 13);
@@ -1335,7 +1335,7 @@
             this.label126.AutoSize = true;
             this.label126.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label126.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label126.Location = new System.Drawing.Point(230, 13);
+            this.label126.Location = new System.Drawing.Point(203, 13);
             this.label126.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label126.Name = "label126";
             this.label126.Size = new System.Drawing.Size(15, 13);
@@ -1373,11 +1373,11 @@
             // 
             // button14
             // 
-            this.button14.Location = new System.Drawing.Point(58, 8);
+            this.button14.Location = new System.Drawing.Point(293, 8);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(80, 20);
+            this.button14.Size = new System.Drawing.Size(28, 20);
             this.button14.TabIndex = 48;
-            this.button14.Text = "button14";
+            this.button14.Text = "ลบ";
             this.button14.UseVisualStyleBackColor = true;
             this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
@@ -1386,7 +1386,7 @@
             this.label54.AutoSize = true;
             this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label54.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label54.Location = new System.Drawing.Point(170, 13);
+            this.label54.Location = new System.Drawing.Point(138, 13);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(48, 13);
             this.label54.TabIndex = 44;
@@ -1397,7 +1397,7 @@
             this.label55.AutoSize = true;
             this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label55.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label55.Location = new System.Drawing.Point(255, 13);
+            this.label55.Location = new System.Drawing.Point(242, 13);
             this.label55.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(43, 13);
@@ -1409,7 +1409,7 @@
             this.label56.AutoSize = true;
             this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label56.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label56.Location = new System.Drawing.Point(230, 15);
+            this.label56.Location = new System.Drawing.Point(203, 15);
             this.label56.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(15, 13);
@@ -1447,11 +1447,11 @@
             // 
             // button24
             // 
-            this.button24.Location = new System.Drawing.Point(58, 9);
+            this.button24.Location = new System.Drawing.Point(293, 9);
             this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(80, 20);
+            this.button24.Size = new System.Drawing.Size(28, 20);
             this.button24.TabIndex = 48;
-            this.button24.Text = "button24";
+            this.button24.Text = "ลบ";
             this.button24.UseVisualStyleBackColor = true;
             this.button24.Click += new System.EventHandler(this.button24_Click);
             // 
@@ -1460,7 +1460,7 @@
             this.label116.AutoSize = true;
             this.label116.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label116.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label116.Location = new System.Drawing.Point(170, 13);
+            this.label116.Location = new System.Drawing.Point(138, 13);
             this.label116.Name = "label116";
             this.label116.Size = new System.Drawing.Size(48, 13);
             this.label116.TabIndex = 44;
@@ -1471,7 +1471,7 @@
             this.label117.AutoSize = true;
             this.label117.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label117.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label117.Location = new System.Drawing.Point(258, 15);
+            this.label117.Location = new System.Drawing.Point(245, 15);
             this.label117.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label117.Name = "label117";
             this.label117.Size = new System.Drawing.Size(43, 13);
@@ -1483,7 +1483,7 @@
             this.label118.AutoSize = true;
             this.label118.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label118.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label118.Location = new System.Drawing.Point(230, 13);
+            this.label118.Location = new System.Drawing.Point(203, 13);
             this.label118.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label118.Name = "label118";
             this.label118.Size = new System.Drawing.Size(15, 13);
@@ -1521,11 +1521,11 @@
             // 
             // button21
             // 
-            this.button21.Location = new System.Drawing.Point(58, 9);
+            this.button21.Location = new System.Drawing.Point(293, 9);
             this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(80, 20);
+            this.button21.Size = new System.Drawing.Size(28, 20);
             this.button21.TabIndex = 48;
-            this.button21.Text = "button21";
+            this.button21.Text = "ลบ";
             this.button21.UseVisualStyleBackColor = true;
             this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
@@ -1534,7 +1534,7 @@
             this.label96.AutoSize = true;
             this.label96.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label96.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label96.Location = new System.Drawing.Point(170, 13);
+            this.label96.Location = new System.Drawing.Point(138, 13);
             this.label96.Name = "label96";
             this.label96.Size = new System.Drawing.Size(48, 13);
             this.label96.TabIndex = 44;
@@ -1545,7 +1545,7 @@
             this.label97.AutoSize = true;
             this.label97.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label97.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label97.Location = new System.Drawing.Point(255, 15);
+            this.label97.Location = new System.Drawing.Point(242, 15);
             this.label97.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label97.Name = "label97";
             this.label97.Size = new System.Drawing.Size(43, 13);
@@ -1557,7 +1557,7 @@
             this.label98.AutoSize = true;
             this.label98.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label98.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label98.Location = new System.Drawing.Point(230, 13);
+            this.label98.Location = new System.Drawing.Point(203, 13);
             this.label98.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label98.Name = "label98";
             this.label98.Size = new System.Drawing.Size(15, 13);
@@ -1595,11 +1595,11 @@
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(58, 9);
+            this.button11.Location = new System.Drawing.Point(293, 9);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(80, 20);
+            this.button11.Size = new System.Drawing.Size(28, 20);
             this.button11.TabIndex = 48;
-            this.button11.Text = "button11";
+            this.button11.Text = "ลบ";
             this.button11.UseVisualStyleBackColor = true;
             this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
@@ -1608,7 +1608,7 @@
             this.label50.AutoSize = true;
             this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label50.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label50.Location = new System.Drawing.Point(172, 15);
+            this.label50.Location = new System.Drawing.Point(140, 15);
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(48, 13);
             this.label50.TabIndex = 44;
@@ -1619,7 +1619,7 @@
             this.label51.AutoSize = true;
             this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label51.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label51.Location = new System.Drawing.Point(255, 13);
+            this.label51.Location = new System.Drawing.Point(242, 13);
             this.label51.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(43, 13);
@@ -1631,7 +1631,7 @@
             this.label52.AutoSize = true;
             this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label52.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label52.Location = new System.Drawing.Point(230, 13);
+            this.label52.Location = new System.Drawing.Point(203, 13);
             this.label52.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(15, 13);
@@ -1670,11 +1670,11 @@
             // 
             // button19
             // 
-            this.button19.Location = new System.Drawing.Point(58, 9);
+            this.button19.Location = new System.Drawing.Point(293, 9);
             this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(80, 20);
+            this.button19.Size = new System.Drawing.Size(28, 20);
             this.button19.TabIndex = 48;
-            this.button19.Text = "button19";
+            this.button19.Text = "ลบ";
             this.button19.UseVisualStyleBackColor = true;
             this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
@@ -1683,7 +1683,7 @@
             this.label70.AutoSize = true;
             this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label70.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label70.Location = new System.Drawing.Point(170, 13);
+            this.label70.Location = new System.Drawing.Point(138, 13);
             this.label70.Name = "label70";
             this.label70.Size = new System.Drawing.Size(48, 13);
             this.label70.TabIndex = 45;
@@ -1742,7 +1742,7 @@
             this.label74.AutoSize = true;
             this.label74.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label74.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label74.Location = new System.Drawing.Point(255, 13);
+            this.label74.Location = new System.Drawing.Point(242, 13);
             this.label74.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label74.Name = "label74";
             this.label74.Size = new System.Drawing.Size(43, 13);
@@ -1754,7 +1754,7 @@
             this.label75.AutoSize = true;
             this.label75.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label75.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label75.Location = new System.Drawing.Point(230, 13);
+            this.label75.Location = new System.Drawing.Point(203, 13);
             this.label75.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label75.Name = "label75";
             this.label75.Size = new System.Drawing.Size(15, 13);
@@ -1792,11 +1792,11 @@
             // 
             // button25
             // 
-            this.button25.Location = new System.Drawing.Point(58, 8);
+            this.button25.Location = new System.Drawing.Point(293, 8);
             this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(80, 20);
+            this.button25.Size = new System.Drawing.Size(28, 20);
             this.button25.TabIndex = 48;
-            this.button25.Text = "button25";
+            this.button25.Text = "ลบ";
             this.button25.UseVisualStyleBackColor = true;
             this.button25.Click += new System.EventHandler(this.button25_Click);
             // 
@@ -1805,7 +1805,7 @@
             this.label100.AutoSize = true;
             this.label100.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label100.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label100.Location = new System.Drawing.Point(170, 15);
+            this.label100.Location = new System.Drawing.Point(138, 15);
             this.label100.Name = "label100";
             this.label100.Size = new System.Drawing.Size(48, 13);
             this.label100.TabIndex = 44;
@@ -1816,7 +1816,7 @@
             this.label101.AutoSize = true;
             this.label101.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label101.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label101.Location = new System.Drawing.Point(255, 13);
+            this.label101.Location = new System.Drawing.Point(242, 13);
             this.label101.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label101.Name = "label101";
             this.label101.Size = new System.Drawing.Size(43, 13);
@@ -1828,7 +1828,7 @@
             this.label102.AutoSize = true;
             this.label102.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label102.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label102.Location = new System.Drawing.Point(230, 13);
+            this.label102.Location = new System.Drawing.Point(203, 13);
             this.label102.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label102.Name = "label102";
             this.label102.Size = new System.Drawing.Size(15, 13);
@@ -1866,11 +1866,11 @@
             // 
             // button13
             // 
-            this.button13.Location = new System.Drawing.Point(58, 9);
+            this.button13.Location = new System.Drawing.Point(293, 9);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(80, 20);
+            this.button13.Size = new System.Drawing.Size(28, 20);
             this.button13.TabIndex = 48;
-            this.button13.Text = "button13";
+            this.button13.Text = "ลบ";
             this.button13.UseVisualStyleBackColor = true;
             this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
@@ -1879,7 +1879,7 @@
             this.label46.AutoSize = true;
             this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label46.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label46.Location = new System.Drawing.Point(172, 13);
+            this.label46.Location = new System.Drawing.Point(140, 13);
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(48, 13);
             this.label46.TabIndex = 44;
@@ -1890,7 +1890,7 @@
             this.label47.AutoSize = true;
             this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label47.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label47.Location = new System.Drawing.Point(259, 13);
+            this.label47.Location = new System.Drawing.Point(246, 13);
             this.label47.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(43, 13);
@@ -1902,7 +1902,7 @@
             this.label48.AutoSize = true;
             this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label48.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label48.Location = new System.Drawing.Point(230, 13);
+            this.label48.Location = new System.Drawing.Point(203, 13);
             this.label48.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(15, 13);
@@ -1940,11 +1940,11 @@
             // 
             // button22
             // 
-            this.button22.Location = new System.Drawing.Point(58, 9);
+            this.button22.Location = new System.Drawing.Point(293, 9);
             this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(80, 20);
+            this.button22.Size = new System.Drawing.Size(28, 20);
             this.button22.TabIndex = 48;
-            this.button22.Text = "button22";
+            this.button22.Text = "ลบ";
             this.button22.UseVisualStyleBackColor = true;
             this.button22.Click += new System.EventHandler(this.button22_Click);
             // 
@@ -1953,7 +1953,7 @@
             this.label112.AutoSize = true;
             this.label112.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label112.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label112.Location = new System.Drawing.Point(170, 13);
+            this.label112.Location = new System.Drawing.Point(138, 13);
             this.label112.Name = "label112";
             this.label112.Size = new System.Drawing.Size(48, 13);
             this.label112.TabIndex = 44;
@@ -1964,7 +1964,7 @@
             this.label113.AutoSize = true;
             this.label113.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label113.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label113.Location = new System.Drawing.Point(255, 13);
+            this.label113.Location = new System.Drawing.Point(242, 13);
             this.label113.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label113.Name = "label113";
             this.label113.Size = new System.Drawing.Size(43, 13);
@@ -1976,7 +1976,7 @@
             this.label114.AutoSize = true;
             this.label114.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label114.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label114.Location = new System.Drawing.Point(230, 13);
+            this.label114.Location = new System.Drawing.Point(203, 13);
             this.label114.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label114.Name = "label114";
             this.label114.Size = new System.Drawing.Size(15, 13);
@@ -2015,11 +2015,11 @@
             // 
             // button12
             // 
-            this.button12.Location = new System.Drawing.Point(58, 9);
+            this.button12.Location = new System.Drawing.Point(293, 9);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(80, 20);
+            this.button12.Size = new System.Drawing.Size(28, 20);
             this.button12.TabIndex = 48;
-            this.button12.Text = "button12";
+            this.button12.Text = "ลบ";
             this.button12.UseVisualStyleBackColor = true;
             this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
@@ -2028,7 +2028,7 @@
             this.label39.AutoSize = true;
             this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label39.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label39.Location = new System.Drawing.Point(170, 15);
+            this.label39.Location = new System.Drawing.Point(138, 15);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(48, 13);
             this.label39.TabIndex = 45;
@@ -2087,7 +2087,7 @@
             this.label43.AutoSize = true;
             this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label43.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label43.Location = new System.Drawing.Point(259, 13);
+            this.label43.Location = new System.Drawing.Point(246, 13);
             this.label43.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(43, 13);
@@ -2099,7 +2099,7 @@
             this.label44.AutoSize = true;
             this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label44.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label44.Location = new System.Drawing.Point(230, 13);
+            this.label44.Location = new System.Drawing.Point(203, 13);
             this.label44.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(15, 13);
@@ -2138,11 +2138,11 @@
             // 
             // button26
             // 
-            this.button26.Location = new System.Drawing.Point(58, 8);
+            this.button26.Location = new System.Drawing.Point(293, 8);
             this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(80, 20);
+            this.button26.Size = new System.Drawing.Size(28, 20);
             this.button26.TabIndex = 48;
-            this.button26.Text = "button26";
+            this.button26.Text = "ลบ";
             this.button26.UseVisualStyleBackColor = true;
             this.button26.Click += new System.EventHandler(this.button26_Click);
             // 
@@ -2151,7 +2151,7 @@
             this.label81.AutoSize = true;
             this.label81.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label81.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label81.Location = new System.Drawing.Point(170, 13);
+            this.label81.Location = new System.Drawing.Point(138, 13);
             this.label81.Name = "label81";
             this.label81.Size = new System.Drawing.Size(48, 13);
             this.label81.TabIndex = 45;
@@ -2210,7 +2210,7 @@
             this.label85.AutoSize = true;
             this.label85.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label85.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label85.Location = new System.Drawing.Point(255, 13);
+            this.label85.Location = new System.Drawing.Point(242, 13);
             this.label85.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label85.Name = "label85";
             this.label85.Size = new System.Drawing.Size(43, 13);
@@ -2222,7 +2222,7 @@
             this.label86.AutoSize = true;
             this.label86.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label86.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label86.Location = new System.Drawing.Point(230, 15);
+            this.label86.Location = new System.Drawing.Point(203, 15);
             this.label86.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label86.Name = "label86";
             this.label86.Size = new System.Drawing.Size(15, 13);
@@ -2260,11 +2260,11 @@
             // 
             // button17
             // 
-            this.button17.Location = new System.Drawing.Point(58, 9);
+            this.button17.Location = new System.Drawing.Point(293, 9);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(80, 20);
+            this.button17.Size = new System.Drawing.Size(28, 20);
             this.button17.TabIndex = 48;
-            this.button17.Text = "button17";
+            this.button17.Text = "ลบ";
             this.button17.UseVisualStyleBackColor = true;
             this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
@@ -2273,7 +2273,7 @@
             this.label104.AutoSize = true;
             this.label104.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label104.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label104.Location = new System.Drawing.Point(170, 15);
+            this.label104.Location = new System.Drawing.Point(138, 15);
             this.label104.Name = "label104";
             this.label104.Size = new System.Drawing.Size(48, 13);
             this.label104.TabIndex = 44;
@@ -2284,7 +2284,7 @@
             this.label105.AutoSize = true;
             this.label105.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label105.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label105.Location = new System.Drawing.Point(258, 15);
+            this.label105.Location = new System.Drawing.Point(245, 15);
             this.label105.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label105.Name = "label105";
             this.label105.Size = new System.Drawing.Size(43, 13);
@@ -2296,7 +2296,7 @@
             this.label106.AutoSize = true;
             this.label106.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label106.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label106.Location = new System.Drawing.Point(230, 13);
+            this.label106.Location = new System.Drawing.Point(203, 13);
             this.label106.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label106.Name = "label106";
             this.label106.Size = new System.Drawing.Size(15, 13);
@@ -2334,11 +2334,11 @@
             // 
             // button20
             // 
-            this.button20.Location = new System.Drawing.Point(58, 9);
+            this.button20.Location = new System.Drawing.Point(293, 9);
             this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(80, 20);
+            this.button20.Size = new System.Drawing.Size(28, 20);
             this.button20.TabIndex = 48;
-            this.button20.Text = "button20";
+            this.button20.Text = "ลบ";
             this.button20.UseVisualStyleBackColor = true;
             this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
@@ -2347,7 +2347,7 @@
             this.label77.AutoSize = true;
             this.label77.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label77.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label77.Location = new System.Drawing.Point(170, 13);
+            this.label77.Location = new System.Drawing.Point(138, 13);
             this.label77.Name = "label77";
             this.label77.Size = new System.Drawing.Size(48, 13);
             this.label77.TabIndex = 44;
@@ -2358,7 +2358,7 @@
             this.label78.AutoSize = true;
             this.label78.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label78.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label78.Location = new System.Drawing.Point(255, 13);
+            this.label78.Location = new System.Drawing.Point(242, 13);
             this.label78.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label78.Name = "label78";
             this.label78.Size = new System.Drawing.Size(43, 13);
@@ -2370,7 +2370,7 @@
             this.label79.AutoSize = true;
             this.label79.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label79.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label79.Location = new System.Drawing.Point(230, 11);
+            this.label79.Location = new System.Drawing.Point(203, 11);
             this.label79.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label79.Name = "label79";
             this.label79.Size = new System.Drawing.Size(15, 13);
@@ -2408,11 +2408,11 @@
             // 
             // button18
             // 
-            this.button18.Location = new System.Drawing.Point(58, 9);
+            this.button18.Location = new System.Drawing.Point(293, 9);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(80, 20);
+            this.button18.Size = new System.Drawing.Size(28, 20);
             this.button18.TabIndex = 48;
-            this.button18.Text = "button18";
+            this.button18.Text = "ลบ";
             this.button18.UseVisualStyleBackColor = true;
             this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
@@ -2421,7 +2421,7 @@
             this.label88.AutoSize = true;
             this.label88.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label88.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label88.Location = new System.Drawing.Point(170, 13);
+            this.label88.Location = new System.Drawing.Point(138, 13);
             this.label88.Name = "label88";
             this.label88.Size = new System.Drawing.Size(48, 13);
             this.label88.TabIndex = 44;
@@ -2432,7 +2432,7 @@
             this.label89.AutoSize = true;
             this.label89.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label89.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label89.Location = new System.Drawing.Point(259, 15);
+            this.label89.Location = new System.Drawing.Point(246, 15);
             this.label89.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label89.Name = "label89";
             this.label89.Size = new System.Drawing.Size(43, 13);
@@ -2444,7 +2444,7 @@
             this.label90.AutoSize = true;
             this.label90.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label90.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label90.Location = new System.Drawing.Point(230, 15);
+            this.label90.Location = new System.Drawing.Point(203, 15);
             this.label90.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label90.Name = "label90";
             this.label90.Size = new System.Drawing.Size(15, 13);
@@ -2482,11 +2482,11 @@
             // 
             // button27
             // 
-            this.button27.Location = new System.Drawing.Point(58, 9);
+            this.button27.Location = new System.Drawing.Point(293, 9);
             this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(80, 20);
+            this.button27.Size = new System.Drawing.Size(28, 20);
             this.button27.TabIndex = 48;
-            this.button27.Text = "button27";
+            this.button27.Text = "ลบ";
             this.button27.UseVisualStyleBackColor = true;
             this.button27.Click += new System.EventHandler(this.button27_Click);
             // 
@@ -2495,7 +2495,7 @@
             this.label92.AutoSize = true;
             this.label92.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label92.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label92.Location = new System.Drawing.Point(170, 16);
+            this.label92.Location = new System.Drawing.Point(138, 16);
             this.label92.Name = "label92";
             this.label92.Size = new System.Drawing.Size(48, 13);
             this.label92.TabIndex = 44;
@@ -2506,7 +2506,7 @@
             this.label93.AutoSize = true;
             this.label93.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label93.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label93.Location = new System.Drawing.Point(255, 14);
+            this.label93.Location = new System.Drawing.Point(242, 14);
             this.label93.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label93.Name = "label93";
             this.label93.Size = new System.Drawing.Size(43, 13);
@@ -2518,7 +2518,7 @@
             this.label94.AutoSize = true;
             this.label94.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label94.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label94.Location = new System.Drawing.Point(230, 14);
+            this.label94.Location = new System.Drawing.Point(203, 14);
             this.label94.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label94.Name = "label94";
             this.label94.Size = new System.Drawing.Size(15, 13);

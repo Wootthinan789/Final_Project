@@ -105,11 +105,11 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.AliceBlue;
-            this.label8.Location = new System.Drawing.Point(40, 253);
+            this.label8.Location = new System.Drawing.Point(35, 253);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(67, 20);
+            this.label8.Size = new System.Drawing.Size(62, 18);
             this.label8.TabIndex = 81;
             this.label8.Text = "sign up";
             this.label8.Click += new System.EventHandler(this.label8_Click);
@@ -118,11 +118,11 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.AliceBlue;
-            this.label7.Location = new System.Drawing.Point(203, 253);
+            this.label7.Location = new System.Drawing.Point(209, 253);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(41, 20);
+            this.label7.Size = new System.Drawing.Size(39, 18);
             this.label7.TabIndex = 80;
             this.label7.Text = "skip";
             this.label7.Click += new System.EventHandler(this.label7_Click);
@@ -186,10 +186,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Transparent;
-            this.button1.Location = new System.Drawing.Point(112, 246);
+            this.button1.Location = new System.Drawing.Point(100, 246);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(78, 32);
+            this.button1.Size = new System.Drawing.Size(104, 32);
             this.button1.TabIndex = 68;
             this.button1.Text = "CONFRIM";
             this.button1.UseVisualStyleBackColor = false;

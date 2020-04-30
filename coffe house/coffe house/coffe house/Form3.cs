@@ -60,7 +60,7 @@ namespace coffe_house
             con1.Close();
 
             Form9 form9 = new Form9("1");
-            form9.Show();
+            form9.Show(this);
 
         }
 

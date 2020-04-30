@@ -336,3 +336,31 @@ F:\Final_Projectv5.4\Final_Project\coffe house\coffe house\coffe house\obj\Debug
 F:\Final_Projectv5.4\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.csproj.CopyComplete
 F:\Final_Projectv5.4\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.exe
 F:\Final_Projectv5.4\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.pdb
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\bin\Debug\coffe house.exe.config
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\bin\Debug\coffe house.exe
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\bin\Debug\coffe house.pdb
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\bin\Debug\MySql.Data.dll
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\bin\Debug\MySql.Web.dll
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\bin\Debug\Google.Protobuf.dll
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\bin\Debug\Renci.SshNet.dll
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\bin\Debug\MySql.Data.xml
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\bin\Debug\MySql.Web.xml
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.csprojAssemblyReference.cache
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form1.resources
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form10.resources
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form11.resources
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form2.resources
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form3.resources
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form4.resources
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form5.resources
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form6.resources
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form7.resources
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form8.resources
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Form9.resources
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe_house.Properties.Resources.resources
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.csproj.GenerateResource.cache
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.csproj.CopyComplete
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.exe
+C:\Users\HOME_KING\Downloads\Final_Project version c\Final_Project\coffe house\coffe house\coffe house\obj\Debug\coffe house.pdb
