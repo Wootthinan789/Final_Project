@@ -96,9 +96,22 @@ namespace coffe_house
 
             con1.Open();
             cmd.ExecuteReader();
-            MessageBox.Show("เพิ่มแล้ว");
+            MessageBox.Show("เพิ่มแล้ว","แจ้งเตือน",MessageBoxButtons.OK, MessageBoxIcon.Warning);
             this.Hide();
             con1.Close();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            comboBox1.Text = Convert.ToString(Convert.ToInt32(comboBox1.Text)+1);
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            if(comboBox1.Text != "1")
+            {
+                comboBox1.Text = Convert.ToString(Convert.ToInt32(comboBox1.Text) - 1);
+            }
         }
     }
 }

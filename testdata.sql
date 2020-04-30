@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 22, 2020 at 04:52 AM
+-- Generation Time: Apr 28, 2020 at 08:15 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.4
 
@@ -37,14 +37,9 @@ CREATE TABLE `basket` (
 --
 
 INSERT INTO `basket` (`ProductID`, `Quantity`) VALUES
-(614007, 1),
-(614011, 1),
-(614015, 1),
 (614021, 1),
-(614003, 1),
-(614002, 1),
-(614004, 1),
-(614010, 1);
+(614008, 1),
+(614021, 1);
 
 -- --------------------------------------------------------
 
@@ -68,11 +63,10 @@ INSERT INTO `customers` (`CustomerID`, `CustomerName`, `Gender`, `CustomerType`,
 (123456, 'Don\'t have', '', '', '-'),
 (178265, ' chan', 'M', 'VIP', '0945301033'),
 (337215, 'วรายุทธ', 'M', 'VIP', '0657706835'),
-(614002, 'Arista', 'F', 'VIP', '0657706835'),
+(509122, ' chan3', 'M', 'VIP', '0945301033'),
+(614002, 'Arista', 'F', 'VIP', '0657706836'),
 (614008, 'Athena', 'F', 'Member', '0981256444'),
-(614012, 'Amber', 'M', 'Member', '0648741257'),
-(614056, 'Amelia', 'M', 'Other', '0814595634'),
-(614098, 'Alice', 'F', 'VIP', '0657706835');
+(614098, 'Alice', 'F', 'VIP', '0657706837');
 
 -- --------------------------------------------------------
 
@@ -93,13 +87,6 @@ CREATE TABLE `from_save` (
 CREATE TABLE `login_save` (
   `staffsID` int(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
---
--- Dumping data for table `login_save`
---
-
-INSERT INTO `login_save` (`staffsID`) VALUES
-(2);
 
 -- --------------------------------------------------------
 
@@ -151,22 +138,22 @@ INSERT INTO `products` (`ProductID`, `ProductName`, `Price`, `ProductDetail`) VA
 (614003, 'COCOA CHOC', 95, ''),
 (614004, 'CPPUCCINO', 115, ''),
 (614005, 'CROISSANT', 65, ''),
-(614006, 'CUISNE', 169, ''),
-(614007, 'BAKING', 70, ''),
-(614008, 'COOKISE', 69, ''),
+(614006, 'CUISNE', 169, '-'),
+(614007, 'BAKING', 80, '-'),
+(614008, 'COOKISES', 69, '-'),
 (614009, 'DONUT', 50, ''),
 (614010, 'MAARONG', 109, ''),
-(614011, 'ESPRESSO', 109, ''),
+(614011, 'ESPRESSO', 109, '-'),
 (614012, 'CHEESE CAKE', 79, ''),
-(614013, 'MATCHA BUBBLE MILK TEA', 99, ''),
+(614013, 'MATCHA MILK TEA', 99, ''),
 (614014, 'ORIGINAL MILK TEA', 95, ''),
-(614015, 'BROWN SUGAR BUBBLE MILK TEA', 99, ''),
+(614015, 'BROWN SUGAR', 99, ''),
 (614016, 'AMERICANO', 129, ''),
-(614017, 'BLUEBRRY SMOOTHIE', 79, ''),
-(614018, 'COCOA MATCHA TEA', 89, ''),
+(614017, 'BLUE SMOOTHIE', 79, '-'),
+(614018, 'COCOA MATCHA ', 89, ''),
 (614019, 'TIRAMISU', 115, ''),
 (614020, 'CHOOCLATE CAKE', 115, ''),
-(614021, 'RECIPES', 70, ''),
+(614021, 'RECIPES', 70, '-'),
 (614022, 'BLACK COFFEE', 99, ''),
 (614023, 'STRAWBERRY PIE', 65, ''),
 (614024, 'CUP CAKE', 112, '');
@@ -190,8 +177,17 @@ CREATE TABLE `sales` (
 --
 
 INSERT INTO `sales` (`SaleID`, `SaleDateTime`, `CustomerID`, `StaffID`, `GrandTotal`) VALUES
-(71864, '2020-04-21 08:06:42', 123456, 2, 752),
-(87085, '2020-04-21 08:06:42', 123456, 2, 752);
+(15953, '2020-04-27 08:21:15', 123456, 91700, 70),
+(17778, '2020-04-25 09:03:19', 337215, 91700, 140),
+(26195, '2020-04-25 08:39:50', 834278, 73707, 319),
+(28208, '2020-04-25 08:23:55', 337215, 91700, 210),
+(33514, '2020-04-27 09:46:31', 0, 91700, 80),
+(35753, '2020-04-27 08:21:59', 123456, 95698, 264),
+(37185, '2020-04-24 11:05:55', 123456, 91700, 416),
+(58181, '2020-04-27 08:20:17', 337215, 91700, 70),
+(73704, '2020-04-25 08:48:21', 509122, 73707, 139),
+(76849, '2020-04-25 08:49:23', 834278, 73707, 69),
+(83299, '2020-04-25 08:25:28', 0, 91700, 264);
 
 -- --------------------------------------------------------
 
@@ -213,22 +209,27 @@ CREATE TABLE `sale_details` (
 --
 
 INSERT INTO `sale_details` (`SaleDetailID`, `SaleID`, `ProductID`, `Price`, `Quantity`, `Amount`) VALUES
-(12361, 71864, 614007, 70, 1, 70),
-(17410, 87085, 614021, 70, 1, 70),
-(30721, 71864, 614003, 95, 1, 95),
-(35206, 87085, 614002, 85, 1, 85),
-(38281, 87085, 614011, 109, 1, 109),
-(41559, 87085, 614004, 115, 1, 115),
-(56206, 87085, 614015, 99, 1, 99),
-(56862, 87085, 614010, 109, 1, 109),
-(57773, 71864, 614002, 85, 1, 85),
-(60212, 87085, 614003, 95, 1, 95),
-(69330, 71864, 614015, 99, 1, 99),
-(79630, 71864, 614021, 70, 1, 70),
-(85629, 87085, 614007, 70, 1, 70),
-(86152, 71864, 614010, 109, 1, 109),
-(89522, 71864, 614011, 109, 1, 109),
-(97338, 71864, 614004, 115, 1, 115);
+(10495, 37185, 614008, 69, 1, 69),
+(15458, 33514, 614007, 80, 1, 80),
+(15875, 26195, 614008, 69, 1, 69),
+(19563, 26195, 614003, 95, 1, 95),
+(22033, 58181, 614021, 70, 1, 70),
+(23288, 37185, 614006, 169, 1, 169),
+(23508, 26195, 614002, 85, 1, 85),
+(27690, 26195, 614021, 70, 1, 70),
+(32407, 83299, 614006, 169, 1, 169),
+(35442, 28208, 614003, 95, 1, 95),
+(36583, 35753, 614003, 95, 1, 95),
+(41771, 28208, 614020, 115, 1, 115),
+(47677, 83299, 614001, 95, 1, 95),
+(50221, 73704, 614008, 69, 1, 69),
+(53495, 35753, 614006, 169, 1, 169),
+(63858, 76849, 614008, 69, 1, 69),
+(67423, 17778, 614021, 140, 2, 280),
+(67446, 15953, 614021, 70, 1, 70),
+(87036, 73704, 614021, 70, 1, 70),
+(95296, 37185, 614022, 99, 1, 99),
+(97185, 37185, 614017, 79, 1, 79);
 
 -- --------------------------------------------------------
 
@@ -250,12 +251,12 @@ CREATE TABLE `staffs` (
 --
 
 INSERT INTO `staffs` (`StaffID`, `StaffCode`, `StaffName`, `Gender`, `StaffPassword`, `StaffLevel`) VALUES
-(1, '001', 'a', 'M', 'a001', 'Manager'),
-(2, '002', 'b', 'M', 'b002', 'Staff'),
-(3, '003', 'c', 'F', 'c003', 'Staff'),
-(4, '004', 'd', 'F', 'd004', 'Staff'),
-(5, '005', 'e', 'F', 'e005', 'Staff'),
-(6, '100', 'Admin', 'M', '12345678', 'Admin');
+(6, '100', 'Admin', 'M', '12345678', 'Admin'),
+(65673, '496', 'a', 'M', 'a001', 'Manager'),
+(67934, '004', 'd', 'F', 'd004', 'Staff'),
+(73707, '106', 'chan', 'M', 'c003', 'Staff'),
+(91700, '002', 'b', 'M', 'b002', 'Staff'),
+(95698, '003', 'c', 'F', 'c003', 'Staff');
 
 --
 -- Indexes for dumped tables
@@ -300,7 +301,7 @@ ALTER TABLE `staffs`
 -- AUTO_INCREMENT for table `customers`
 --
 ALTER TABLE `customers`
-  MODIFY `CustomerID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=614100;
+  MODIFY `CustomerID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=834279;
 
 --
 -- AUTO_INCREMENT for table `products`
@@ -318,13 +319,13 @@ ALTER TABLE `sales`
 -- AUTO_INCREMENT for table `sale_details`
 --
 ALTER TABLE `sale_details`
-  MODIFY `SaleDetailID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=99481;
+  MODIFY `SaleDetailID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=99643;
 
 --
 -- AUTO_INCREMENT for table `staffs`
 --
 ALTER TABLE `staffs`
-  MODIFY `StaffID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `StaffID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=95700;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

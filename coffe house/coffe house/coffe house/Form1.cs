@@ -71,7 +71,7 @@ namespace coffe_house
             con1.Close();
 
             Form9 form9 = new Form9("1");
-            form9.Show();
+            form9.Show(this);
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)

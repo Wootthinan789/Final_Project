@@ -544,7 +544,6 @@ namespace coffe_house
 
 
 
-
             string sql8 = "SELECT * FROM `customers`";
             MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
             MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
@@ -560,12 +559,9 @@ namespace coffe_house
                 CustomerTelNo.Add(reader8.GetString("CustomerTelNo"));
                 Gender.Add(reader8.GetString("Gender"));
             }
-            //MessageBox.Show(Convert.ToString(CustomerID.Count));
-            //MessageBox.Show(CustomerID[0]);
-            for (int v =0; v < 5; ++v)
+
+            for (int v =0; v < CustomerID.Count; ++v)
             {
-                //MessageBox.Show(CustomerID[v]);
-                //MessageBox.Show("--"+medid[0]+"=="+CustomerID[0]+"--");
                 string x = CustomerID[v];
                 if (medid[0] == x)
                 {
@@ -580,16 +576,16 @@ namespace coffe_house
             
 
 
-
+            
             string sql6 = "DELETE FROM `memorymenber` WHERE medid";
             MySqlConnection con6 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
             MySqlCommand cmd6 = new MySqlCommand(sql6, con6);
 
             con6.Open();
             cmd6.ExecuteReader();
-            MessageBox.Show("ลบ");
+            //MessageBox.Show("ลบ");
             con6.Close();
-
+            
 
 
         }
@@ -611,6 +607,8 @@ namespace coffe_house
             {
                 staffs.Add(reader.GetString("StaffID"));
             }
+
+
             List<string> login_save = new List<string>();                   //login_save
             string sqllogin_save = "SELECT * FROM `login_save`";
             MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
@@ -629,8 +627,9 @@ namespace coffe_house
                 try
                 {
                     //MessageBox.Show(Convert.ToString(Convert.ToInt32(sumQ[a]) ,Convert.ToInt32(sumP[a])));
-                    string amount = Convert.ToString(Convert.ToInt32(sumQ[a]) * Convert.ToInt32(sumP[a]));
-                    string sale_detail = "INSERT INTO `sale_details`(`SaleDetailID`, `SaleID`, `ProductID`, `Price`, `Quantity`, `Amount`) VALUES('" + SaleDetailID + "','" + randomnumber + "','" + AuthorList3[a] + "','" + sumP[a] + "','" + AuthorList4[a] + "','" + amount + "')";
+                    string amount = Convert.ToString(Convert.ToInt32(sumP[a]));
+                    string Pricee = Convert.ToString(Convert.ToInt32(sumP[a])/ Convert.ToInt32(sumQ[a]));
+                    string sale_detail = "INSERT INTO `sale_details`(`SaleDetailID`, `SaleID`, `ProductID`, `Price`, `Quantity`, `Amount`) VALUES('" + SaleDetailID + "','" + randomnumber + "','" + AuthorList3[a] + "','" + Pricee + "','" + AuthorList4[a] + "','" + amount + "')";
                     MySqlConnection con2 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
                     MySqlCommand cmd2 = new MySqlCommand(sale_detail, con2);
                     con2.Open();
@@ -644,7 +643,7 @@ namespace coffe_house
                     a -= 1;
                 }
             }
-            MessageBox.Show("เสร็จสิ้น");
+            MessageBox.Show("เสร็จสิ้น","",MessageBoxButtons.OK,MessageBoxIcon.Information);
             string sale = "INSERT INTO `sales`(`SaleID`, `SaleDateTime`, `CustomerID`, `StaffID`, `GrandTotal`) VALUES ('"+ randomnumber + "','"+ dateTimePicker1.Value+ "','"+ cumid + "','"+ login_save[0] + "','"+ sumpp + "')";
             MySqlConnection con3 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
             MySqlCommand cmd3 = new MySqlCommand(sale, con3);

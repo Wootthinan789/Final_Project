@@ -73,6 +73,7 @@ namespace coffe_house
                 StaffLevel.Add(reader3.GetString("StaffLevel"));
             }
             int checkloop = 0;
+
             for(int i = 0; i<StaffID.Count;++i)
             {
                 if (StaffLevel[i] == "Staff")
@@ -99,25 +100,27 @@ namespace coffe_house
                                 ////////////////////////////////////////////////////////////////////////////////////
                                 if (forsave == "1")
                                 {
-                                    Form1 form1 = new Form1();
-                                    form1.Close();
+                                    //Form1 form1 = new Form1();
+                                    //form1.Hide();
                                     Form1 form1s = new Form1();
+                                    form1s.ShowInTaskbar = false;
                                     form1s.Show();
+                                    //form1s.ShowDialog();
+                                    //Form1 parentForm = (Form1)Owner;
+                                    //parentForm.Close();
                                     this.Close();
                                 }
                                 if (forsave == "2")
                                 {
-                                    Form2 form2 = new Form2();
-                                    form2.Close();
                                     Form2 form2s = new Form2();
+                                    form2s.ShowInTaskbar = false;
                                     form2s.Show();
                                     this.Close();
                                 }
                                 if (forsave == "3")
                                 {
-                                    Form3 form3 = new Form3();
-                                    form3.Close();
                                     Form3 form3s = new Form3();
+                                    form3s.ShowInTaskbar = false;
                                     form3s.Show();
                                     this.Close();
                                 }
@@ -130,7 +133,7 @@ namespace coffe_house
                             }
                             else
                             {
-                                checkloop = 1;
+                                //checkloop = 1;
                                 string insert = "INSERT INTO `login_save`(`staffsID`) VALUES ('" + StaffID[i] + "')";
                                 MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
                                 MySqlCommand cmd = new MySqlCommand(insert, con1);
@@ -144,26 +147,23 @@ namespace coffe_house
                                 ////////////////////////////////////////////////////////////////////////////////////
                                 if (forsave == "1")
                                 {
-                                    Form1 form1 = new Form1();
-                                    form1.Close();
                                     Form1 form1s = new Form1();
+                                    form1s.ShowInTaskbar = false;
                                     form1s.Show();
                                     this.Close();
-                                    
+
                                 }
                                 if (forsave == "2")
                                 {
-                                    Form2 form2 = new Form2();
-                                    form2.Close();
                                     Form2 form2s = new Form2();
+                                    form2s.ShowInTaskbar = false;
                                     form2s.Show();
                                     this.Close();
                                 }
                                 if (forsave == "3")
                                 {
-                                    Form3 form3 = new Form3();
-                                    form3.Close();
                                     Form3 form3s = new Form3();
+                                    form3s.ShowInTaskbar = false;
                                     form3s.Show();
                                     this.Close();
                                 }
@@ -227,7 +227,7 @@ namespace coffe_house
             }
             if(checkloop == 0)
             {
-                MessageBox.Show("ID,ชื่อ หรือรหัสผ่านไม่ถูกต้อง");
+                MessageBox.Show("ID,ชื่อ หรือรหัสผ่านไม่ถูกต้อง","",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
 
 
