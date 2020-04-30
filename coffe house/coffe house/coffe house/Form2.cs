@@ -14,10 +14,29 @@ namespace coffe_house
    
     public partial class Form2 : Form
     {
-        
+        public List<string> ProductName = new List<string>();
+        public List<string> ProductID = new List<string>();
+
         public Form2()
         {
             InitializeComponent();
+            
+            string sql10 = "SELECT `ProductName`,`ProductID` FROM `products`";
+            MySqlConnection con10 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd10 = new MySqlCommand(sql10, con10);
+
+            con10.Open();
+            MySqlDataReader reader10 = cmd10.ExecuteReader();
+            while (reader10.Read())
+            {
+                ProductName.Add(reader10.GetString("ProductName"));
+                ProductID.Add(reader10.GetString("ProductID"));
+            }
+            for (int x =0; x< ProductName.Count; ++x) 
+            {
+                textBox1.AutoCompleteCustomSource.Add(ProductName[x]);
+            }
+
             List<string> staffID = new List<string>();
             string sql3 = "SELECT * FROM `login_save`";
             MySqlConnection con3 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
@@ -63,7 +82,7 @@ namespace coffe_house
             cmd.ExecuteReader();
             con1.Close();
 
-            Form9 form9 = new Form9();
+            Form9 form9 = new Form9("1");
             form9.Show();
         }
 
@@ -83,8 +102,6 @@ namespace coffe_house
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            
-                 
             
             string sql = "SELECT * FROM `mamory`";
             sql = "INSERT INTO mamory (proid) VALUES ('614007')"; //VALUES ('"+text.text+"','"+text.text+"','"+text.text+"')
@@ -155,6 +172,34 @@ namespace coffe_house
         {
             //var random = new Random();
             //int randomnumber = random.Next(00000,99999);
+            string str = textBox1.Text.ToUpper();
+            for (int y = 0; y < ProductID.Count; ++y)
+            {
+                if (str == ProductName[y])
+                {
+                    str = ProductID[y];
+                }
+            }
+            //MessageBox.Show(str);
+            if (str != textBox1.Text.ToUpper())
+            {
+                string sqli = "INSERT INTO mamory (proid) VALUES ('" + str + "')"; //VALUES ('"+text.text+"','"+text.text+"','"+text.text+"')
+                MySqlConnection con1i = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+                MySqlCommand cmdi = new MySqlCommand(sqli, con1i);
+
+                con1i.Open();
+                cmdi.ExecuteReader();
+                con1i.Close();
+
+                Form5 form5 = new Form5();
+                form5.Show();
+            }
+            else
+            {
+                MessageBox.Show("ไม่มีสินค้า", "แจ้งเตือน", MessageBoxButtons.OK, MessageBoxIcon.Question);
+            }
+
+
         }
 
         private void pictureBox11_Click(object sender, EventArgs e)
@@ -169,6 +214,46 @@ namespace coffe_house
             con.Close();
             pictureBox11.Hide();
             pictureBox5.Show();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                //MessageBox.Show(textBox1.Text);
+
+                string str = textBox1.Text.ToUpper();
+                for (int y = 0; y < ProductID.Count; ++y)
+                {
+                    if (str == ProductName[y])
+                    {
+                        str = ProductID[y];
+                    }
+                }
+                //MessageBox.Show(str);
+                if (str != textBox1.Text.ToUpper())
+                {
+                    string sqli = "INSERT INTO mamory (proid) VALUES ('" + str + "')"; //VALUES ('"+text.text+"','"+text.text+"','"+text.text+"')
+                    MySqlConnection con1i = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+                    MySqlCommand cmdi = new MySqlCommand(sqli, con1i);
+
+                    con1i.Open();
+                    cmdi.ExecuteReader();
+                    con1i.Close();
+
+                    Form5 form5 = new Form5();
+                    form5.Show();
+                }
+                else
+                {
+                    MessageBox.Show("ไม่มีสินค้า", "แจ้งเตือน", MessageBoxButtons.OK, MessageBoxIcon.Question);
+                }
+            }
         }
     }
 }

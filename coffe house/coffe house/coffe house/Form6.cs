@@ -13,8 +13,8 @@ namespace coffe_house
 {
     public partial class Form6 : Form
     {
-        static List<string> AuthorList8 = new List<string>();
-        static string data = "";
+        List<string> AuthorList8 = new List<string>();
+        string data = "";
         public Form6(string bb)
         {
             InitializeComponent();
@@ -540,39 +540,748 @@ namespace coffe_house
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string sel = "SELECT * FROM `login_save`";
-            MySqlConnection con = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
-            MySqlCommand cmd = new MySqlCommand(sel, con);
-            List<string> AuthorList9 = new List<string>();
-            con.Open();
-            MySqlDataReader reader0 = cmd.ExecuteReader();
-            while (reader0.Read())
+            if (label32.Text != "0")
             {
-                AuthorList9.Add(reader0.GetString("staffsID"));
-            }
-            //MessageBox.Show(Convert.ToString(AuthorList9.Count));
-            if (AuthorList9.Count == 0)
-            {
-                string sql10 = "INSERT INTO `from_save`(`formid`) VALUES ('"+data+"')";
-                MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
-                MySqlCommand cmd2 = new MySqlCommand(sql10, con1);
+                string sel = "SELECT * FROM `login_save`";
+                MySqlConnection con = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+                MySqlCommand cmd = new MySqlCommand(sel, con);
+                List<string> AuthorList9 = new List<string>();
+                con.Open();
+                MySqlDataReader reader0 = cmd.ExecuteReader();
+                while (reader0.Read())
+                {
+                    AuthorList9.Add(reader0.GetString("staffsID"));
+                }
+                //MessageBox.Show(Convert.ToString(AuthorList9.Count));
+                if (AuthorList9.Count == 0)
+                {
+                    string sql10 = "INSERT INTO `from_save`(`formid`) VALUES ('" + data + "')";
+                    MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+                    MySqlCommand cmd2 = new MySqlCommand(sql10, con1);
 
-                con1.Open();
-                cmd2.ExecuteReader();
-                con1.Close();
+                    con1.Open();
+                    cmd2.ExecuteReader();
+                    con1.Close();
 
-                Form9 form9 = new Form9();
-                form9.Show();
-                this.Hide();
+                    Form9 form9 = new Form9("0");
+                    form9.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    Form7 form7 = new Form7();
+                    form7.Show();
+                    this.Hide();
+                }
+
+
             }
             else
-            { 
-                Form7 form7 = new Form7();
-                form7.Show();
+            {
+                MessageBox.Show("ตระกร้าว่างเปล่า โปรดเลือกสินค้าก่อน");
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string sql8 = "SELECT* FROM `products` WHERE ProductName = '"+ label4.Text + "'";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+            List<string> name_ID = new List<string>();
+            while (reader8.Read())
+            {
+                name_ID.Add(reader8.GetString("ProductID"));
+            }
+
+            
+            string Del = "DELETE FROM `basket` WHERE ProductID = '"+ name_ID[0] + "'";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
+
+            Form6 form6 = new Form6(data);
+            this.Hide();
+            form6.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string sql8 = "SELECT* FROM `products` WHERE ProductName = '" + label9.Text + "'";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+            List<string> name_ID = new List<string>();
+            while (reader8.Read())
+            {
+                name_ID.Add(reader8.GetString("ProductID"));
             }
 
 
-            
+            string Del = "DELETE FROM `basket` WHERE ProductID = '" + name_ID[0] + "'";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
+
+            Form6 form6 = new Form6(data);
+            this.Hide();
+            form6.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            string sql8 = "SELECT* FROM `products` WHERE ProductName = '" + label12.Text + "'";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+            List<string> name_ID = new List<string>();
+            while (reader8.Read())
+            {
+                name_ID.Add(reader8.GetString("ProductID"));
+            }
+
+
+            string Del = "DELETE FROM `basket` WHERE ProductID = '" + name_ID[0] + "'";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
+
+            Form6 form6 = new Form6(data);
+            this.Hide();
+            form6.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            string sql8 = "SELECT* FROM `products` WHERE ProductName = '" + label15.Text + "'";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+            List<string> name_ID = new List<string>();
+            while (reader8.Read())
+            {
+                name_ID.Add(reader8.GetString("ProductID"));
+            }
+
+
+            string Del = "DELETE FROM `basket` WHERE ProductID = '" + name_ID[0] + "'";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
+
+            Form6 form6 = new Form6(data);
+            this.Hide();
+            form6.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            string sql8 = "SELECT* FROM `products` WHERE ProductName = '" + label21.Text + "'";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+            List<string> name_ID = new List<string>();
+            while (reader8.Read())
+            {
+                name_ID.Add(reader8.GetString("ProductID"));
+            }
+
+
+            string Del = "DELETE FROM `basket` WHERE ProductID = '" + name_ID[0] + "'";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
+
+            Form6 form6 = new Form6(data);
+            this.Hide();
+            form6.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            string sql8 = "SELECT* FROM `products` WHERE ProductName = '" + label24.Text + "'";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+            List<string> name_ID = new List<string>();
+            while (reader8.Read())
+            {
+                name_ID.Add(reader8.GetString("ProductID"));
+            }
+
+
+            string Del = "DELETE FROM `basket` WHERE ProductID = '" + name_ID[0] + "'";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
+
+            Form6 form6 = new Form6(data);
+            this.Hide();
+            form6.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            string sql8 = "SELECT* FROM `products` WHERE ProductName = '" + label27.Text + "'";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+            List<string> name_ID = new List<string>();
+            while (reader8.Read())
+            {
+                name_ID.Add(reader8.GetString("ProductID"));
+            }
+
+
+            string Del = "DELETE FROM `basket` WHERE ProductID = '" + name_ID[0] + "'";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
+
+            Form6 form6 = new Form6(data);
+            this.Hide();
+            form6.Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            string sql8 = "SELECT* FROM `products` WHERE ProductName = '" + label69.Text + "'";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+            List<string> name_ID = new List<string>();
+            while (reader8.Read())
+            {
+                name_ID.Add(reader8.GetString("ProductID"));
+            }
+
+
+            string Del = "DELETE FROM `basket` WHERE ProductID = '" + name_ID[0] + "'";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
+
+            Form6 form6 = new Form6(data);
+            this.Hide();
+            form6.Show();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            string sql8 = "SELECT* FROM `products` WHERE ProductName = '" + label61.Text + "'";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+            List<string> name_ID = new List<string>();
+            while (reader8.Read())
+            {
+                name_ID.Add(reader8.GetString("ProductID"));
+            }
+
+
+            string Del = "DELETE FROM `basket` WHERE ProductID = '" + name_ID[0] + "'";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
+
+            Form6 form6 = new Form6(data);
+            this.Hide();
+            form6.Show();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            string sql8 = "SELECT* FROM `products` WHERE ProductName = '" + label53.Text + "'";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+            List<string> name_ID = new List<string>();
+            while (reader8.Read())
+            {
+                name_ID.Add(reader8.GetString("ProductID"));
+            }
+
+
+            string Del = "DELETE FROM `basket` WHERE ProductID = '" + name_ID[0] + "'";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
+
+            Form6 form6 = new Form6(data);
+            this.Hide();
+            form6.Show();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            string sql8 = "SELECT* FROM `products` WHERE ProductName = '" + label45.Text + "'";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+            List<string> name_ID = new List<string>();
+            while (reader8.Read())
+            {
+                name_ID.Add(reader8.GetString("ProductID"));
+            }
+
+
+            string Del = "DELETE FROM `basket` WHERE ProductID = '" + name_ID[0] + "'";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
+
+            Form6 form6 = new Form6(data);
+            this.Hide();
+            form6.Show();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            string sql8 = "SELECT* FROM `products` WHERE ProductName = '" + label49.Text + "'";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+            List<string> name_ID = new List<string>();
+            while (reader8.Read())
+            {
+                name_ID.Add(reader8.GetString("ProductID"));
+            }
+
+
+            string Del = "DELETE FROM `basket` WHERE ProductID = '" + name_ID[0] + "'";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
+
+            Form6 form6 = new Form6(data);
+            this.Hide();
+            form6.Show();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            string sql8 = "SELECT* FROM `products` WHERE ProductName = '" + label57.Text + "'";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+            List<string> name_ID = new List<string>();
+            while (reader8.Read())
+            {
+                name_ID.Add(reader8.GetString("ProductID"));
+            }
+
+
+            string Del = "DELETE FROM `basket` WHERE ProductID = '" + name_ID[0] + "'";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
+
+            Form6 form6 = new Form6(data);
+            this.Hide();
+            form6.Show();
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            string sql8 = "SELECT* FROM `products` WHERE ProductName = '" + label65.Text + "'";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+            List<string> name_ID = new List<string>();
+            while (reader8.Read())
+            {
+                name_ID.Add(reader8.GetString("ProductID"));
+            }
+
+
+            string Del = "DELETE FROM `basket` WHERE ProductID = '" + name_ID[0] + "'";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
+
+            Form6 form6 = new Form6(data);
+            this.Hide();
+            form6.Show();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            string sql8 = "SELECT* FROM `products` WHERE ProductName = '" + label127.Text + "'";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+            List<string> name_ID = new List<string>();
+            while (reader8.Read())
+            {
+                name_ID.Add(reader8.GetString("ProductID"));
+            }
+
+
+            string Del = "DELETE FROM `basket` WHERE ProductID = '" + name_ID[0] + "'";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
+
+            Form6 form6 = new Form6(data);
+            this.Hide();
+            form6.Show();
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            string sql8 = "SELECT* FROM `products` WHERE ProductName = '" + label107.Text + "'";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+            List<string> name_ID = new List<string>();
+            while (reader8.Read())
+            {
+                name_ID.Add(reader8.GetString("ProductID"));
+            }
+
+
+            string Del = "DELETE FROM `basket` WHERE ProductID = '" + name_ID[0] + "'";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
+
+            Form6 form6 = new Form6(data);
+            this.Hide();
+            form6.Show();
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            string sql8 = "SELECT* FROM `products` WHERE ProductName = '" + label91.Text + "'";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+            List<string> name_ID = new List<string>();
+            while (reader8.Read())
+            {
+                name_ID.Add(reader8.GetString("ProductID"));
+            }
+
+
+            string Del = "DELETE FROM `basket` WHERE ProductID = '" + name_ID[0] + "'";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
+
+            Form6 form6 = new Form6(data);
+            this.Hide();
+            form6.Show();
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            string sql8 = "SELECT* FROM `products` WHERE ProductName = '" + label76.Text + "'";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+            List<string> name_ID = new List<string>();
+            while (reader8.Read())
+            {
+                name_ID.Add(reader8.GetString("ProductID"));
+            }
+
+
+            string Del = "DELETE FROM `basket` WHERE ProductID = '" + name_ID[0] + "'";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
+
+            Form6 form6 = new Form6(data);
+            this.Hide();
+            form6.Show();
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            string sql8 = "SELECT* FROM `products` WHERE ProductName = '" + label80.Text + "'";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+            List<string> name_ID = new List<string>();
+            while (reader8.Read())
+            {
+                name_ID.Add(reader8.GetString("ProductID"));
+            }
+
+
+            string Del = "DELETE FROM `basket` WHERE ProductID = '" + name_ID[0] + "'";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
+
+            Form6 form6 = new Form6(data);
+            this.Hide();
+            form6.Show();
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            string sql8 = "SELECT* FROM `products` WHERE ProductName = '" + label99.Text + "'";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+            List<string> name_ID = new List<string>();
+            while (reader8.Read())
+            {
+                name_ID.Add(reader8.GetString("ProductID"));
+            }
+
+
+            string Del = "DELETE FROM `basket` WHERE ProductID = '" + name_ID[0] + "'";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
+
+            Form6 form6 = new Form6(data);
+            this.Hide();
+            form6.Show();
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            string sql8 = "SELECT* FROM `products` WHERE ProductName = '" + label115.Text + "'";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+            List<string> name_ID = new List<string>();
+            while (reader8.Read())
+            {
+                name_ID.Add(reader8.GetString("ProductID"));
+            }
+
+
+            string Del = "DELETE FROM `basket` WHERE ProductID = '" + name_ID[0] + "'";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
+
+            Form6 form6 = new Form6(data);
+            this.Hide();
+            form6.Show();
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            string sql8 = "SELECT* FROM `products` WHERE ProductName = '" + label131.Text + "'";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+            List<string> name_ID = new List<string>();
+            while (reader8.Read())
+            {
+                name_ID.Add(reader8.GetString("ProductID"));
+            }
+
+
+            string Del = "DELETE FROM `basket` WHERE ProductID = '" + name_ID[0] + "'";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
+
+            Form6 form6 = new Form6(data);
+            this.Hide();
+            form6.Show();
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            string sql8 = "SELECT* FROM `products` WHERE ProductName = '" + label19.Text + "'";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+            List<string> name_ID = new List<string>();
+            while (reader8.Read())
+            {
+                name_ID.Add(reader8.GetString("ProductID"));
+            }
+
+
+            string Del = "DELETE FROM `basket` WHERE ProductID = '" + name_ID[0] + "'";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
+
+            Form6 form6 = new Form6(data);
+            this.Hide();
+            form6.Show();
+        }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+            string sql8 = "SELECT* FROM `products` WHERE ProductName = '" + label103.Text + "'";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+            List<string> name_ID = new List<string>();
+            while (reader8.Read())
+            {
+                name_ID.Add(reader8.GetString("ProductID"));
+            }
+
+
+            string Del = "DELETE FROM `basket` WHERE ProductID = '" + name_ID[0] + "'";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
+
+            Form6 form6 = new Form6(data);
+            this.Hide();
+            form6.Show();
+        }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+            string sql8 = "SELECT* FROM `products` WHERE ProductName = '" + label87.Text + "'";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+            List<string> name_ID = new List<string>();
+            while (reader8.Read())
+            {
+                name_ID.Add(reader8.GetString("ProductID"));
+            }
+
+
+            string Del = "DELETE FROM `basket` WHERE ProductID = '" + name_ID[0] + "'";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
+
+            Form6 form6 = new Form6(data);
+            this.Hide();
+            form6.Show();
+        }
+
+        private void button27_Click(object sender, EventArgs e)
+        {
+            string sql8 = "SELECT* FROM `products` WHERE ProductName = '" + label95.Text + "'";
+            MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
+
+            con8.Open();
+            MySqlDataReader reader8 = cmd8.ExecuteReader();
+            List<string> name_ID = new List<string>();
+            while (reader8.Read())
+            {
+                name_ID.Add(reader8.GetString("ProductID"));
+            }
+
+
+            string Del = "DELETE FROM `basket` WHERE ProductID = '" + name_ID[0] + "'";
+            MySqlConnection connect = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand comd = new MySqlCommand(Del, connect);
+            connect.Open();
+            comd.ExecuteReader();
+            connect.Close();
+
+            Form6 form6 = new Form6(data);
+            this.Hide();
+            form6.Show();
         }
     }
 }

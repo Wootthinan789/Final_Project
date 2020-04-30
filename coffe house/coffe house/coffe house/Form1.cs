@@ -13,8 +13,8 @@ namespace coffe_house
 {
     public partial class Form1 : Form
     {
-        static List<string> staffID = new List<string>();
-        static List<string> save = new List<string>();
+        List<string> staffID = new List<string>();
+        List<string> save = new List<string>();
         public Form1()
         {
             InitializeComponent();
@@ -70,13 +70,8 @@ namespace coffe_house
             cmd.ExecuteReader();
             con1.Close();
 
-<<<<<<< HEAD
-            Form9 form9 = new Form9();
-            form9.Show();
-=======
             Form9 form9 = new Form9("1");
             form9.Show(this);
->>>>>>> 6fc7818ca239d7e8f369de95b44befe05fea0ae5
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)

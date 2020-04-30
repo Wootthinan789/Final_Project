@@ -96,7 +96,7 @@ namespace coffe_house
 
             con1.Open();
             cmd.ExecuteReader();
-            MessageBox.Show("เพิ่มแล้ว");
+            MessageBox.Show("เพิ่มแล้ว","แจ้งเตือน",MessageBoxButtons.OK, MessageBoxIcon.Warning);
             this.Hide();
             con1.Close();
         }

@@ -15,9 +15,11 @@ namespace coffe_house
     {
         static List<string> staffID = new List<string>();
         static string forsave = "";
-        public Form9()
+        string checkform = "";
+        public Form9(string formcheck)
         {
             InitializeComponent();
+            checkform = formcheck;
             List<string> formsave = new List<string>();
             string sql3 = "SELECT * FROM `from_save`";
             MySqlConnection con3 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
@@ -40,8 +42,6 @@ namespace coffe_house
             cmd.ExecuteReader();
             con.Close();
 
-
-            comboBox1.Text = "Staff";
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -82,32 +82,6 @@ namespace coffe_house
                         //MessageBox.Show("ผ่าน staffName , Staff");
                         if (textBox1.Text == StaffPassword[i])
                         {
-<<<<<<< HEAD
-                            MessageBox.Show("ผ่าน StaffPassword , Staff");
-                            checkloop = 1;
-                            string insert = "INSERT INTO `login_save`(`staffsID`) VALUES ('" + StaffID[i] + "')";
-                            MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
-                            MySqlCommand cmd = new MySqlCommand(insert, con1);
-
-                            con1.Open();
-                            cmd.ExecuteReader();
-                            con1.Close();
-                           
-                            checkloop = 1;
-                            staffID.Add(StaffID[i]);
-                            ////////////////////////////////////////////////////////////////////////////////////
-                            if (forsave == "1")
-                            {
-                                Form1 form1 = new Form1();
-                                form1.Hide();
-                                form1.Show();
-                            }
-                            if (forsave == "2")
-                            {
-                                Form2 form2 = new Form2();
-                                form2.Hide();
-                                form2.Show();
-=======
                             //MessageBox.Show("ผ่าน StaffPassword , Staff");
                             if (checkform == "0") 
                             {
@@ -155,29 +129,18 @@ namespace coffe_house
                                 form7.Show();
                                 this.Close();
                                 ////////////////////////////////////////////////////////////////////////////////////
->>>>>>> 6fc7818ca239d7e8f369de95b44befe05fea0ae5
                             }
-                            if (forsave == "3")
+                            else
                             {
-<<<<<<< HEAD
-                                Form3 form3 = new Form3();
-                                form3.Hide();
-                                form3.Show();
-                            }
-=======
                                 //checkloop = 1;
                                 string insert = "INSERT INTO `login_save`(`staffsID`) VALUES ('" + StaffID[i] + "')";
                                 MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
                                 MySqlCommand cmd = new MySqlCommand(insert, con1);
->>>>>>> 6fc7818ca239d7e8f369de95b44befe05fea0ae5
 
+                                con1.Open();
+                                cmd.ExecuteReader();
+                                con1.Close();
 
-<<<<<<< HEAD
-                            Form7 form7 = new Form7();
-                            form7.Show();
-                            this.Hide();
-                            ////////////////////////////////////////////////////////////////////////////////////
-=======
                                 checkloop = 1;
                                 staffID.Add(StaffID[i]);
                                 ////////////////////////////////////////////////////////////////////////////////////
@@ -204,7 +167,6 @@ namespace coffe_house
                                     this.Close();
                                 }
                             }
->>>>>>> 6fc7818ca239d7e8f369de95b44befe05fea0ae5
                         }
                         else
                         {
