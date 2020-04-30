@@ -13,17 +13,17 @@ namespace coffe_house
 {
     public partial class Form10 : Form
     {
-        static List<string> ProductID = new List<string>();
-        static List<string> ProductName = new List<string>();
-        static List<string> Price = new List<string>();
+         List<string> ProductID = new List<string>();
+         List<string> ProductName = new List<string>();
+         List<string> Price = new List<string>();
 
-        static List<string> StaffID2 = new List<string>();
-        static List<string> StaffID = new List<string>();
-        static List<string> StaffCode = new List<string>();
-        static List<string> StaffName = new List<string>();
-        static List<string> Gender = new List<string>();
-        static List<string> StaffPassword = new List<string>();
-        static List<string> StaffLevel = new List<string>();
+         List<string> StaffID2 = new List<string>();
+         List<string> StaffID = new List<string>();
+         List<string> StaffCode = new List<string>();
+         List<string> StaffName = new List<string>();
+         List<string> Gender = new List<string>();
+         List<string> StaffPassword = new List<string>();
+         List<string> StaffLevel = new List<string>();
         public Form10()
         {
             InitializeComponent();
@@ -115,13 +115,6 @@ namespace coffe_house
 
         private void button5_Click(object sender, EventArgs e)
         {
-
-
-
-
-
-
-
             groupBox1.Visible = false;
             groupBox2.Visible = false;
             groupBox3.Visible = false;
@@ -148,13 +141,14 @@ namespace coffe_house
 
         private void comboBox4_SelectedIndexChanged(object sender, EventArgs e)
         {
+            int ch = 0;
             for (int i = 0; i < StaffID.Count; ++i)
             {
                 if (StaffID[i] == comboBox4.Text)
                 {
                     if (StaffLevel[i] == "Admin") 
                     {
-                        MessageBox.Show("ข้อมูล Admin ไม่ได้รับอนุญาตให้แก้ไข");
+                        ch = 1;
                         comboBox4.Text = StaffID[0];
                     }
                     else
@@ -167,6 +161,10 @@ namespace coffe_house
                         comboBox2.Text = StaffLevel[i];
                     }
                 }
+            }
+            if (ch == 1)
+            {
+                MessageBox.Show("ข้อมูล Admin ไม่ได้รับอนุญาตให้แก้ไข");
             }
         }
 
@@ -315,6 +313,16 @@ namespace coffe_house
             groupBox4.Visible = false;
             groupBox5.Visible = false;
             groupBox6.Visible = false;
+            string sel11 = "SELECT ProductName, Amount, Quantity,  YEAR(SaleDateTime) AS YEAR, MONTH(SaleDateTime) AS MONTH, DAY(SaleDateTime) AS DAY FROM sales, sale_details, products WHERE sales.SaleID = sale_details.SaleID AND products.ProductID = sale_details.ProductID";
+            MySqlConnection con11 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd11 = new MySqlCommand(sel11, con11);
+
+            con11.Open();
+            DataSet ds = new DataSet();
+
+            MySqlDataAdapter da = new MySqlDataAdapter(cmd11);
+            da.Fill(ds);
+            dataGridView4.DataSource = ds.Tables[0].DefaultView;
 
             List<string> SaleDetailID = new List<string>();
             List<string> SaleID = new List<string>();
@@ -328,6 +336,9 @@ namespace coffe_house
 
             con.Open();
             MySqlDataReader reader0 = cmd.ExecuteReader();
+
+           
+
             while (reader0.Read())
             {
                 SaleDetailID.Add(reader0.GetString("SaleDetailID"));
@@ -347,5 +358,195 @@ namespace coffe_house
             label10.Text = Convert.ToString(sum_Quantity);
             label11.Text = Convert.ToString(sum_Amount);
         }
+<<<<<<< HEAD
+=======
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            List<string> ProductName = new List<string>();
+            List<string> Amount = new List<string>();
+            List<string> YEAR = new List<string>();
+            List<string> MONTH = new List<string>();
+            List<string> DAY = new List<string>();
+            List<string> Quantity = new List<string>();
+            string sel = "SELECT ProductName, Amount, Quantity,  YEAR(SaleDateTime) AS YEAR, MONTH(SaleDateTime) AS MONTH, DAY(SaleDateTime) AS DAY FROM sales, sale_details, products WHERE sales.SaleID = sale_details.SaleID AND products.ProductID = sale_details.ProductID";
+            MySqlConnection con = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd = new MySqlCommand(sel, con);
+
+            con.Open();
+
+            dataGridView4.Refresh();
+
+            MySqlDataReader reader0 = cmd.ExecuteReader();
+
+
+            while (reader0.Read())
+            {
+                ProductName.Add(reader0.GetString("ProductName"));
+                Quantity.Add(reader0.GetString("Quantity"));
+                Amount.Add(reader0.GetString("Amount"));
+                YEAR.Add(reader0.GetString("YEAR"));
+                MONTH.Add(reader0.GetString("MONTH"));
+                DAY.Add(reader0.GetString("DAY"));
+            }
+            int qu = 0;
+            int sum = 0;
+            int chek = 0;
+            for (int i = 0; i < ProductName.Count; ++i)
+            {
+                if (comboBox7.Text == "-")                  //วัน
+                {
+                    if (comboBox6.Text == "-")              //เดือน
+                    {
+                        if (comboBox5.Text == "-")            //year
+                        {
+                            chek = 1;
+                        }
+                        else
+                        {
+                            if (comboBox5.Text == YEAR[i])
+                            {
+                                qu += Convert.ToInt32(Quantity[i]);
+                                sum += Convert.ToInt32(Amount[i]);
+                            }
+                        }
+                    }
+                    else
+                    {
+                        if (comboBox5.Text == YEAR[i])
+                        {
+                            if (comboBox6.Text == MONTH[i]) 
+                            {
+                                qu += Convert.ToInt32(Quantity[i]);
+                                sum += Convert.ToInt32(Amount[i]);
+                            }
+                        }
+                    } 
+                }
+                else
+                {
+                    if (comboBox5.Text == YEAR[i])
+                    {
+                        if (comboBox6.Text == MONTH[i])
+                        {
+                            if (comboBox7.Text == DAY[i]) 
+                            {
+                                qu += Convert.ToInt32(Quantity[i]);
+                                sum += Convert.ToInt32(Amount[i]);
+                            }
+                        }
+                    }
+                }
+            }
+            label10.Text = Convert.ToString(qu);
+            label11.Text = Convert.ToString(sum);
+
+            /*
+            if (comboBox6.Text == "-" && comboBox7.Text == "-") 
+            {
+                List<string> SaleDateTime = new List<string>();
+                List<string> SaleID = new List<string>();
+                List<string> CustomerID = new List<string>();
+                List<string> StaffID = new List<string>();
+                List<string> GrandTotal = new List<string>();
+                string sel = "SELECT * FROM sales WHERE SaleDateTime >= '"+ comboBox5.Text + "-01-01 00:00:00' AND SaleDateTime <= '"+ comboBox5.Text + "-12-30 23:59:59'";
+                MySqlConnection con = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+                MySqlCommand cmd = new MySqlCommand(sel, con);
+
+                con.Open();
+                MySqlDataReader reader0 = cmd.ExecuteReader();
+                while (reader0.Read())
+                {
+                    SaleDateTime.Add(reader0.GetString("SaleDateTime"));
+                    SaleID.Add(reader0.GetString("SaleID"));
+                    CustomerID.Add(reader0.GetString("CustomerID"));
+                    StaffID.Add(reader0.GetString("StaffID"));
+                    GrandTotal.Add(reader0.GetString("GrandTotal"));
+                }
+                int sump = 0;
+                for (int i = 0; i < SaleDateTime.Count; ++i)
+                {
+                    sump += Convert.ToInt32(GrandTotal[i]);
+                }
+                label10.Text = Convert.ToString("-");
+                label11.Text = Convert.ToString(sump);
+            }
+            */
+
+            /*
+            if ((comboBox5.Text == "-" && comboBox6.Text == "-" && comboBox7.Text == "-") || (comboBox5.Text == "" && comboBox6.Text == "" && comboBox7.Text == ""))
+            {
+                MessageBox.Show("โปรดกรอกข้อมูลให้ถูกต้อง");
+            }
+            */
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            /*DataSet ds = new DataSet();
+            MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+            da.Fill(ds);
+            dataGridView2.DataSource = ds.Tables[0].DefaultView;*/
+            List<string> SaleDetailID = new List<string>();
+            List<string> SaleID = new List<string>();
+            List<string> ProductID3 = new List<string>();
+            List<string> Price3 = new List<string>();
+            List<string> Quantity = new List<string>();
+            List<string> Amount = new List<string>();
+            string sel = "SELECT * FROM `sale_details`";
+            MySqlConnection con = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+            MySqlCommand cmd = new MySqlCommand(sel, con);
+
+            con.Open();
+            MySqlDataReader reader0 = cmd.ExecuteReader();
+
+
+
+            while (reader0.Read())
+            {
+                SaleDetailID.Add(reader0.GetString("SaleDetailID"));
+                SaleID.Add(reader0.GetString("SaleID"));
+                ProductID3.Add(reader0.GetString("ProductID"));
+                Price3.Add(reader0.GetString("Price"));
+                Quantity.Add(reader0.GetString("Quantity"));
+                Amount.Add(reader0.GetString("Amount"));
+            }
+            int sum_Quantity = 0;
+            int sum_Amount = 0;
+            for (int i = 0; i < SaleDetailID.Count; ++i)
+            {
+                sum_Quantity += Convert.ToInt32(Quantity[i]);
+                sum_Amount += Convert.ToInt32(Amount[i]);
+            }
+            label10.Text = Convert.ToString(sum_Quantity);
+            label11.Text = Convert.ToString(sum_Amount);
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            var random = new Random();
+            int randomnumber = random.Next(100, 999);
+            textBox11.Text = Convert.ToString(randomnumber);
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form10 form101 = new Form10();
+            form101.Show();
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form10 form101 = new Form10();
+            form101.Show();
+        }
+>>>>>>> 6fc7818ca239d7e8f369de95b44befe05fea0ae5
     }
 }

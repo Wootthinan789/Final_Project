@@ -79,9 +79,10 @@ namespace coffe_house
                 {
                     if (textBox2.Text == StaffName[i])
                     {
-                        MessageBox.Show("ผ่าน staffName , Staff");
+                        //MessageBox.Show("ผ่าน staffName , Staff");
                         if (textBox1.Text == StaffPassword[i])
                         {
+<<<<<<< HEAD
                             MessageBox.Show("ผ่าน StaffPassword , Staff");
                             checkloop = 1;
                             string insert = "INSERT INTO `login_save`(`staffsID`) VALUES ('" + StaffID[i] + "')";
@@ -106,19 +107,104 @@ namespace coffe_house
                                 Form2 form2 = new Form2();
                                 form2.Hide();
                                 form2.Show();
+=======
+                            //MessageBox.Show("ผ่าน StaffPassword , Staff");
+                            if (checkform == "0") 
+                            {
+                                checkloop = 1;
+                                string insert = "INSERT INTO `login_save`(`staffsID`) VALUES ('" + StaffID[i] + "')";
+                                MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+                                MySqlCommand cmd = new MySqlCommand(insert, con1);
+
+                                con1.Open();
+                                cmd.ExecuteReader();
+                                con1.Close();
+
+                                checkloop = 1;
+                                staffID.Add(StaffID[i]);
+                                ////////////////////////////////////////////////////////////////////////////////////
+                                if (forsave == "1")
+                                {
+                                    //Form1 form1 = new Form1();
+                                    //form1.Hide();
+                                    Form1 form1s = new Form1();
+                                    form1s.ShowInTaskbar = false;
+                                    form1s.Show();
+                                    //form1s.ShowDialog();
+                                    //Form1 parentForm = (Form1)Owner;
+                                    //parentForm.Close();
+                                    this.Close();
+                                }
+                                if (forsave == "2")
+                                {
+                                    Form2 form2s = new Form2();
+                                    form2s.ShowInTaskbar = false;
+                                    form2s.Show();
+                                    this.Close();
+                                }
+                                if (forsave == "3")
+                                {
+                                    Form3 form3s = new Form3();
+                                    form3s.ShowInTaskbar = false;
+                                    form3s.Show();
+                                    this.Close();
+                                }
+
+
+                                Form7 form7 = new Form7();
+                                form7.Show();
+                                this.Close();
+                                ////////////////////////////////////////////////////////////////////////////////////
+>>>>>>> 6fc7818ca239d7e8f369de95b44befe05fea0ae5
                             }
                             if (forsave == "3")
                             {
+<<<<<<< HEAD
                                 Form3 form3 = new Form3();
                                 form3.Hide();
                                 form3.Show();
                             }
+=======
+                                //checkloop = 1;
+                                string insert = "INSERT INTO `login_save`(`staffsID`) VALUES ('" + StaffID[i] + "')";
+                                MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
+                                MySqlCommand cmd = new MySqlCommand(insert, con1);
+>>>>>>> 6fc7818ca239d7e8f369de95b44befe05fea0ae5
 
 
+<<<<<<< HEAD
                             Form7 form7 = new Form7();
                             form7.Show();
                             this.Hide();
                             ////////////////////////////////////////////////////////////////////////////////////
+=======
+                                checkloop = 1;
+                                staffID.Add(StaffID[i]);
+                                ////////////////////////////////////////////////////////////////////////////////////
+                                if (forsave == "1")
+                                {
+                                    Form1 form1s = new Form1();
+                                    form1s.ShowInTaskbar = false;
+                                    form1s.Show();
+                                    this.Close();
+
+                                }
+                                if (forsave == "2")
+                                {
+                                    Form2 form2s = new Form2();
+                                    form2s.ShowInTaskbar = false;
+                                    form2s.Show();
+                                    this.Close();
+                                }
+                                if (forsave == "3")
+                                {
+                                    Form3 form3s = new Form3();
+                                    form3s.ShowInTaskbar = false;
+                                    form3s.Show();
+                                    this.Close();
+                                }
+                            }
+>>>>>>> 6fc7818ca239d7e8f369de95b44befe05fea0ae5
                         }
                         else
                         {
@@ -134,14 +220,15 @@ namespace coffe_house
                 {
                     if (textBox2.Text == StaffName[i])
                     {
-                        MessageBox.Show("ผ่าน staffName , Manager");
+                        //MessageBox.Show("ผ่าน staffName , Manager");
                         if (textBox1.Text == StaffPassword[i])
                         {
-                            MessageBox.Show("ผ่าน StaffPassword , Manager");
+                            checkloop = 1;
+                            //MessageBox.Show("ผ่าน StaffPassword , Manager");
                             
                             Form10 form10 = new Form10();
                             form10.Show();
-                            this.Hide();
+                            this.Close();
                         }
                         else
                         {

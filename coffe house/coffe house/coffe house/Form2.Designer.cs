@@ -68,10 +68,14 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
             this.button1.Location = new System.Drawing.Point(418, 522);
+=======
+            this.button1.Location = new System.Drawing.Point(405, 521);
+>>>>>>> 6fc7818ca239d7e8f369de95b44befe05fea0ae5
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(106, 29);
+            this.button1.Size = new System.Drawing.Size(137, 29);
             this.button1.TabIndex = 14;
             this.button1.Text = "ALL MENU";
             this.button1.UseVisualStyleBackColor = false;

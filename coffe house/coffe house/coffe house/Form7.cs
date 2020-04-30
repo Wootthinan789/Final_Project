@@ -72,6 +72,7 @@ namespace coffe_house
                 MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
                 MySqlCommand cmd = new MySqlCommand(sql, con1);
 
+<<<<<<< HEAD
                 con1.Open();
                 cmd.ExecuteReader();
                 MessageBox.Show("เพิ่มแล้ว");
@@ -79,6 +80,19 @@ namespace coffe_house
                 form8.Show();
                 this.Hide();
                 con1.Close();
+=======
+                    con1.Open();
+                    cmd.ExecuteReader();
+                    Form8 form8 = new Form8();
+                    form8.Show();
+                    this.Hide();
+                    con1.Close();
+                }
+                else
+                {
+                    MessageBox.Show("โปรดกรอกข้อมูล");
+                }
+>>>>>>> 6fc7818ca239d7e8f369de95b44befe05fea0ae5
             }
             catch
             {
@@ -125,7 +139,7 @@ namespace coffe_house
 
                     con1.Open();
                     cmd.ExecuteReader();
-                    MessageBox.Show("เพิ่มแล้ว");
+                    //MessageBox.Show("เพิ่มแล้ว");
                     Form8 form8 = new Form8();
                     form8.Show();
                     this.Hide();

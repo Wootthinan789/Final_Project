@@ -205,7 +205,7 @@
             this.pictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox10.Image = global::coffe_house.Properties.Resources._018_128_arrow_exit_logout_512;
-            this.pictureBox10.Location = new System.Drawing.Point(47, 7);
+            this.pictureBox10.Location = new System.Drawing.Point(48, 7);
             this.pictureBox10.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(22, 24);
