@@ -72,7 +72,7 @@ namespace coffe_house
 
                     con2.Open();
                     cmd2.ExecuteReader();
-                    //MessageBox.Show("ลบ");
+                    MessageBox.Show("ลบ");
                     con2.Close();
                 }
             }
@@ -87,7 +87,7 @@ namespace coffe_house
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //MessageBox.Show(proid,comboBox1.Text);
+            MessageBox.Show(proid,comboBox1.Text);
 
             string sql = "SELECT * FROM `basket`";
             sql = "INSERT INTO basket (ProductID,Quantity) VALUES ('" + proid +"','" + comboBox1.Text + "' )"; //VALUES ('"+text.text+"','"+text.text+"','"+text.text+"')
@@ -96,7 +96,7 @@ namespace coffe_house
 
             con1.Open();
             cmd.ExecuteReader();
-            MessageBox.Show("เพิ่มแล้ว","แจ้งเตือน",MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            MessageBox.Show("เพิ่มแล้ว");
             this.Hide();
             con1.Close();
         }

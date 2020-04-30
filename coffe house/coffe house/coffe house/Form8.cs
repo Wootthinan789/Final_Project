@@ -100,7 +100,7 @@ namespace coffe_house
 
             for (int i = 0; i < AuthorList3.Count; ++i)
             {
-                //MessageBox.Show("aa"+Convert.ToString(AuthorList3.Count));
+                MessageBox.Show("aa"+Convert.ToString(AuthorList3.Count));
                 if (i == 0)
                 {
                     groupBox1.Visible = true;
@@ -544,6 +544,7 @@ namespace coffe_house
 
 
 
+
             string sql8 = "SELECT * FROM `customers`";
             MySqlConnection con8 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
             MySqlCommand cmd8 = new MySqlCommand(sql8, con8);
@@ -559,9 +560,12 @@ namespace coffe_house
                 CustomerTelNo.Add(reader8.GetString("CustomerTelNo"));
                 Gender.Add(reader8.GetString("Gender"));
             }
-
-            for (int v =0; v < CustomerID.Count; ++v)
+            //MessageBox.Show(Convert.ToString(CustomerID.Count));
+            //MessageBox.Show(CustomerID[0]);
+            for (int v =0; v < 5; ++v)
             {
+                //MessageBox.Show(CustomerID[v]);
+                //MessageBox.Show("--"+medid[0]+"=="+CustomerID[0]+"--");
                 string x = CustomerID[v];
                 if (medid[0] == x)
                 {
@@ -576,16 +580,16 @@ namespace coffe_house
             
 
 
-            
+
             string sql6 = "DELETE FROM `memorymenber` WHERE medid";
             MySqlConnection con6 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
             MySqlCommand cmd6 = new MySqlCommand(sql6, con6);
 
             con6.Open();
             cmd6.ExecuteReader();
-            //MessageBox.Show("ลบ");
+            MessageBox.Show("ลบ");
             con6.Close();
-            
+
 
 
         }
@@ -640,7 +644,8 @@ namespace coffe_house
                     a -= 1;
                 }
             }
-            MessageBox.Show("เสร็จสิ้น");
+            string vv = dateTimePicker1.CustomFormat;
+            MessageBox.Show(Convert.ToString(dateTimePicker1.Value));
             string sale = "INSERT INTO `sales`(`SaleID`, `SaleDateTime`, `CustomerID`, `StaffID`, `GrandTotal`) VALUES ('"+ randomnumber + "','"+ dateTimePicker1.Value+ "','"+ cumid + "','"+ login_save[0] + "','"+ sumpp + "')";
             MySqlConnection con3 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
             MySqlCommand cmd3 = new MySqlCommand(sale, con3);

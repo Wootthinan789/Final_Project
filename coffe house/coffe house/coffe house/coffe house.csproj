@@ -7,7 +7,7 @@
     <ProjectGuid>{7A4DDAD5-C692-4D7D-8D93-F3AD4BE2C5DA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>coffe_house</RootNamespace>
-    <AssemblyName>coffehouse</AssemblyName>
+    <AssemblyName>coffe house</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -31,12 +31,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup>
-    <ApplicationIcon>rdgrdrg.ico</ApplicationIcon>
-  </PropertyGroup>
-  <PropertyGroup>
-    <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MySql.Data, Version=8.0.19.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
@@ -192,10 +186,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\018_128_arrow_exit_logout-512.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="coffe_house_logo_4x.ico" />
-    <Content Include="rdgrdrg.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

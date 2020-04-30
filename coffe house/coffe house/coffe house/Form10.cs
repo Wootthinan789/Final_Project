@@ -33,7 +33,6 @@ namespace coffe_house
             groupBox4.Visible = false;
             groupBox5.Visible = false;
             groupBox6.Visible = false;
-            groupBox7.Visible = false;
             comboBox5.Text = "-";
             comboBox6.Text = "-";
             comboBox7.Text = "-";
@@ -52,7 +51,6 @@ namespace coffe_house
             groupBox4.Visible = false;
             groupBox5.Visible = false;
             groupBox6.Visible = true;
-            groupBox7.Visible = false;
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -119,11 +117,11 @@ namespace coffe_house
                 con.Open();
                 MySqlDataReader reader0 = cmd.ExecuteReader();
                 con.Close();
-                MessageBox.Show("อัพเดตแล้ว","",MessageBoxButtons.OK,MessageBoxIcon.Information);
+                MessageBox.Show("อัพเดตแล้ว");
             }
             catch
             {
-                MessageBox.Show("กรุณาเลือกข้อมูล","",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                MessageBox.Show("กรุณาเลือกข้อมูล");
             }
         }
 
@@ -135,7 +133,6 @@ namespace coffe_house
             groupBox4.Visible = false;
             groupBox5.Visible = true;
             groupBox6.Visible = false;
-            groupBox7.Visible = false;
 
             string sel = "SELECT * FROM `staffs`";
             MySqlConnection con = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
@@ -187,8 +184,6 @@ namespace coffe_house
         {
             try
             {
-                int a = Convert.ToInt32(textBox10.Text);
-                int b = Convert.ToInt32(textBox11.Text);
                 string sql10 = "INSERT INTO `staffs`(`StaffID`, `StaffCode`, `StaffName`, `Gender`, `StaffPassword`, `StaffLevel`) VALUES ('"+ textBox10.Text + "','"+ textBox11.Text + "','"+ textBox12.Text + "','"+ comboBox3 .Text+ "','"+ textBox14.Text + "','"+ comboBox2.Text + "')";
                 MySqlConnection con1 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
                 MySqlCommand cmd2 = new MySqlCommand(sql10, con1);
@@ -196,7 +191,7 @@ namespace coffe_house
                 con1.Open();
                 cmd2.ExecuteReader();
                 con1.Close();
-                MessageBox.Show("สมัครแล้ว","",MessageBoxButtons.OK,MessageBoxIcon.Information);
+                MessageBox.Show("สมัครแล้ว");
                 //Form10 form10 = new Form10();
                 //form10.Hide();
                 //form10.Show();
@@ -226,14 +221,7 @@ namespace coffe_house
             con.Open();
             MySqlDataReader reader0 = cmd.ExecuteReader();
             con.Close();
-            if (textBox10.Text != "")
-            {
-                MessageBox.Show("อัพเดตแล้ว", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else
-            {
-                MessageBox.Show("Error", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            MessageBox.Show("อัพเดตแล้ว");
         }
 
         private void button12_Click(object sender, EventArgs e)
@@ -257,14 +245,7 @@ namespace coffe_house
             con.Open();
             cmd.ExecuteReader();
             con.Close();
-            if (textBox10.Text != "") 
-            {
-                MessageBox.Show("ลบข้อมูลแล้ว", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else
-            {
-                MessageBox.Show("Error", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            MessageBox.Show("ลบข้อมูลแล้ว");
             //Form10 form10 = new Form10();
             //form10.Hide();
             //form10.Show();
@@ -278,8 +259,6 @@ namespace coffe_house
             groupBox4.Visible = true;
             groupBox5.Visible = false;
             groupBox6.Visible = false;
-            groupBox7.Visible = false;
-
             string sel = "SELECT * FROM `customers`";
             MySqlConnection con = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
             MySqlCommand cmd = new MySqlCommand(sel, con);
@@ -302,8 +281,6 @@ namespace coffe_house
             groupBox4.Visible = false;
             groupBox5.Visible = false;
             groupBox6.Visible = false;
-            groupBox7.Visible = false;
-
             string sel = "SELECT * FROM staffs WHERE StaffLevel <> 'Admin' AND StaffLevel <> 'Manager'";
             MySqlConnection con = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
             MySqlCommand cmd = new MySqlCommand(sel, con);
@@ -326,8 +303,6 @@ namespace coffe_house
             groupBox4.Visible = false;
             groupBox5.Visible = false;
             groupBox6.Visible = false;
-            groupBox7.Visible = false;
-
             string sel = "SELECT SaleDetailID,  ProductName, Quantity, Amount FROM sale_details, products WHERE sale_details.ProductID = products.ProductID";
             MySqlConnection con = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
             MySqlCommand cmd = new MySqlCommand(sel, con);
@@ -350,8 +325,6 @@ namespace coffe_house
             groupBox4.Visible = false;
             groupBox5.Visible = false;
             groupBox6.Visible = false;
-            groupBox7.Visible = false;
-
             string sel11 = "SELECT ProductName, Amount, Quantity,  YEAR(SaleDateTime) AS YEAR, MONTH(SaleDateTime) AS MONTH, DAY(SaleDateTime) AS DAY FROM sales, sale_details, products WHERE sales.SaleID = sale_details.SaleID AND products.ProductID = sale_details.ProductID";
             MySqlConnection con11 = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
             MySqlCommand cmd11 = new MySqlCommand(sel11, con11);
@@ -412,6 +385,7 @@ namespace coffe_house
 
             con.Open();
 
+            dataGridView4.Refresh();
 
             MySqlDataReader reader0 = cmd.ExecuteReader();
 
@@ -442,17 +416,6 @@ namespace coffe_house
                         {
                             if (comboBox5.Text == YEAR[i])
                             {
-                                string sqly = "SELECT ProductName, Amount, Quantity, YEAR(SaleDateTime) AS YEAR, MONTH(SaleDateTime) AS MONTH, DAY(SaleDateTime) AS DAY FROM sales, sale_details, products WHERE sales.SaleID = sale_details.SaleID AND products.ProductID = sale_details.ProductID AND YEAR(SaleDateTime) = '"+comboBox5.Text+"' ";
-                                MySqlConnection cony = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
-                                MySqlCommand cmdy = new MySqlCommand(sqly, cony);
-
-                                cony.Open();
-                                DataSet dsy = new DataSet();
-
-                                MySqlDataAdapter day = new MySqlDataAdapter(cmdy);
-                                day.Fill(dsy);
-                                dataGridView4.DataSource = dsy.Tables[0].DefaultView;
-
                                 qu += Convert.ToInt32(Quantity[i]);
                                 sum += Convert.ToInt32(Amount[i]);
                             }
@@ -464,17 +427,6 @@ namespace coffe_house
                         {
                             if (comboBox6.Text == MONTH[i]) 
                             {
-                                string sqlm = "SELECT ProductName, Amount, Quantity, YEAR(SaleDateTime) AS YEAR, MONTH(SaleDateTime) AS MONTH, DAY(SaleDateTime) AS DAY FROM sales, sale_details, products WHERE sales.SaleID = sale_details.SaleID AND products.ProductID = sale_details.ProductID AND YEAR(SaleDateTime) = '"+comboBox5.Text+"' AND MONTH(SaleDateTime) = '"+comboBox6.Text+"' ";
-                                MySqlConnection conm = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
-                                MySqlCommand cmdm = new MySqlCommand(sqlm, conm);
-
-                                conm.Open();
-                                DataSet dsm = new DataSet();
-
-                                MySqlDataAdapter dam = new MySqlDataAdapter(cmdm);
-                                dam.Fill(dsm);
-                                dataGridView4.DataSource = dsm.Tables[0].DefaultView;
-
                                 qu += Convert.ToInt32(Quantity[i]);
                                 sum += Convert.ToInt32(Amount[i]);
                             }
@@ -489,27 +441,12 @@ namespace coffe_house
                         {
                             if (comboBox7.Text == DAY[i]) 
                             {
-                                string sqld = "SELECT ProductName, Quantity,Amount , YEAR(SaleDateTime) AS YEAR, MONTH(SaleDateTime) AS MONTH, DAY(SaleDateTime) AS DAY FROM sales, sale_details, products WHERE sales.SaleID = sale_details.SaleID AND products.ProductID = sale_details.ProductID AND YEAR(SaleDateTime) = '" + comboBox5.Text+"' AND MONTH(SaleDateTime) = '"+comboBox6.Text+"' AND DAY(SaleDateTime) = '"+comboBox7.Text+"'";
-                                MySqlConnection cond = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
-                                MySqlCommand cmdd = new MySqlCommand(sqld, cond);
-
-                                cond.Open();
-                                DataSet dsd = new DataSet();
-
-                                MySqlDataAdapter dad = new MySqlDataAdapter(cmdd);
-                                dad.Fill(dsd);
-                                dataGridView4.DataSource = dsd.Tables[0].DefaultView;
-
                                 qu += Convert.ToInt32(Quantity[i]);
                                 sum += Convert.ToInt32(Amount[i]);
                             }
                         }
                     }
                 }
-            }
-            if(chek == 1)
-            {
-                MessageBox.Show("โปรดตรวจวันที่");
             }
             label10.Text = Convert.ToString(qu);
             label11.Text = Convert.ToString(sum);
@@ -612,85 +549,6 @@ namespace coffe_house
             this.Close();
             Form10 form101 = new Form10();
             form101.Show();
-        }
-
-        private void button17_Click(object sender, EventArgs e)
-        {
-            this.Close();
-            Form10 form101 = new Form10();
-            form101.Show();
-        }
-
-        private void button18_Click(object sender, EventArgs e)
-        {
-            int row = dataGridView1.CurrentCell.RowIndex;
-            if (MessageBox.Show("คุณต้องการลบใช่หรือไม่","แจ้งเตือน",MessageBoxButtons.YesNo,MessageBoxIcon.Warning) == DialogResult.Yes)
-            {
-                if (row != 0)
-                {
-                    string sel = "SELECT * FROM `customers`";
-                    MySqlConnection con = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
-                    MySqlCommand cmd = new MySqlCommand(sel, con);
-
-                    con.Open();
-                    MySqlDataReader reader0 = cmd.ExecuteReader();
-                    /////
-
-                    /////
-                    List<string> ID = new List<string>();
-
-                    while (reader0.Read())
-                    {
-                        ID.Add(reader0.GetString("CustomerID"));
-                    }
-
-                    string selb = "DELETE FROM `customers` WHERE CustomerID ='"+ID[row]+"' ";
-                    MySqlConnection conb = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
-                    MySqlCommand cmdb = new MySqlCommand(selb, conb);
-
-
-                    conb.Open();
-                    cmdb.ExecuteReader();
-                    con.Close();
-
-
-                    dataGridView1.Rows.RemoveAt(row);
-                    MessageBox.Show("ลบแล้ว");
-                }
-                else
-                {
-                    MessageBox.Show("ข้อมูลนี้ไม่สามารถลบได้","เตือน" ,MessageBoxButtons.OK,MessageBoxIcon.Error);
-                }
-            }
-            else
-            {
-                
-            }
-        }
-
-        private void button19_Click(object sender, EventArgs e)
-        {
-            groupBox1.Visible = false;
-            groupBox2.Visible = false;
-            groupBox3.Visible = false;
-            groupBox4.Visible = false;
-            groupBox5.Visible = false;
-            groupBox6.Visible = false;
-            groupBox7.Visible = true;
-
-
-            string sel = "SELECT SaleID, SaleDateTime, CustomerName,StaffName ,GrandTotal FROM sales,staffs,customers WHERE customers.CustomerID = sales.CustomerID AND staffs.StaffID = sales.StaffID";
-            MySqlConnection con = new MySqlConnection("server=127.0.0.1;port=3306;username=test;password=12345678;database=testdata");
-            MySqlCommand cmd = new MySqlCommand(sel, con);
-
-            con.Open();
-
-            DataSet ds = new DataSet();
-            MySqlDataAdapter da = new MySqlDataAdapter(cmd);
-            da.Fill(ds);
-            dataGridView5.DataSource = ds.Tables[0].DefaultView;
-
-            con.Close();
         }
     }
 }
